@@ -1,3 +1,233 @@
+**r/HillsideHermitage** | Posted by Fickle_Singer_9877 _2025-05-03 05:09:59_
+### [Danger in sensuality](https://www.reddit.com/r/HillsideHermitage/comments/1kdl92g/danger_in_sensuality/)
+
+How can I start seeing the dangers in sensuality? I want to rennunciate but sometimes I don't know why I'm doing it or moreso the full benefit of giving up sensual pleasures.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kdl92g/danger_in_sensuality/mqe0ur2/)** _2025-05-03 15:59:15_:
+
+    The danger can only really be seen on the basis of practicing renunciation first. Anything you might understand before that is necessarily just a theoretical idea and will not hold up when significant pressure arises. That's why a degree of faith is necessary, and that faith is made possible by feeling sufficiently dissatisfied with your current situation.
+
+    You won't know for yourself in the beginning that the doctor's diagnosis is correct and that your illness is that serious, but because you are sufficiently fed up with the painful symptoms and the doctor's prescriptions make a lot of sense, you start diligently applying his advice
+
+    Eventually, you see for yourself that, indeed, you do have that illness, it is *that* bad, and it *is* being caused by precisely what he says it is. And then you will not have to theoreize about what the benefit of not fostering the cause of the illness is. You would have the same apprehension as you would for drinking poison.
+
+---
+
+**r/HillsideHermitage** | Posted by Little_Carrot6967 _2025-05-02 09:36:00_
+### [Mindstream kleshas question](https://www.reddit.com/r/HillsideHermitage/comments/1kcwuk7/mindstream_kleshas_question/)
+
+Can the defilements of the mindstream be distinguished in any way from the defilements of the mind? Or observed as part of the internal relationship? 
+
+If not, is there any conceptualization of what does come from it available that can be reliably pointed to as an example?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kcwuk7/mindstream_kleshas_question/mqdquev/)** _2025-05-03 15:07:01_ *(in reply to a comment not included)*:
+
+    Thinking in terms of a "mindstream"—a wrong view that arose with later non-canonical texts and contradicts basic principles of phenomenology—will destroy any chances of seeing that relationship.
+
+---
+
+**r/HillsideHermitage** | Posted by Bhikkhu_Anigha _2025-04-28 11:04:10_
+### [HH Confession Server on Discord](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/)
+
+I've created a [Discord server](https://discord.gg/y3eRXuXK) for people who want to commit to the very valuable practice of confessing whenever they break a precept. It is inspired by the core principles of the regular, compulsory confession that the Buddha established for all monastics.
+
+***Upon joining, please read the rules.***
+
+In brief, the way it works is that each new member must declare their precepts in the "precept-undertaking" channel. It is possible to undertake either the standard five precepts or five or more of the standard [ten precepts](https://www.accesstoinsight.org/ptf/dhamma/sila/dasasila.html) (meaning that, at minimum, the third precept becomes full celibacy).* Something within the second option is highly encouraged but is not compulsory. Only members who have undertaken precepts themselves and are thereby obliged to confess their offenses will be able to see the confession channels. They will be hidden for everybody else.
+
+Every Sunday, users who have undertaken precepts must confirm that they have kept them all in the "purity-confirmation" channel. Otherwise, they must confess their transgressions in the "confession" channel. If by Sunday midnight in their time zone a user has not done one of these two, they will lose access to both of the special channels, and they will have to undertake their precepts once more in the "precept-declaration" channel to regain access, like someone who newly joined the server. This is to ensure consistency. 
+
+To create some degree of identifiability, every member must also provide their Reddit username, thereby agreeing to use no other accounts to engage on this subreddit. Doing so with other accounts would be considered a violation of the fourth precept. A completely anonymous confession carries no weight. 
+
+The central rule that cannot be externally enforced and must rely on each user's authenticity and conscience is that undertaking a precept binds one to confess any and all transgressions of it, without exception. Even if one confesses some transgressions while omitting others, it is still a deliberate lie.
+
+* Monastics who wish to join should instead write "I am a X" (bhikkhu, bhikkhunī, etc.) in the "precept-undertaking" channel to be assigned to separate channels.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mphttmq/)** _2025-04-28 15:14:07_ *(in reply to a comment not included)*:
+
+    > I follow a weekly Uposatha where I undertake full 8 precepts. Can I include this into the setup somehow.
+
+    I'll make a channel for Uposatha confessions.
+
+    >  Is it better for me to declare full celibacy, and confess the times I transgress; or is it better to state 'sexual misconduct' and 'over-achieve' on the precept
+
+    Certainly the latter. One is not actually keeping a precept if there is any intention to break it at any point, no matter how rarely.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpi6gc3/)** _2025-04-28 16:16:56_ *(in reply to a comment not included)*:
+
+    > Should breaches on the mental level also be confessed? It is difficult for me to discern intentionality at the mental level, and occasionally I find myself already in thoughts about breaking a precept. Does this already count as a breach, or does it only become one if I choose to dwell further on these thoughts?
+
+    No. Yes, mental misconduct most certainly must be avoided, but confession of it cannot be made compulsory because, as you said, one starts out not seeing mental intentions clearly. There will come a point where one can accurately and reliably recognize certain lines of thinking as wrong, but when that time comes will depend on the person (assuming their bodily and verbal behavior is on point; otherwise it will never come).
+
+    > If we break a precept, should we write it down to ensure we don't forget it by Sunday? 
+
+    Sure, anything that helps one not to forget.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mplz6uz/)** _2025-04-29 04:59:04_ *(in reply to a comment not included)*:
+
+    > What are we talking about here? Something like a Japanese Tatami mat? A blanket on the floor?
+
+    There is no official definition of allowable bedding, and it's not a given that every modern mattress violates the precept.
+
+    As seen from [stories in the Vinaya](https://suttacentral.net/pli-tv-kd5/en/brahmali?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin#pli-tv-kd5:10.4.0), the precept is about the ornateness and extravagance of furnishings. But yes, on another level of training, you shouldn't use overly comfortable bedding that, for you, is inducing obvious delight and wallowing in the pleasure of sleeping.
+
+    If you see that you presently sleep excessively and there is that indulgent mental attitude behind it, then using a thinner mattress (or none at all) will address that.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpm1ahj/)** _2025-04-29 05:15:45_ *(in reply to a comment not included)*:
+
+    > I see people in the discord taking up the precept not to lie, but no mention of idle chatter (which is hard as a lay person).
+
+    Not sure what you mean. Idle chatter and lying are two completely separate things, and an Arahant is only incapable of one of them (though of course one can do both).
+
+    > Also, I would not steal some physical good from anyone ever, but I occasionally download series online. If that counts as stealing, then I guess I couldn't take up that precept either.
+
+    That's not stealing. The concern would be with entertainment.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpm31rt/)** _2025-04-29 05:30:38_ *(in reply to a comment not included)*:
+
+    > What if sexuality has truly **lost any appeal to you and you really just rarely maintain it on rare occasions** out of the feeling of duty to your partner and fear of deteriorating the relationship? 
+
+    That's a contradiction in terms. You can't engage in a sexual act unless the body is aroused, and the body can't get aroused unless the mind is delighting in the purely sensual aspect. An abstract feeling of duty towards your partner would be unable to prime the body for the act.
+
+    Any sexual activity whatsoever, regardless of intention, requires the [perversion of perception](https://suttacentral.net/an4.49/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin#1.1) of seeing the ugly as beautiful and is inevitably perpetuating it. That is why it cannot coexist with right understanding.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpm415k/)** _2025-04-29 05:39:10_ *(in reply to a comment not included)*:
+
+    Are there any error messages?
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpm63ya/)** _2025-04-29 05:57:49_ *(in reply to a comment not included)*:
+
+    What's your username?
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpm87s2/)** _2025-04-29 06:17:37_ *(in reply to a comment not included)*:
+
+    That's why then. You need to create a Discord account first.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpmajbo/)** _2025-04-29 06:40:00_ *(in reply to a comment not included)*:
+
+    Breaking the law is not necessarily the same as breaking virtue. 
+
+    Now, if you were to, let's say, go and break into a server where files are stored and then download them, that *would* be stealing. 
+
+    Downloading a pirated torrent or similar is like accepting a free giveaway of a clay pot made from a stolen design—the creator's unique clay pot design that they never wanted anyone else to distribute. If anyone is at fault it's the one who copied the design, and even for them it may not reach the level of stealing (though it would very likely be unwholesome in some other way).
+
+    So in this case, it's much more important to ask yourself *why* you're downloading something—whether you paid for it or not.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpmc418/)** _2025-04-29 06:55:31_ *(in reply to a comment not included)*:
+
+    > There is absolutely no arousal needed for women to engage in sexual activity. 
+
+    Sure, not to the full-blown level, but consenting to the act regardless of one's sex automatically implies some level of arousal/passion, and ignorance and the perversion of perception are necessarily there. 
+
+    > Bhante, there are many variations of pills, etc on the market which act on a pure physical level enhancing and impacting on the male sex organs and which regardless of the desire and arousal of the mind enable the man to perform the task even if they are inwardly disgusted and do not desire it at all.
+
+    Of course, nobody can stop the effect of such pills, and erections can happen for various reasons unrelated to lust as even the Vinaya describes. Still, the choice to engage in/consent to sexual activity always implies lust on some level.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpn5rgb/)** _2025-04-29 11:42:30_ *(in reply to a comment not included)*:
+
+    > That would hold for all those people who are forced, coerced and manipulated into it ,or who do it solely for the material benefit of it.
+
+    In the first two cases, they might not be consenting to it (e.g., rape). In the last two, they definitely are, and there is a wrong perception associated with that to an extent.
+
+    There is a reason why a monastic is permanently expelled—the harshest punishment—the moment they consent to a sexual act with no regard whatsoever for the motivation behind it. [The origin of that rule](https://suttacentral.net/pli-tv-bu-vb-pj1/en/brahmali?lang=en&layout=plain&reference=main&notes=asterisk&highlight=false&script=latin#5.11.5) was not even a monk who desired intercourse for its own sake. He did it because his parents coerced him into it, as he was an only son, and if he didn't have children, the lineage would be lost.
+
+    > i just can't see that engaging in sexual acts for those people is rooted in the intentions to satisfy their sexual cravings.
+
+    I didn't put it that way on purpose. What I wrote is that wrong perception and ignorance are necessarily involved, and that is why there are no excuses for it for one who is earnestly striving for liberation. One can only step into a charcoal pit by not seeing nor making any effort to see it as such. That doesn't mean actively holding a coarse view that the charcoal pit is a nice swimming pool—not truly seeing it as a charcoal pit on the right level is enough to remotely consider jumping into it *for whatever reason.*
+
+    Of course, you can always second-guess the Buddha's words or cherry-pick the ones you trust, but needless to say, it's wise to be extremely wary of that when the context behind it is clearly to justify maintaining things that you emotionally don't want to give up. 
+
+    That very impulse towards justifying it through whichever means that inevitably arises is an example of how the act, and any relationships that rely on it, itself obstructs one's perspective.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpn6jo9/)** _2025-04-29 11:48:00_ *(in reply to a comment not included)*:
+
+    Yes, all of these would constitute "misconduct in regard to sensual pleasures," i.e., excessive scratching of the itch to the point that the skin is ripped. Even by mundane standards of morality, the average person is ashamed of saying that they do these things (and of promiscuity in general).
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpohrve/)** _2025-04-29 16:03:45_ *(in reply to a comment not included)*:
+
+    > I don't doubt that there must inevitably be perverted perception involved in whoever engages in the sexual act.
+
+    My point is that that perverted perception is nothing but kāmarāga. They're not two separate things. And that is why there is no mitigating factor in the Vinaya for someone who engages in intercourse of any kind. 
+
+    > All the others can even if their intentions behind it might not be related to kama raga.
+
+    Just to be clear, this explicitly contradicts [what the Buddha said](https://suttas.hillsidehermitage.org/?q=mn22#mn22:8.13_mn22:9.1).
+
+    > I only don't see sexual arousal being there necessarily as a motive and intention behind it.
+
+    You are free to hold that opinion, but if you ever feel like reconsidering it, my two cents is that your criterion for what constitutes "sexual arousal" is set way too high, expecting overly coarse manifestations of it.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpom5ex/)** _2025-04-29 16:25:53_ *(in reply to a comment not included)*:
+
+    I see what you mean now. Well, that is not the standard formulation of the five precepts in the Suttas, and it's for a reason. It doesn't mean all that much if a person who is not celibate abstains from idle chatter. It's kind of like a smoker worrying about wearing a mask in urban areas to protect his lungs.
+
+    Still, it's not like you have to rudely cut people off whenever they start gossiping. As long as you make sure that *you* don't add any extra momentum to the conversation and are aiming to let it die out, you're not gossiping yourself.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mpwln52/)** _2025-04-30 20:43:03_ *(in reply to a comment not included)*:
+
+    > And I think there is a place in the suttas? where it talks about how a brahmin 'toes the line' if he has intercourse for procreation, but he 'steps over the line' if he does it for pleasure.
+
+    This may not be it, but in AN 5.191, the Buddha pretty much says that Brahmins of the time had become worse than dogs because they would now have intercourse with their wives outside their fertile period. 
+
+    This is clearly not a Buddhist invention, since the [Apastamba Dharmasūtra](https://archive.org/stream/DharmasutrasTheLawCodesOfApastambaGautamaBaudhayanaAndVasistha/Dharmas%C5%ABtras%20-%20The%20Law%20Codes%20of%20%C4%80pastamba%2C%20Gautama%2C%20Baudh%C4%81yana%20and%20Vasi%E1%B9%A3%E1%B9%ADha_djvu.txt#:~:text=7%201%20%E2%80%98A%20man%20who,from%20any%20sin%20short%20of) (a Sanskrit text dated to 600 BCE - 300 BCE; during or even after the Buddha's lifetime) is even more specific:
+
+    > A man who ejaculates his semen in any place other than the 
+    vagina becomes equal to a thief, equal to a murderer of a 
+    Brahmin.
+
+    The same text goes on to say that such a man must undergo rituals of penance to purify himself, involving celibacy for up to a year. A similar view was present in early Christianity. The ideal was complete celibacy, and marriage with intercourse only for procreation was a compromise. Sex for pleasure was seen as a sin.
+
+    Obviously, these people were ultimately coming from a place of wrong view—with all the arbitrary ritual nonsense and the utterly misguided hope that some external force will save them—but it highlights how stricter the standards of conduct for qualifying as an average "upright" person were, which explains why stream entry was within reach for many householders (assuming it was indeed all that common; ultimately there's always "survivor bias," i.e., you don't hear about all those who *didn't* make it).
+
+    The view that ["there is no harm in sensual pleasures,"](https://suttacentral.net/an3.113/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin) held and acted out today more than ever before—likely more in the West than the East but overall still a lot more—is vastly more obstructive and antithetical to the Dhamma than believing in God or believing in a self (both of which fewer people do today than ever before).
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mq4vdcs/)** _2025-05-02 03:03:40_ *(in reply to a comment not included)*:
+
+    > But even from a work standpoint—if I’m expected to be working during that time—doesn’t this border on being deceptive?
+
+    If there is an intention to hide what you're really doing, it's already a form of deception and involves an unwholesome mental state, whether or not you verbally lie. To be asked and then lie would be a step further.
+
+    But it's not that the only admissible option is to become a perfect drone who does nothing but work. What matters is that you keep an eye on your intention. Whenever an intention to conceal arises, don't give in to it; instead, choose between doing what is expected of you or accepting that you might get caught.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mq51ccy/)** _2025-05-02 03:44:50_ *(in reply to a comment not included)*:
+
+     > Can I rightly claim having undertaken the precept (I have already done that in the Discord server) by being open to such theoretical circumstances?
+
+    Yes. Such instances would not count as entertainment. It's only when the entertaining content is the focus of your intention, regardless of what the reason for that intention is.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mq53jtv/)** _2025-05-02 04:00:29_ *(in reply to a comment not included)*:
+
+    It sounds like it wouldn't be an issue. But if you were to start enjoying the show and looking forward to it, it definitely would be (since that's when it would absolutely start to produce unwholesome states).
+
+    It would nevertheless be good to confess it.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mq545aw/)** _2025-05-02 04:04:57_ *(in reply to a comment not included)*:
+
+    > So while there may not be that true typical sex-based desire, wanting not to hurt other people or to cause divorce or drift in the family is still based on passion …and fear.
+
+    Yes, that would count as passion too, but consenting to a sexual act because of it is a further step—one that will hinder you far more from ever overcoming passion than anything else not covered by the five precepts.
+
+---
+
+**r/HillsideHermitage** | Posted by hopefullys00n _2025-04-28 04:14:59_
+### [Questions about Lying, Confessing, and Fixing Mistakes](https://www.reddit.com/r/HillsideHermitage/comments/1k9mx60/questions_about_lying_confessing_and_fixing/)
+
+Several years ago I told an awful lie about someone to some other people. Some of the people I lied to know the person I lied about, others that I lied to have never met the person and are no longer in my life. Years ago, I told some people that what I said wasn't true, but I lied again by suggesting that my lie was a result of me misinterpreting events rather than that I just told this awful lie in full awareness. I now plan to tell the full truth to the group of people that I still talk to and that know the person I lied about. The questions in this post are mainly about what to do about the other group of people- random people from my past that I don't talk to anymore and that either never met the person I lied about or met them only a few times many years ago. 
+
+I want to emphasize that the main thing I'm trying to leave behind here is not the behavior of saying awful, false things about people (this has been abandoned for years) but the internal (and external) coverup of my full responsibility for these actions (which could eventually lead to me lying again in future lifetimes). 
+
+I'm wondering if I should just endure the guilt and shame I feel over this without trying to rectify the situation, or if I should try to rectify the situation (by telling the truth to everyone I lied to) and endure the guilt and shame of that. I feel internally prepared to do either thing, I just don't know what would be best for my practice/most in line with what the Buddha taught. I don't know if I’m seeing this situation clearly and I don't want to be “missing the mark” with my efforts/emphasizing the wrong things by trying to tell everyone.  
+
+Could it be said that even if I think I'm totally prepared and open to telling everyone the truth, until/unless I actually do it, there's no way to know if the full weight of this action has been completely uncovered internally? 
+
+Is there some added benefit for my virtue (in the sense of reduced risk of doing this again) in coming clean to everyone I lied to vs just confessing the specifics of this situation to someone with whom I would feel a sense of shame?
+
+Even though I haven't told these awful lies in a long time, would it be correct to consider them to still be “active” or current because I have never cleared them up? I'm trying to understand how to see my current virtue in light of this situation. 
+
+Is this situation better viewed as two separate issues - Confession/Dhamma practice and trying to do what I can to fix a mistake? Is doing something to “right a wrong” automatically in line with the Dhamma, or does it depend what this effort is motivated by? It seems like there are some cases where something may be motivated by pressure but is still the right thing to do.
+
+One of my friends suggested that perhaps confessing these lies to the people I currently know/have some reputation with (the other female practitioners I talk to) might be more beneficial than trying to find/come clean to all the people I lied to that I don't even talk to anymore. Would this be true, or would this be something I should just add on to my efforts to clear things up with the people I lied to?
+
+Is confession necessary for actions you did years ago or before you were even practicing the Dhamma? Does it depend on whether you're still doing those things (or slighter faults along the same lines) or not?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9mx60/questions_about_lying_confessing_and_fixing/mpit8iv/)** _2025-04-28 18:07:29_:
+
+    > Is confession necessary for actions you did years ago or before you were even practicing the Dhamma?
+
+    No. Confession is not for cleansing oneself of all accumulated evil, let alone rectify it externally, but for making sure that *now* that you've taken on the training, you won't be able to cover up or downplay your own deviations from it (which would make it quite likely that they will repeat themselves). 
+
+    With lying specifically, it's not even necessary to inform the specific people you lied to, though that's certainly better than totally keeping the lie to yourself. On top of that, since this happened before you started practicing, at least as far as the training is concerned, it's not necessary to confess it to anyone at all. If there are worldly motivations to inform the people you lied to—e.g., you have to discuss the topic you lied about anew for some practical reason, or the lie is still having an effect to this day—then by all means. 
+
+    But don't do it out of a hope that it will somehow resolve any mental pressure that you might be experiencing. That's impossible, and acting out of that hope would be the unwholesome kind of caving in to pressure that will only perpetuate itself (and wrong views about what the escape from suffering is as well). 
+
+    Pressure/suffering can only be truly resolved through right understanding (which requires a firm basis of restraint), not through further actions.
+
+    Either way, you should certainly be mentally prepared that if the topic ever comes up on its own, you won't go along with people's wrong impression of the facts that you deliberately created however long ago. If you do go along even tacitly, then you know that you have still not accepted the weight and blameworthiness of the action, and this tacit affirmation of the old lie would be a new lie that you *would* have to confess.
+
+---
+
 **r/HillsideHermitage** | Posted by Future_Plastic_9910 _2025-04-24 18:17:01_
 ### [Subject Object](https://www.reddit.com/r/HillsideHermitage/comments/1k6za42/subject_object/)
 
