@@ -1,3 +1,18 @@
+**r/HillsideHermitage** | Posted by No-Spirit5082 _2025-05-18 11:52:09_
+### [pornography](https://www.reddit.com/r/HillsideHermitage/comments/1kpi6g9/pornography/)
+
+for years i keep trying and trying to practice celibacy yet i keep failing and going back to pornography and masturbation. usually i make it to few days or sometimes few weeks before going back. the craving that arises in me is insane, i begin to want it so badly and my mind gets drowned in that, or it starts lying to me and tricking me to just peek or whatever, its like i become intoxicated and i have no control over my mind and behaviour. then afterwards i feel horrible and either baselesly promise to myself somehow the next time will be different and i wont do it again or spiral into self hate and despair. im sick of it, i do not know what to do. i also used to be celibate from ages 13-15 but then i messed up and haven't been celibate since (im 19 now) and its so annoying because i remember howuch better i used to feel back then and it wasn't nearly as hard as it is now, it makes me so frustrated what do i do
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kpi6g9/pornography/mt90ccu/)** _2025-05-20 05:33:05_:
+
+    > what do i do
+
+    First of all, give up porn altogether, no exceptions. It falls within the spirit of "misconduct with regard to sensuality." If needed, install an app on your phone or computer that will block any websites with sexual content permanently.
+
+    Once you're used to that, work on giving up porn-free masturbation.
+
+---
+
 **r/HillsideHermitage** | Posted by tejveeer _2025-05-16 20:59:17_
 ### ["True" Sotapatti vs. "False" Sotapatti: How to Distinguish Between Them?](https://www.reddit.com/r/HillsideHermitage/comments/1kobp2e/true_sotapatti_vs_false_sotapatti_how_to/)
 
@@ -46,6 +61,13 @@ Edit: changed a few sentences to be more precise.
     One thing is making a habit of inspecting whether there is anything at all that you are afraid of giving up or any loss that you foresee yourself not being able to handle if it were to happen unexpectedly. If there is, it's a sign of still being liable to the second arrow, and your assumed freedom from it is being enabled by fortunate circumstances.
 
     Only if you were already a sotāpanna yourself would you be able to understand how it's possible to be in such a seemingly consummate state while still having plenty of work left until Arahantship. Someone who is still poor won't be able to understand how a billion dollars can feel inadequate.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kobp2e/true_sotapatti_vs_false_sotapatti_how_to/mtrq6dg/)** _2025-05-23 02:45:15_ *(in reply to a comment not included)*:
+
+    > then the right response to that is to further purify/sharpen/tighten virtue and sense restraint, rather than jump directly at abandoning that which was recognized as weaknesses?
+
+    The optimal and safest response will always be to give up those things altogether. Their effect is solely detrimental from the point of view of the practice, and thus not abandoning them will always involve some kind of weakness. If that is too daunting, then yes, the only other option with meaningful chances of success is to be maximally virtuous and restrained within the household setting.
+
+    The mind is moved by majorly unpleasant possibilities for the future because it regularly gets allowed to move regarding seemingly unrelated things (including pleasures above all) in the present.
 
 ---
 
@@ -94,6 +116,13 @@ Thank you!
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ko5k5n/looking_for_reading_tips_regarding_ancient_india/msu9u51/)** _2025-05-17 19:29:12_ *(in reply to a comment not included)*:
 
     It is impossible according to ChatGPT.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ko5k5n/looking_for_reading_tips_regarding_ancient_india/mt2hznh/)** _2025-05-19 04:09:10_ *(in reply to a comment not included)*:
+
+    > using the same logic, venerable Analayo should also conclude that any description of events that goes beyond what is generally accepted should be treated in the same way and rejected as 'a product of fantasy' and the later editions. This is essentially how he sends virtually the entire Kanon, including Buddha himself, into the category of fantasy.
+
+    There are descriptions of events that go beyond what is generally accepted *and* are universally present in the texts of all the early Buddhist sects, whereas these Vinaya stories are not. That is the main thrust of the argument that you shouldn't take them at face value. I was not necessarily advocating for anything else he might have written in that book, and I quite disagree with most of his views and his general outlook.
+
+    (Edit: Typo)
 
 ---
 
@@ -147,6 +176,22 @@ Also, congrats on 1k members! It's cool to see this community grow, yet still ma
     > “And how, bhikkhus, are there four phases? **I directly knew form, its origin, its cessation, and the way leading to its cessation.** I directly knew feeling … perception … activities … consciousness, its origin, its cessation, and the way leading to its cessation.
 
     —SN 22.56
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1klvb2w/what_is_discernment/mt2h031/)** _2025-05-19 04:01:19_ *(in reply to a comment not included)*:
+
+    > Instead, it would be that my perceptions are the only way that I can understand the existence of rupa, which must necessarily exist in order for there to be a perception of something to be present. At the same time, the idea of a "true essence" would imply that there is rupa that exists outside of this experience, which would be a contradiction based on the fact that something would have already had to have entered my experience in order for me to even consider the idea of there being rupa outside of my experience.
+
+    So where is that rūpa, and how come we even know that it exists? Just as we don't bother positing the existence of a hypothetical matrix we are all enclosed within, why even bother positing the existence of rūpa instead of just saying that everything is a perception and stopping there?
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1klvb2w/what_is_discernment/mthbigt/)** _2025-05-21 14:40:07_ *(in reply to a comment not included)*:
+
+    > If a sense organ becomes damaged, our perceptions would change, which confirms that we have those organs in the first place, and that they have some sort of relation to perception. 
+
+    True, but then it still sounds like that basis for our perceptions is a hidden entity that we have no immediate reason to call a "sense organ" except for the fact that that's how the Suttas call it. Hence there would be no intrinsic reason for that basis to be assumed as rūpa and not a matrix, or god, or whatever. It remains equally mystified and not any more discerned.
+
+    > When experience is broken down into the 5-aggregate model, dispassion can be extended to every aspect of the experience more accurately, rather than the more common subject-object view which leaves room for craving to exist.
+
+    Yes, in theory. But it will not be dispassion of the right kind for as long as the aggregates remain theoretical ideas.
+
+    The sense organs, hollow as they are, *can* and *must* be discerned as arisen phenomena to actually develop dispassion towards them. But phenomena—which are neither on the level of sensory objects nor of analytical ideas—will only become apparent if there is no lust towards sense objects, i.e., one's conduct has been purified.
 
 ---
 
@@ -1136,6 +1181,9 @@ The central rule that cannot be externally enforced and must rely on each user's
     For some context, see [Udāna 6.9](https://suttacentral.net/ud6.9/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin) where the Buddha was watching moths falling into oil lamps and dying without immediately jumping to save them.
 
     Therefore, as always, "the line" is in the intention, and not much can be said in the way of fixed external guidelines.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/mtufpck/)** _2025-05-23 14:54:15_ *(in reply to a comment not included)*:
+
+    No; the link somehow expired even though I had set it not to. The current link is still working as of now.
 
 ---
 
@@ -1722,6 +1770,31 @@ edit: another example that I have thought of and about which I have doubts is th
     But say you regularly buy a whole fish from a very small-scale fishmonger who, with only a handful of regular clients, slaughters one fish for each order they expect in advance. Then you would certainly be complicit, though not as directly as when you go and order a fish knowing that it's still alive and will be killed for you.
 
     The bottom line being: purchasing an existing product that would still be supplied to the same extent regardless of your individual purchases is not the same as financing a company that produces the product, asking them to make it for you in particular, or making the product yourself.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jrhcuk/question_about_right_livelihood_and_investments/mt6agvi/)** _2025-05-19 19:31:26_ *(in reply to a comment not included)*:
+
+    > after having also looked at a part of the resources linked by Ven. Subhara below.
+
+    Even if the conclusions there are sound, whether you buy meat from a supermarket or not is still too intangible from the point of view of your present mental state and intentions to fall within the precepts. Of course, you could be seeking meat out of lust for tastes, but that has now nothing to do with the first precept.
+
+    Regarding the first precept, all that matters is whether you are intentionally aiming at the death of other beings, no matter how indirectly the result comes and what the excuse for it is. Getting somebody to kill an animal for you would certainly fulfill that factor, and you should not do that even if it means starving to death. But that is not what your intention is when you buy meat from a store simply for the sake of nourishment, even if theoretically that decision did lead to more animals dying.
+
+    For the record, the relationship between buying meat and indirectly causing animals to be slaughtered was no doubt a lot more direct in the Buddha's time. [There is a story in the Khandhakas](https://tipitaka.theravada.su/node/table/519) where somebody was looking for meat and there was none available, because no killing has taken place that day. 
+
+    That this was even possible suggests that if the Buddha had at least forbidden monks from accepting any meat, let alone laypeople from buying it, it would realistically have had a huge and very direct impact on meat production in those days. And yet he did not. He even made meat and fish two of the five ["staple foods" in the Vinaya](https://www.dhammatalks.org/vinaya/bmc/Section0019.html#Pc_ChFour), and nowhere in the Suttas did he encourage laypeople to abstain from meat. 
+
+    Someone could argue that, by failing to make veganism a rule for Buddhists when he easily could have, the Buddha is "responsible" for the deaths of hundreds of billions of animals over the last 2500 years. He was surely not unaware that he could've prevented that, and in others areas he didn't have a problem with nudging people against the grain for the sake of the Dhamma.
+
+    > would this monk - who, say, suspects that the layperson killed the cow for him - be at fault for accepting the meal because it might induce the layperson to kill another cow for him in the future?
+
+    Yes, that's a bit of a gray area, and thus the Buddha said it should be avoided. But it's not that the layperson killing another cow automatically follows from accepting the offering. Hypothetically, the monk could just as well reprimand the layperson for killing, and if they chose to do the same thing again it no longer be on him. 
+
+    It's because it's an impure offering, similar to something that was obtained  through stealing or cheating.
+
+    > am I right in thinking "approving of killing living creatures" means having a view that killing is at least sometimes permissible?
+
+    Correct. It is on the basis of that view that you would approve of somebody else's killing. Most people would entertain the idea of killing (and approve of others doing so) past a certain level of duress, but what that Sutta is saying is that there should not be such a point. 
+
+    Training yourself to become *unable* to entertain the prospect of killing even to save what's dearest to you is immeasurably more fruitful than a blanket abstinence from meat.
 
 ---
 
