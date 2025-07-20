@@ -1,3 +1,114 @@
+**r/HillsideHermitage** | Posted by MonumentUnfound _2025-07-17 01:47:35_
+### [Meditation at the beginning of the path](https://www.reddit.com/r/HillsideHermitage/comments/1m1v051/meditation_at_the_beginning_of_the_path/)
+
+It's clear in the suttas that meditating - sitting in seclusion, free from distractions - is the culmination of the gradual training, sometimes even stating that there is no meditation without the Right View. But I cannot help but see the presence of meditation even at the very first step of the gradual training. By renouncing entertainment, unless one is quite busy with their duties (and ideally a bhikkhu wouldn't be), or insists on spending all their free time with others (which presumably would be frowned upon for a bhikkhu, even a novice), there is going to be time where one is alone without recourse to distraction. At that time, one will be restraining the mind and not merely bodily or verbal activity - unless one is just thinking of random things with no discernment whatsoever.
+
+It only becomes more pronounced as the gradual training progresses. Already with guarding the senses we are restraining relatively subtle movements of the mind - which benefits from seclusion. The section on wakefulness is explicit: sitting and walking, purifying the mind. Furthermore, presumably throughout the whole process of the gradual training we should be examining the intentions available to us, trying to determine whether they are skillful or unskillful, and restraining the unskillful as best we can. With good teachers (like Ajahn Nyanamoli and Bhikkhu Anigha) to clarify the practice in accessible terms, this kind of contemplation becomes rather subtle and profound pretty much immediately.
+
+So even at the beginning of training one will be *outwardly* appearing as a meditator (sitting in seclusion) and *inwardly* acting like a meditator (clarifying and restraining the mind). So why is the language of meditating reserved for the end of the path? In what way are we not already sitting in seclusion, purifying the mind of the hindrances at the very beginning, unless we are overly preoccupied?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1m1v051/meditation_at_the_beginning_of_the_path/n3kzr0k/)** _2025-07-17 05:55:27_:
+
+    There’s a big difference between restraining unwholesome mental activities while your focus is somewhere else (your bodily and verbal conduct) and having your focus mainly on restraining unwholesome mental activities, which assumes that everything "below" that is firm and secure. Needless to say, for the vast majority of people, it isn’t.
+
+    Edit: Also, not all unwholesome mental activities are on the same level. It would be rather pointless for someone who isn’t well established in the precepts to focus on perfectly restraining restlessness, for example, which is something that you *would* do in later stages, when you are able to clearly see what restlessness even is without conflating it with movement per se. But they certainly should do their best when it comes to obvious sensual or hateful thoughts. It would be very hard to succeed in physical celibacy if you were constantly indulging sexual fantasies.
+
+---
+
+**r/HillsideHermitage** | Posted by Ok_Watercress_4596 _2025-07-14 23:55:37_
+### [Dogs and Company](https://www.reddit.com/r/HillsideHermitage/comments/1m02q8s/dogs_and_company/)
+
+I've been following HH channel for a while and in many talks there were mentions of the unwholesomeness of love and relationships of all sorts, including friendship as it involves company.
+
+At the same time I saw Ajahn express kindness and love towards the dogs and so it made me wonder "isn't that contradicting?". Dog is still a being and still company even if it doesn't say anything
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1m02q8s/dogs_and_company/n3odv4b/)** _2025-07-17 18:27:13_:
+
+    "Attachment" is determined by what would happen if you were permanently and abruptly separated from the thing in question (suffering), not by how you interact with it externally. The suffering that will sooner or later come is the sole reason why attachment is a problem. As long as you are not making yourself liable to that suffering—and you need a lot of self-honesty to see whether you are—you can do whatever you want externally, and it will not be attachment.
+
+    Can you express affection toward a human in the same way you could with a dog without being attached to them? Perhaps, but it’s a lot more unlikely, and it could never be romantic/sexual affection because separation absolutely will hurt in such a case. Anybody who thinks otherwise is conveniently overlooking the obvious.
+
+    And why is there that difference? It’s just the way it works. The depth of connection with an animal is inevitably very limited, and a person has to give in to irrational fantasies about the animal’s range of cognition to lose sight of that. Even then, it’s very unusual for people to grieve for a beloved animal as much as they would for a human, so the attachment cannot proliferate to the same extent even when you want it to.
+
+---
+
+**r/HillsideHermitage** | Posted by Remarkable_Guard_674 _2025-07-13 17:16:35_
+### [How Hillside Hermitage explains the Migasālāsutta ?](https://www.reddit.com/r/HillsideHermitage/comments/1lyy83a/how_hillside_hermitage_explains_the_migasālāsutta/)
+
+Isidatta and Purana were two Sakadāgāmi brothers. Purana constantly lived under the eight precepts, and Isidatta continued to live a married life. However, Isidatta had deeper wisdom than Purana. In terms of ethics, Purana surpassed him.
+
+
+[Migasālāsutta](https://suttacentral.net/an6.44/en/sujato?lang=fr&layout=sidebyside&reference=none&notes=asterisk&highlight=false&script=latin).
+
+
+
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lyy83a/how_hillside_hermitage_explains_the_migasālāsutta/n30ys6v/)** _2025-07-14 05:17:13_:
+
+    I suppose you’re asking how it’s possible to have deeper wisdom with lesser virtue if, as we often say, there can be no wisdom without virtue, and celibacy is not optional for attaining higher wisdom.
+
+    The answer is spelled out more clearly in the [other version](https://suttacentral.net/an10.75/en/sujato) of the Sutta. Isidatta had a better grasp of how to put an end to his own defilements, but he was not putting that understanding into practice. Purāṇa lived with fewer defilements, but he was not as proficient in dispelling them if they arose.
+
+    We’ve never said it’s impossible for someone’s wisdom to outpace their virtue. What we’ve said is that it’s impossible to continue progressing in wisdom without fulfilling virtue, and that clearly held true for Isidatta as well. He didn’t become an anāgāmi despite his wisdom because his virtue was lacking. Furthermore, he would never have become a once-returner if he hadn’t previously been free from the five hindrances—and that’s impossible to achieve without celibacy.
+
+---
+
+**r/HillsideHermitage** | Posted by Akalika_Username _2025-07-12 16:22:10_
+### [Resistance vs. Pressure?](https://www.reddit.com/r/HillsideHermitage/comments/1ly4gc6/resistance_vs_pressure/)
+
+Friends,
+
+Is there any difference between my resistance to an enduring feeling and the pressure exerted by the citta toward or away from that feeling? Or is my resistance the action of mentally following that pressure? 
+
+Both seem like the necessary basis for suffering. If I'm pressured, I'm suffering, and if I'm suffering, I'm resisting what is felt. 
+
+But that might be an example of how the puthujjana who does not yet see the mind as a phenomenon differs from a Noble Disciple. The latter may not automatically suffer in response to pressure, and never in the manner of the puthujjana, because they recognize the distinction between the citta’s agitation and their choice to resist that agitation.
+
+In that scenario, non-resistance to agitation is effectively non-agitation from the standpoint of someone who is fully identified with the mind's activities and who, thus, cannot recognize the full extent of craving/suffering. Whereas the sotāpanna knows that complete freedom from the possibility of suffering requires the citta to become incapable of being activated by craving.
+
+Does that make sense?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ly4gc6/resistance_vs_pressure/n30xfdb/)** _2025-07-14 05:06:06_:
+
+    >Is there any difference between my resistance to an enduring feeling and the pressure exerted by the citta toward or away from that feeling? 
+
+    No, they’re the same thing described differently. The citta is what resists.
+
+    > But that might be an example of how the puthujjana who does not yet see the mind as a phenomenon differs from a Noble Disciple. The latter may not automatically suffer in response to pressure, and never in the manner of the puthujjana, because they recognize the distinction between the citta’s agitation and their choice to resist that agitation.
+
+    The noble disciple recognizes the distinction between pressure and the citta becoming agitated on top of it, which is a further layer of suffering that they can never give rise to anymore. That’s the distinction between the first and the second "arrows."
+
+    A puthujjana cannot discern the difference between the two arrows, just as you will not find ghee in a stick of butter no matter how hard you look. You’ll only be able to see ghee (the first arrow) when water (the second one) is no longer there.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ly4gc6/resistance_vs_pressure/n3duq41/)** _2025-07-16 03:22:52_ *(in reply to a comment not included)*:
+
+    > I assumed, because only the arahant’s citta is fully tamed, that there might still be some agitation in the Noble Disciple's mind in response to pressure until pressure has "ceased" to be pressuring, as it were. 
+
+    There certainly is still some agitation in the noble disciple’s citta, which is the very presence of pressure. In an Arahant, there is no pressure—no first arrow, no dukkha. 
+
+    What the Arrow Sutta describes is that on top of the arising of pressure, which is itself already suffering and comes from ignorance, a puthujjana has a whole other layer of suffering.
+
+---
+
+**r/HillsideHermitage** | Posted by Future_Plastic_9910 _2025-07-12 15:45:43_
+### [Chanting](https://www.reddit.com/r/HillsideHermitage/comments/1ly3le9/chanting/)
+
+How close is Chanting to music? Can it be an obstacle? In practice its difficult to avoid in monastic environments.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ly3le9/chanting/n2xyr2e/)** _2025-07-13 18:47:42_:
+
+    > How close is Chanting to music? Can it be an obstacle?
+
+    If group chanting is for you anything more than paying a minimum "price" for a stay at a place where the eight precepts are the standard, then yes.
+
+    Ignoring the obvious wrong view that chanting has some sort of spiritual/meritorious power, sometimes the sound of chanting itself can be pleasing to the ear even if you don't ascribe fancy narratives to it, in which case you would need to be extra mindful not to start delighting in it even if your main motivation is just to avoid a scolding.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ly3le9/chanting/n30tgky/)** _2025-07-14 04:34:55_ *(in reply to a comment not included)*:
+
+    > chanting was already a thing in the early Sangha when the Buddha was there and soon after?
+
+    Definitely not in the present form, i.e., turning into a group activity that is supposedly wholesome in itself, covering up the delight in company underneath and removing the chance for any accurate reflection, and not understanding what you’re even saying but assuming that it must grant some spiritual benefit to utter it anyway because it’s Pali.
+
+---
+
 **r/HillsideHermitage** | Posted by Bhava_bhavana156 _2025-07-10 16:28:27_
 ### [Simple Paticcasamuppada questions (principle of simultaneous presence) outside of the Visudhimagga interpretation](https://www.reddit.com/r/HillsideHermitage/comments/1lwh5ma/simple_paticcasamuppada_questions_principle_of/)
 
@@ -135,6 +246,65 @@ This question is for Bhante Aniga. Wouldn’t a layman who understands, with per
     A puthujjana will remain a puthujjana if they allow themselves any room for ignorance (or suffering).
 
     Edit: added clarification
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n2xvixi/)** _2025-07-13 18:31:36_ *(in reply to a comment not included)*:
+
+    It’s not about any of the things you listed but about the fact that a householder is at heart, even when completely penniless, *one who is able to provide for himself.* That is an insurmounrable obstacle to Arahantship even if he’s celibate, restrained, and so on (which he needs to be anyway).
+
+    For one who is still within avijjā, providing for himself, even without any dependents let alone sensual engagements to speak of, cannot but maintain the existing passion/sense of external safety/concern for life. Hence, going forth and thereby making one’s livelihood uncertain is a necessary condition for Arahantship.
+
+    This doesn’t mean you absolutely have to live very austerely to become an Arahant. It means that whichever comforts you have must be circumstantial. Whatever you happen to have at any given time, even if somewhat luxurious, isn't in your direct control, is uncertain, and is not guaranteed. You can't just go and get it back with your own resources if you lose it, or get something better—no matter how justifiable the reason. Sometimes you might be able to ask those who've extended an invitation to do so, but even then, the procurement remains uncertain.
+
+    And that setup is exactly what (right) monasticism creates.
+
+    I suppose it’s possible in theory for somebody who is already an Arahant to provide for himself without passion if there is a compelling reason. But not before that.
+
+    >“Bhikkhus, possessing six qualities a bhikkhu is incapable of realizing arahantship, the foremost state. What six? Here, a bhikkhu is without faith, morally shameless, morally reckless, lazy, unwise, and concerned about his body and life. Possessing these six qualities, a bhikkhu is incapable of realizing arahantship, the foremost state.
+
+    >“Bhikkhus, possessing six qualities a bhikkhu is capable of realizing arahantship, the foremost state. What six? [434] Here, a bhikkhu has faith, a sense of moral shame, and moral dread; he is energetic and wise; and he is unconcerned about his body and life. Possessing these six qualities, a bhikkhu is capable of realizing arahantship, the foremost state.”
+
+    >—AN 6.83.
+
+    As usual, giving something up is first and foremost reflected in the way you live. You can’t give something up on a purely internal level while continuing to do things that are underlain by it externally.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n2y1hs1/)** _2025-07-13 19:01:21_ *(in reply to a comment not included)*:
+
+    Sure, I'm fine with that.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n310e9g/)** _2025-07-14 05:30:45_ *(in reply to a comment not included)*:
+
+    > And, do you think this culture of comparison and dismissal is helpful?
+
+    Just as with everything, it depends on the motivation for it. Conceit, vanity, and ill-will make anything unwholesome, and that will no doubt be the motivation for many. But none of those are worse than delusion and wrong view masquerading as right view, which *is* a categorical obstacle.
+
+    >“Bhikkhus, someone with five qualities is unable to enter the sure path with regard to beneficial qualities even when listening to the true teaching. What five? They discredit the talk, the speaker, or themselves. They’re witless, dull, and stupid. **They think they understand what they don’t understand.** Someone with these five qualities is unable to enter the sure path with regard to beneficial qualities even when listening to the true teaching.
+
+    —AN 5.152.
+
+    > After all, anyone who truly understands the Dhamma knows for themselves that they understand, and they then know their own genuine freedom from suffering. 
+
+    It’s very easy for many people to think that they "understand the Dhamma for themselves" when they don’t (or at least not sufficiently) and to overestimate the degree of freedom that they’ve achieved. The result of that is complacency. The more ingrained that attitude becomes, the harder it is to retrace your steps and make an effort towards actual freedom from suffering.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n348qba/)** _2025-07-14 18:05:55_ *(in reply to a comment not included)*:
+
+    >  If people are going out of their way to criticize others, it reveals the critic themselves to be unlearned and ordinary, so their advice is not useful anyway. 
+
+    It depends on what you mean by "going out of their way." If someone just goes on a rant for no reason other than to release the pressure of being displeased with something, then yes. But the Buddha quite often criticized other teachings quite openly and [encouraged his accomplished disciples to do the same](https://suttas.hillsidehermitage.org/?q=an10.93#an10.93:15.3_an10.93:15.4), on appropriate occasions and with the right intention. 
+     
+    The main issue is when, as the Suttas put it, you criticize by exalting yourself and putting others down (instead of simply pointing out what you see as wrong and not making it personal), since that automatically comes not only with conceit but with ignoring your own shortcomings or at least being complacent about them. Seeing no other way to criticize and thus developing an apprehension toward criticism itself indicates just as much a lack of discernment between wholesome and unwholesome at the right level as regularly criticizing out of conceit and ill will.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n3kyche/)** _2025-07-17 05:43:47_ *(in reply to a comment not included)*:
+
+    I had no plans to proceed immediately. I won’t have enough time for several days.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n3l2a9f/)** _2025-07-17 06:16:40_ *(in reply to a comment not included)*:
+
+    > Wouldn’t you agree that the well supported Bhikkhus who have all the food, water, clothing, medicine, and shelter they need, without being burdened by the exploitation of economic systems stand in a place of much more apparent security than the people who live outside those monasteries ...
+
+    Some bhikkhus might (depending on the monastery), but not if the Vinaya is decently kept, even if the place is well supported.
+
+    As my comment above implies, the fact that many laypeople live more austerely than monastics is secondary. That was not an unlikely situation even in the Buddha’s time, which is why there are stories in the Suttas of people ordaining for the sake of material comfort. 
+
+    The hindrance to Arahantship is the fact that the only thing that prevents a layperson from going and directly getting what they factually need when they need it is circumstance, not a fixed boundary. They are therefore always open to that possibility at least mentally (which is the level that matters most in the end; action is intention). Thus, they cannot completely give up all passion. 
+
+    If they were to set such a fixed boundary (i.e., take on the 10th precept on top of all the others), they wouldn’t qualify as laypeople anymore even if they weren’t formally ordained, which is why I mentioned that formal ordination is not strictly necessary. Nothing stops a layperson from saying no to sensual pleasures, though, and that’s why they can certainly become non-returners.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lvoqxc/lay_arahat/n3l43li/)** _2025-07-17 06:32:12_ *(in reply to a comment not included)*:
+
+    Yes, that’s exactly it.
 
 ---
 
