@@ -1,3 +1,14 @@
+**r/HillsideHermitage** | Posted by xpingu69 _2025-09-05 13:20:16_
+### [Desire to buy bicycle](https://www.reddit.com/r/HillsideHermitage/comments/1n953j2/desire_to_buy_bicycle/)
+
+I have this desire to buy a new bicycle. It's like pressuring to buy it. I really want it, even though I don't strictly need it, I could buy a very cheap one too. I have enough money for it though. I just think it's greed so I won't do it. But I feel this desire as a pressure to buy it, like almost like I need it on an emotional level, not a practical one. I think it would be wrong to buy the bycicle. Only because I think it's affected with greed, even if it's subtle. But for how long do I have to endure this desire? And does it mean I can never get it? Or can I buy it in a moment when it's not affected by greed? I really want to have it, but I think it's unwholesome. Also when the desire goes away and I reflect on it, the bicycle appears as nothing special. But even then I would buy it. But with the desire it appears as something special. 
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n953j2/desire_to_buy_bicycle/ncokvsg/)** _2025-09-06 04:39:43_:
+
+    If there was no pressure behind it—in which case there would be no grief at the prospect of not getting the bicycle—then it would be fine. But it sounds like there is obviously pressure.
+
+---
+
 **r/HillsideHermitage** | Posted by baubleballs _2025-08-27 21:22:39_
 ### [Idle talk](https://www.reddit.com/r/HillsideHermitage/comments/1n1tkux/idle_talk/)
 
@@ -63,6 +74,11 @@ Thank you in advance.
     > Also from what I understand one shouldn't attempt to purify the mind unless one is accomplished in the precepts, which I'm not sure what that would constitute because ***only Arahants and Anagamis? are completely accomplished in them*** from what I understand. 
 
     No, far from it. Being accomplished in the precepts means that keeping them has become your natural, constant state and no longer requires active effort. It doesn't mean that you will never break them under any *unforeseen* circumstance.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n1r8ir/seclusion/nc1k30q/)** _2025-09-02 16:57:42_ *(in reply to a comment not included)*:
+
+    >  But right now there is no problem contemplating the same I think, and as a baseline I have the intention of keeping them.
+
+    Then you need to guard that better state of mind by noticing what are the things that make it liable to "boiling" (anything based on sensual desire or annoyance/irritation) and not engaging with those. If it ends up boiling, it's because you've already been raising the temperature for a while somehow. It can't get to that point suddenly.
 
 ---
 
@@ -85,6 +101,17 @@ Should I just "stop thinking" then?
 
 
     Anything you might intellectually land on while the passion underneath remains will have no bearing on your actual sense of self, which you can indirectly gauge by seeing how much fear and resistance there is towards losing things you hold as dear and essential.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n0fmdu/describing_the_experience_of_reality_without_the/ncomgu0/)** _2025-09-06 04:52:15_ *(in reply to a comment not included)*:
+
+    > As I understand (correct me if I'm wrong), the passion itself is in the citta, therefore I can't control it, at least not directly, while my only responsability is to make a choice by saying "yes" or "no" to the options offered by the citta, like a sort of switch that stands between the citta and the sense objects.
+
+    Correct. You can't "do" passion yourself (and many people know that from experience; they want to be passionate about or "love" something but can't if their citta doesn't go along).
+
+    > By doing this, isn't one reinforcing the idea of a hyper-controlling self which constantly watches and controls everything from above? Or is it a wrong way to see it?
+
+    No. The sense of self is not due to an intellectual conceiving of a certain entity but due to passion. Passion and the assumption of control are one and the same thing. Passion covers up the fact that all control, no matter its extent, is unreliable. 
+
+    In other words, the assumption of control is due to the untamed citta, not due to some wrong intellectual notion.
 
 ---
 
@@ -3969,6 +3996,28 @@ https://www.reddit.com/r/HillsideHermitage/wiki/index/
     Since it's just a fact that one's practice will usually be directed by a miscalibrated understanding, there will be less wasted effort if one does not overcommit to what appears to be right on any given day (which realistically goes hand in hand with spending more than a couple of hours doing it) and makes sure to not let oneself backslide into the hindrances even more during neutral activities. That also counts as practice, since activities within the precepts cannot induce further wildness in the citta without the help of one's own careless attention.
 
     The section on purifying the mind from obstructions day and night takes for granted that one clearly sees what the mind and the obstructions are, and that's already beyond sotāpatti.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlzarz/new_wiki_page_virtue_and_the_seven_precepts/nbury4c/)** _2025-09-01 15:44:14_ *(in reply to a comment not included)*:
+
+    > So does that mean that if after a couple more years of full time work I can reduce my work and increase that available time to let's say a solid 3h per day and but keep working and doing chores for 5-6h per day, it would be equally good or even better than if I can figure out a way to make it 7-8h in seclusion and not work anymore except chores etc.?
+
+    No, it wouldn't be better.
+
+    There is a big difference between being by yourself with nothing that you necessarily "have" to do for the rest of the day and then doing things within that and, on the other hand, having externally enforced duties that you can't avoid. It’s helpful to try to have less of the latter as long as it doesn't reach the point of aversion towards tasks in themselves.
+
+    > But what makes it eventually not miscalibrated if not spending time in seclusion trying to get the right understanding? If more time in seclusion would be wasted effort, doesn't that imply that the time doing "neutral activities" but "merely" trying be careful not to backslide / (fuel?) the hindrances would actually be the productive effort?
+
+    Well, both should ideally happen in seclusion; I don't think I ever said otherwise. But what you need to understand is how and to what extent craving underlies your actions and how action without that craving is possible, and you don't get that solely by thinking about it until it all clicks on the intellectual level. 
+
+    Quite often, a person's incessant "thinking about it" will be the thing stopping them from seeing that they're acting out of craving and overlooking their citta right at that moment. So by allowing some room for doing something other than just "think about Dhamma" or "cultivate this or that," you will at least be putting the brakes on that momentum of wrong effort from time to time and creating an opening to return to the "right level." But both of them very much count towards understanding the Dhamma, because even when you, say, go for a walk (ideally alone where there are no people), you're still trying to keep an eye on your mind and making sure that it's not pushing you in unwholesome directions. Likewise, sometimes you *should* keep actively pondering and reflecting because you're in fact clarifying things at the right level at that time.
+
+    Since you can't reliably know when it's which, the best policy is just to keep the door open for either. Overly fixating on either course of action would waste more time.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlzarz/new_wiki_page_virtue_and_the_seven_precepts/nc15w8d/)** _2025-09-02 15:46:49_ *(in reply to a comment not included)*:
+
+    The confusion might be in part because for many people this is not even something they need to think about. They will naturally realize that what matters is to not delight in company and be on their own as much as possible, but that at the same time it's not about active, forceful effort all the time. That is not just unsustainable but will also take one in a wrong direction that overlooks the current state of mind. As the four right efforts describe, there are times when it's just about protecting what you already have. If it never seems like that to someone despite being virtuous and restrained to the best of their understanding, then they're most probably not seeing their citta. 
+
+    So then it's not really that one goes out of one's way to find things to do (or to try to be around others more), but that one realizes that the mind is already not infected with passion, aversion, etc., for the time being, and thus there is no need to keep pushing with that intensity for the time being. Then whatever is offered as an option for activity within that (even on the mental level) has to be done with the clarity that it will not introduce unarisen unwholesome states like delight in work or in company (or restlessness regarding the Dhamma, for that matter).
+
+    If one is able to spend one's days and nights in that state without falling from it, then there is already nothing significantly unwholesome there. No coarse states of sensuality or aversion would be coming up. Only when that basis is firm is one able to strive more "decisively" regarding lesser impurities (as per the formula describing the wakefulness practice) without being driven almost inevitably by restlessness and wrong expectations of what freedom even is. You could say that at that point, the person has understood and become established in the precepts and sense restraint. And to get to that point, they certainly need to have frequented empty dwellings and not delighted in company.
 
 ---
 
