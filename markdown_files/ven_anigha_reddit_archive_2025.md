@@ -1,3 +1,110 @@
+**r/HillsideHermitage** | Posted by ChairOk548 _2025-09-16 17:03:26_
+### [Would choosing lay life to preserve your own health prevent achieving a higher attainment?](https://www.reddit.com/r/HillsideHermitage/comments/1nin7p8/would_choosing_lay_life_to_preserve_your_own/)
+
+If a putthujjana with chronic health issues (not life threatening) decided to remain a layperson out of a sense of responsibility for their own health, and probably also unavoidably out of desire for better health or aversion towards chronic illness, would that likely prevent them from reaching stream entry?
+
+Similarly, if a sotapanna in a similar situation decided to remain a layperson, would they be unable to become an anagami? Anagami are free from sensual desire, but would a desire for better health or aversion towards chronic illness be sensuality?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nin7p8/would_choosing_lay_life_to_preserve_your_own/nenwea8/)** _2025-09-17 06:48:06_:
+
+    > If a putthujjana with chronic health issues (not life threatening) decided to remain a layperson out of a sense of responsibility for their own health, and probably also unavoidably out of desire for better health or aversion towards chronic illness, would that likely prevent them from reaching stream entry?
+
+    Not per se. Not questioning their internal motivations behind their attempt towards better health is what would prevent them. That attempt will often go beyond the practical purpose of sustaining the body for the sake of practice and become infected with the assumption of ownership and entitlement to health. If one regards the external attempt as acceptable in itself, those underlying attitudes will not magically be uprooted and the perception of non-ownership developed. 
+
+    Those underlying attitudes are exemplifications of the wrong view of a *puthujjana* (or, in a more refined degree, the lingering conceit of a sotāpanna).
+
+---
+
+**r/HillsideHermitage** | Posted by brousseqc _2025-09-15 19:33:19_
+### [On the description of the Buddha entering the jhānas in DN 16 and vitakkavicara](https://www.reddit.com/r/HillsideHermitage/comments/1nhvo37/on_the_description_of_the_buddha_entering_the/)
+
+Good day,
+
+I would like to adress my question directly to Bhante Bhikku Anigha, or anyone else in this reddit community who is knowledgeable and well-versed in the understanding of the position of Hillside Hermitage regarding the jhānas.
+
+The questions I will ask here come from a very sincere and humble wish to correct my understanding of the jhānas relying only on the suttas. There is no other agenda or ill intentions in challenging, adressing the views mentionned here ; only for the sole purpose of clearing my ignorance and grow a better understanding.
+
+My first question is about the description of the way the Buddha "entered" from the first jhāna hrough the fourth, all the arupa samapatti, and in reverse order back to the first jhāna just before he died, from DN 16 : 
+
+"Then the Buddha entered the first absorption. Emerging from that, he entered the second absorption. Emerging from that, he successively entered into and emerged from the third absorption, the fourth absorption, the dimension of infinite space, the dimension of infinite consciousness, the dimension of nothingness, and the dimension of neither perception nor non-perception. Then he entered the cessation of perception and feeling. "
+
+My question regarding this passage in light of the Hillside Hermitage position of the jhānas, is this :
+If, from my current understanding, part of the Hillside Hermitage's position on the jhāna is that they are not absorptions but "lifestyles" that one embodies as a kind of default mode of being by the very end of the path — mode of being which is pleasant from the seclusion from sensality and unwholesome states, and that the states becomes more refined and insightful the more we deepen our insight of the nature of experience and sensuality, meaning going forth to the higher jhānas...
+And that the Buddha is devoid of any craving for pleasant experience, liberated from craving, sensuality, living in the utmost peaceful state possible to live, that even all the "lower" states of being (like the jhānas) are less powerful and are more gross than the living state of a Buddha/Arahant...
+
+Why would the Buddha go through the jhānas in order and reverse order? What would be the purpose of that, for an awakened being like him? What I don't understand specifically, is that if the jhānas are "lifestyles"... Why would he go down to lesser states than his already purified and unconditionned state of being? Why would he switch "lifestyles" of contemplation to grosser one? In my limited understanding of this, it seems kind of odd to imagine this supreme teacher switch "lifestyles" rapidly. I have a hard time making sense of this, making it coherent. Other traditions do generally interpret the jhānas as meditation absorptions, so it can make sense for them. But in this case, how is the notion of the jhānas as lifestyles applicable to the Buddha before his death?
+
+My second question is regarding the same position of the Hermitage of jhānas, but specifically concerning vitakkavicara. Some people here or elsewhere on forums, discord, suttacentral, dhammawheel, etc had critique the way Bhante Anigha describe the contemplation in the jhānas states : it is interpreted that Bhante seems to suggest pondering and thinking, even is a less obvious way, is present all the way from the first jhana through the cessation-of-perception-and-feeling, which is most probably not what Bhante meant but still, I am wondering what is left for developping dispassion without vitakkavicara from the second jhāna on to the upper : after some discussion elsewhere, some people suggested that if would be a kind of direct non-discursive, non-conceptual observation of experience, as a kind of felt interplay between perceptions (sanna) and feelings(vedana) that produces the purpose of dispassion toward experience, without the use of vitakkavicara, that allow one to develop further up the next jhānas. Would this understanding of the jhānas according to Hillside Hermitage or "What The Jhanas Really Are" essay correct? Or should I rectify it?
+
+This is for example, the way Keren Arbel in her book "Early Buddhist Meditation : the Jhānas as actualisation of Insight" describes the experience of developping insightful dispassion toward the nature of experience from the cessation of vitakkavicara in the second jhāna up to the next ones. Still, in this reddit post ( https://www.reddit.com/r/HillsideHermitage/s/MUEC0gYGkq ) Bhante Anigha responded to someone regarding Keren's Arbel book :
+
+"Yes, I came across that one. It was not bad, relatively speaking. But if you read closely, you'll see that she still thinks "thinking" is somehow in and of itself an obstacle. It's hard for people to abandon that notion, because that's when you get in the realm of *actually* having to become dispassionate towards the entire world correctly (which is experienced *through* your thinking, nothing else), not run away from it."
+
+I don't see the contradiction between Keren Arbel's and Bhikku Anigha perspective. Both think vitakkavicara ceases in the second jhāna. Am I right to think that both see the deepening of insight from the second jhāna as non-conceptual direct and active observation of nature of experience (dukkha/anicca), but not from thinking ; intimitaly and simply through sanna?
+
+Thank you for your time and consideration,
+I wish you all a great day
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nhvo37/on_the_description_of_the_buddha_entering_the/nenu7eo/)** _2025-09-17 06:27:23_:
+
+    > Why would the Buddha go through the jhānas in order and reverse order? What would be the purpose of that, for an awakened being like him?
+
+    Being able to go up and down the jhānas at will [is the result of complete mastery over one's *citta.*](https://suttas.hillsidehermitage.org/?q=an9.41#an9.41:16.1), which in turn implies complete freedom from craving. It means that the mind does not become enchanted and refuse to look beyond any arisen state, no matter how refined it already is, nor does it resist returning to states that are coarser. Such a *citta* would have to be purified from even the most refined forms of passion.
+
+    At its core, awakening is not about a specific "state" but about the fact that there is no room for passion in regard to any state.
+
+    None of this means that the jhānas are absorptions. A state of absorption has nothing to do with taming the *citta* and is thus of no  lasting benefit at all. It is simply about controlling what the *citta* gets to look at so as to appease it momentarily, like locking a wild animal into a special room where it will stop blatantly displaying the wildness that still very much remains.
+
+    > after some discussion elsewhere, some people suggested that if would be a kind of direct non-discursive, non-conceptual observation of experience, as a kind of felt interplay between perceptions (sanna) and feelings(vedana) that produces the purpose of dispassion toward experience, without the use of vitakkavicara, that allow one to develop further up the next jhānas.
+
+    I would recommend ignoring such descriptions, as they often come from people who one way or another still approach the practice with the overall attitude of absorption. If a person started out with a state where they need to remain focused on something to keep the mind calm, then in whichever way they refine that, it will never be the second jhāna nor any of the following ones. 
+
+    It’s worth noting that [the Jains denied that overcoming vitakka-vicāra was possible at all](https://suttacentral.net/sn41.8/en/sujato?lang=en&layout=plain&reference=main&notes=asterisk&highlight=false&script=latin#1.1). That should give pause to anyone who takes their idea of the second jhāna for granted.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nhvo37/on_the_description_of_the_buddha_entering_the/nevxp18/)** _2025-09-18 13:45:13_ *(in reply to a comment not included)*:
+
+    > Still, I must admit I have a hard time understanding what those states that are mastered consist of.
+
+    That's expected, and it'd be better to keep it that way than to think you understood them without attaining them. They are  [not things that you can understand intellectually](https://suttacentral.net/an4.77/en/sujato?lang=en&layout=plain&reference=main&notes=asterisk&highlight=false&script=latin#1.5). And that's not because they're mystical. It's because what they consist of is the complete cessation of every attitude with which you currently relate to any phenomena, including them. 
+
+    To give a simile, they are not sights that you have not yet seen with your current eyes. Being in jhāna is having a completely different set of eyes that have no overlap with your current ones, so it's pointless to try to imagine what someone in jhāna sees for as long as you have this set of eyes. What isn't pointless is to stop maintaining the causes for your current type of vision—by unconditionally adopting the eight precepts, restraining your senses, and learning how not to welcome the five hindrances throughout your day.
+
+    > That is why she claims it must not be absorbed, non-discusive, broad field of awareness, not narrow.
+
+    Absorption or non-absorption is a secondary distinction. The fact remains that, as is standard in modern spiritual circles, she thinks that there is some sort of "more fundamental reality" that thinking inherently obstructs, i.e., mysticism.
+
+    That view alone perverts everything: it becomes about replacing one kind of experience with another one that is somehow better and more lofty, while the underlying attitude towards either experience remains unaccounted for. Whereas, the refinement of *samādhi* lies in decreasing the *extent of engagement* with the entirety of experience, not about replacing its content. It's the extent of that engagement, not the "illusory conceptual layer," that obstructs discernment (of the fact that engagements/*saṅkhāras* are suffering).
+
+---
+
+**r/HillsideHermitage** | Posted by knwp7 _2025-09-12 04:39:52_
+### [Drying Sticks - a progress note](https://www.reddit.com/r/HillsideHermitage/comments/1neu2x0/drying_sticks_a_progress_note/)
+
+I can feel my sticks drying up. I have been in similar situation before but did not carry the momentum long enough. Last few times, I did not see "the danger in slightest fault", took it as granted and soon relapsed.
+
+I can feel the freedom from the pressures, the lightness of it. I can see the choice I have of not acting-out. If I don't intentionally break it, this momentum can continue to build.
+
+The line of questioning this time has been "do I really have to?" - trying to see gratuitousness of my actions. Few months ago, it was "what's pressuring me right now?". They both help me see my intentions.
+
+Right now I am at a neutral ground where I am not pulled too much. Now is the time to work on contemplating the bait of sensuality. To turn away from it even more strongly. Drying up makes the abandoning easier.
+
+The confession-server is helping cultivate accountability and shame. I did not realize it could be so useful - or I would have joined earlier!
+
+* Even though I had (still have) dis-passion for media (music, TV, movies), the habit of checking news had crept-in; that leak had widened into bouts of social-media browsing for "harmless" fun. For the last two months, my thoughts are free of politics and happenings everywhere - whether sad or amusing. (The initial dis-passion arose upon realizing worthlessness of media and ideas compared to Dharma)
+* Eating food more deliberately and questioning - whether I must give-in to the urge to indulge - is helping craving subside.
+* Signs of lust are appearing earlier and earlier because I am trying to actively avoid attending to sights wrongly. A peripheral look or glance at a woman is enough to alert me - "do I really have to look again?". Sexual dreams merely wake me up; I refuse to indulge or recollect the details later in the day. All this, coupled with withdrawal from media - has helped the craving subside.
+
+This progress is still subject to disruption by travel or a major-event in family or extended-family. Keeping solitude is not entirely up to me and so the progress in these spheres is circumstantial too.
+
+I would appreciate guidance from Ven. Anigha please.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1neu2x0/drying_sticks_a_progress_note/ne5t7at/)** _2025-09-14 13:11:44_:
+
+    True, you do want to cultivate more of the same. But to that end, you must not allow yourself to exclude the anticipation or excitement that might be building up towards "drying the sticks more," because the sticks will start getting wet again if you do so. Though it's not explicit sensual indulgence, that attitude implies passion, and passion is what keeps the sticks wet, not just specific sense objects. 
+
+    So do maintain vigilance in regard to sensuality specifically because that is the greatest pitfall, but remember that any leaning of the mind towards anything whatsoever needs to be included in the quest of "drying the sticks."
+
+---
+
 **r/HillsideHermitage** | Posted by Global_Ad_7891 _2025-09-12 02:02:48_
 ### [Question about Right View and study](https://www.reddit.com/r/HillsideHermitage/comments/1ner2vt/question_about_right_view_and_study/)
 
@@ -122,6 +229,32 @@ I have this desire to buy a new bicycle. It's like pressuring to buy it. I reall
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n953j2/desire_to_buy_bicycle/ncokvsg/)** _2025-09-06 04:39:43_:
 
     If there was no pressure behind it—in which case there would be no grief at the prospect of not getting the bicycle—then it would be fine. But it sounds like there is obviously pressure.
+
+---
+
+**r/HillsideHermitage** | Posted by Bhikkhu_Anigha _2025-08-31 19:51:41_
+### [Un-Opposing the World (notes on mettā by Sister Medhini)](https://www.hillsidehermitage.org/un-opposing-the-world/)
+
+
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n549bm/unopposing_the_world_notes_on_mettā_by_sister/new67rj/)** _2025-09-18 14:27:50_ *(in reply to a comment not included)*:
+
+    > what can we do? 
+
+    Apart from working towards permanent eight precepts, come to terms with the fact that whatever you do when it comes to the Dhamma will not be right. The effort then becomes about understanding what makes *any* effort right, rather than taking up X, assuming it to be right as it is, and hoping for that to lead to some result. 
+
+    So it's not that a puthujjana should never make any effort towards mettā, but that they should never forget that their current understanding of mettā (or any aspect of the Buddha's teaching) is the very reason they are not a sotāpanna.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1n549bm/unopposing_the_world_notes_on_mettā_by_sister/nf42d18/)** _2025-09-19 18:10:31_ *(in reply to a comment not included)*:
+
+    > So it's about incremental understanding and being less wrong, until there is perfect understanding, which is sotāpanna?
+
+    Yes.
+
+    > How can a puthujjana make an effort towards mettā if they can't see their mind?
+
+    Any effort towards mettā would have to involve trying to see their mind and learning how to tame it. 
+
+    They can't just grab the tool and use it; they need to remember that they can't even grab it properly yet. But they can and should train in grabbing it properly.
 
 ---
 
