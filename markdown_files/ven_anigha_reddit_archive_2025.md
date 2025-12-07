@@ -1,3 +1,27 @@
+**r/HillsideHermitage** | Posted by account-7 _2025-12-04 16:28:06_
+### [Useful "Minimum" Duration of Celibacy for Temporary Ordination](https://www.reddit.com/r/HillsideHermitage/comments/1pe4fi4/useful_minimum_duration_of_celibacy_for_temporary/)
+
+While I have some personal reservations about the sutta interpretations that lead to HH's requirement of celibacy, I can see the absolute all-encompassing nature of sexuality and  how much of a hinderance it can be.
+
+I'm in a relationship that is quite healthy (and ironically, sometimes a powerful tool against lust for me), but I plan to take temporary ordination at some point soon (and likely at various points in my life).
+
+While monastic life will offer me a plethora of benefits, I see the biggest change from my regular life will be in celibacy. Given that, what duration would you all say is the minimum useful time to take on celibacy for, in order to really allow mental/energetic shifts and defense mechanisms to establish themselves?
+
+I respectfully ask that this thread doesn't turn into a debate on the requirement of celibacy for stream-entry (as much respect I have for the general HH position). Thank you for your time and thoughts.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pe4fi4/useful_minimum_duration_of_celibacy_for_temporary/nsenkxj/)** _2025-12-05 11:14:28_:
+
+    First of all I wouldn't recommend temporary ordination. 
+    It erodes the significance of the robe for yourself. That significance is important because it creates some friction between desires that will inevitably arise and the decision to give up the training. You will have a lot less of that friction if you ever decide to ordain permanently having already disrobed before.
+
+    Above all, don't go for bhikkhu ordination. Firstly because it's dishonest: at the end of the ordination procedure, you accept that you will not engage in intercourse and the other *pārājikas* for the rest of your life (which, incidentally, sets the context for every Sutta addressed to bhikkhus, which is most of them). Secondly because never having been a bhikkhu would keep at least one line that you haven't crossed before, to maintain that friction I referred to.
+
+    As for the minimum timeframe to benefit from celibacy (which you could easily take on as a layperson at a monastery) the benefits begin whenever it feels like you've done it long enough. That's when the initial inspiration of the new environment will have worn off, and your mind starts showing its true colors. The opportunity to tame your craving begins then. The more distractions and novelty are available at the place you go to however, the longer that will take. Probably several months at the very minimum. And if you keep yourself busy with internal entertainment like meditation techniques, then that time might never come.
+
+    The benefit will cease not when you physically return to sensuality, but as soon as you start *making plans* to return to it. The growth stimulus will disappear already at that point. Hence in someone with actual right view, wrong intention alone, even without speech or actions to follow it yet, collapses the entire rest of the noble eightfold path. It's not about whether you still have external ties with sensuality that you could hypothetically return to, but about what your intentions are internally. That's what I was pointing to in the recent essays.
+
+---
+
 **r/HillsideHermitage** | Posted by RazzmatazzFit6906 _2025-11-24 17:32:45_
 ### [Do TV shows, music, movies, and books, when consumed as part of a language-learning activity, break the 7th precept?](https://www.reddit.com/r/HillsideHermitage/comments/1p5ne53/do_tv_shows_music_movies_and_books_when_consumed/)
 
@@ -5478,6 +5502,11 @@ https://www.reddit.com/r/HillsideHermitage/wiki/index/
     So then it's not really that one goes out of one's way to find things to do (or to try to be around others more), but that one realizes that the mind is already not infected with passion, aversion, etc., for the time being, and thus there is no need to keep pushing with that intensity for the time being. Then whatever is offered as an option for activity within that (even on the mental level) has to be done with the clarity that it will not introduce unarisen unwholesome states like delight in work or in company (or restlessness regarding the Dhamma, for that matter).
 
     If one is able to spend one's days and nights in that state without falling from it, then there is already nothing significantly unwholesome there. No coarse states of sensuality or aversion would be coming up. Only when that basis is firm is one able to strive more "decisively" regarding lesser impurities (as per the formula describing the wakefulness practice) without being driven almost inevitably by restlessness and wrong expectations of what freedom even is. You could say that at that point, the person has understood and become established in the precepts and sense restraint. And to get to that point, they certainly need to have frequented empty dwellings and not delighted in company.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlzarz/new_wiki_page_virtue_and_the_seven_precepts/nrirxkq/)** _2025-11-30 10:38:01_ *(in reply to a comment not included)*:
+
+    It means anything that you feel compelled to do out of the pressure of lust, aversion, or desire for distraction. Actions based on those pressures are not "innocent" even when they seem so to others.
+
+    Importantly, those motivations are not inherent to any specific actions (apart from breaking the precepts). At one point you might want to do a certain activity out of those unwholesome motivations, and at another those motivations would be absent.
 
 ---
 
