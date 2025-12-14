@@ -1,3 +1,155 @@
+**r/HillsideHermitage** | Posted by Difficult-Strain-580 _2025-12-11 18:21:30_
+### [What does the taming?](https://www.reddit.com/r/HillsideHermitage/comments/1pk4t4s/what_does_the_taming/)
+
+Regarding the latest Samanadipa video titled "The way to develop a fearless and harmonious mind"... 
+
+To what extent should the mind be regarded as "other"? Isn't it the mind itself that wants to tame the mind? I find it helpful to see the mind as this external wild animal, but what is it that wants to do the taming then? 
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pk4t4s/what_does_the_taming/ntrzisj/)** _2025-12-13 06:37:29_:
+
+    >  but what is it that wants to do the taming then?
+
+    The untamed mind is also what pressures you to do the taming. That's why the Buddha said that craving is overcome through craving. 
+
+    That doesn't mean every craving to practice is wholesome though. Only when craving is directed at the right aim—the destruction of *all* lust, aversion, and delusion, without exceptions or wishful thinking introduced—will it cancel itself out eventually.
+
+---
+
+**r/HillsideHermitage** | Posted by Accurate_Pineapple89 _2025-12-08 02:23:04_
+### [Requesting discussion on SN 12.25](https://www.reddit.com/r/HillsideHermitage/comments/1ph0p80/requesting_discussion_on_sn_1225/)
+
+I came across this sutta and found it insightful. I'd appreciate a deeper analysis of this sutta, either in the comments or as a video.
+
+[https://suttacentral.net/sn12.25/en/bodhi?lang=en](https://suttacentral.net/sn12.25/en/bodhi?lang=en)
+
+The part that stood out to me is as follows:
+
+>Ānanda, when there is the body, because of bodily volition pleasure and pain arise internally; when there is speech, because of verbal volition pleasure and pain arise internally; when there is the mind, because of mental volition pleasure and pain arise internally—and with ignorance as condition. 
+
+>\[Similar for verbal and mental\]
+
+>“Ignorance is comprised within these states. But with the remainderless fading away and cessation of ignorance that body does not exist conditioned by which that pleasure and pain arise internally; that speech does not exist conditioned by which that pleasure and pain arise internally; that mind does not exist conditioned by which that pleasure and pain arise internally. That field does not exist, that site does not exist, that base does not exist, that foundation does not exist conditioned by which that pleasure and pain arise internally.”
+
+This sutta appears to state that pain and pleasure come from an active intention, right there and then, which results in pain or pleasure. For example, when I see a disagreeable sight, I have an intention of aversion, which results in a painful bodily feeling. This is how I'm struck with 2 arrows, rather than the 1 arrow of the disagreeable sight. These intentions of greed, aversion, and delusion are like a bad habit. If I take responsibility for them, then they'll cease, and so pain and pleasure will cease. So these intentions can only occur as a bad habit - they depend on delusion. However, the sutta states that one can deliberately intend this, which doesn't make sense to me, at least for an intention resulting in pain.
+
+By uprooting the ignorance which these intentions depend upon, they can no longer exist. For example, speech can still exist, it just cannot be rooted in greed, aversion, or delusion.
+
+The difference between an ordinary person and an ariya is that the ariya has understood this to the extent that no matter what happens, they can always take responsibility for that intention and put an end to the suffering of it. For an arahant, these intentions cannot arise in the first place, as all ignorance has been uprooted. So for a sotapanna, they might have understood this to a sufficient extent, but there's still lingering bad habits which can come up.
+
+Have I understood this sutta correctly? I assume that to some extent, I've misunderstood, otherwise I'd be at least a sotapanna.
+
+Thank you for all your efforts.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ph0p80/requesting_discussion_on_sn_1225/nswf5y1/)** _2025-12-08 07:09:33_:
+
+    See [this discussion](https://www.youtube.com/watch?v=6LSjoBSqK3A).
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ph0p80/requesting_discussion_on_sn_1225/ntgylhj/)** _2025-12-11 14:28:08_ *(in reply to a comment not included)*:
+
+    > Would this also apply to a sotapanna, or can a sotapanna still have intentions rooted in resisting contact and ignorance?
+
+    A *sotāpanna* would still have those intentions to a reduced degree, but along with the right view to recognize them and the way to their cessation. Whereas a *puthujjana's* notions of non-resistance are still infected with resistance without them realizing it. They have not understood craving nor its absence.
+
+---
+
+**r/HillsideHermitage** | Posted by cryptocraft _2025-12-07 22:33:47_
+### [Distinguishing between citta and mano](https://www.reddit.com/r/HillsideHermitage/comments/1pgvq8d/distinguishing_between_citta_and_mano/)
+
+The teachings on the distinction between citta and mano have been very beneficial for me. I still have some confusion I was hoping others could clear up. 
+
+Do all thoughts fall into the realm of mano? I understand that mano is in part defined by intentionality? What about so called "intrusive thoughts", i.e thoughts that seem to emerge spontaneously. Here I do not mean pictures in the mind, but specifically vocalized, internal statements. Are these still in the realm of intentionality, but just happening so quickly that it feels spontaneous? 
+
+The more it becomes clear to me what is citta and what is mano, the more I understand what should be patiently endured and what should be immediately abandoned. Thank you.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pgvq8d/distinguishing_between_citta_and_mano/nt3d4p5/)** _2025-12-09 10:54:41_:
+
+    > What about so called "intrusive thoughts", i.e thoughts that seem to emerge spontaneously. Here I do not mean pictures in the mind, but specifically vocalized, internal statements. Are these still in the realm of intentionality, but just happening so quickly that it feels spontaneous?
+
+    The distinction here is not really between *mano* and *citta,* but between something that's merely perceived and the giving of attention to the secondary details of it ("grasping the signs and features" as the Suttas call it).
+
+    You are not in immediate control of the fact that certain perceptions push themselves on you—it's because of your currently wild citta–but you are in control of the further engagement with those perceptions. Hence the sense restraint refrain: *having cognized* a mental phenomenon (with mano), one does not grasp at the signs and features of it. They don't say "one *does not cognize* a mental phenomenon."
+
+    So, practically speaking, the right setup is to leave the "intrusive" thoughts to be like flies hovering around you, but not letting them *land* (i.e., their details come into focus). And to be able to do that, you obviously need to be well trained in not following intrusive thoughts in any coarser ways (precepts, celibacy, etc.)
+
+---
+
+**r/HillsideHermitage** | Posted by spiffyhandle _2025-12-05 21:54:10_
+### [Anapanasati - Recollecting the breath without focusing on it?](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/)
+
+Is it essential to sit upright for anapanasati? Can it be done lying down or in all postures?
+
+How do I recollect the breath without it becoming an object of attention?
+
+I'm working on the core or "0th" tetrad of anapanasati. I'm finding it very challenging to recollect the breath. When I try to recollect, I bring the breath to the foreground instead of leaving it in the periphery. I have spent many years doing breath object meditation, which I think makes it harder to leave the breath in the background.
+
+
+The "0th tetrad" MN 118
+
+> And how is mindfulness of breathing developed and cultivated to be very fruitful and beneficial?
+
+> It’s when a mendicant—gone to a wilderness, or to the root of a tree, or to an empty hut—sits down cross-legged, sets their body straight, and establishes mindfulness in their presence. Just mindful, they breathe in. Mindful, they breathe out. 
+
+Dhamma Within Reach instructions Chapter 12 (abbreviated):
+
+> A simple knowledge of your breathing happening right there “beneath” whatever you are going through. And you don’t have to stop enduring on account of it either. It’s there together with the pressure of sense restraint. You can see that breath happening to you, so to speak, while you are gripped by temptations and hindrances. But the breath remains underneath it, coming and going. Unchanged. And it’s that knowledge at the back of your mind of something there, that we often refer to as “peripheral awareness”. So, you are not trying to distract yourself from your patient endurance and the unpleasantness of sense restraint and watchful guarding of the sense doors. All you are trying to do is maintain the knowledge that there is an enduring act of breathing, happening at the same time right there.
+
+...
+
+> The knowledge of breathing in and out doesn’t require any special effort. Just a mental recognition. You don’t need to go to it and make it your primary focus. Quite the opposite. If you keep it at the back of your mind without focusing on it, it will be done without any strain or force. That’s why it will calm down your current strain of enduring.
+
+> That’s how you practice anāpānasati in the right direction. It’s a perpetual bodily activity that you choose to not completely forget. If you cultivate such recollection of the present breathing, regardless of what you are focused on at the same time, it will also eventually prevent hindrances from hindering you.
+
+...
+
+> I cannot emphasize enough the point that if you are doing anāpānasati as a technique, a method, you are doing it at the expense of the enduring container. And that’s a mistake. There is no right samādhi without the right sense restraint being there as its basis. So, don’t use your meditation as an escape from the pressure of sense restraint. If you do, that means it will be rooted in your aversion towards the discomfort of sense restraint. Any act rooted in aversion towards discomfort, of any kind, is in its nature an act towards sensuality (i.e. avoiding discomfort for the sake of pleasure or less discomfort).
+
+EDIT:
+
+If knowing I am breathing should be the background, what is the foreground? Can the foreground be anything: thinking about the dhamma, looking at a Buddha rupa, noticing an emotion?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/nssivzn/)** _2025-12-07 17:32:37_:
+
+    First of all, you have to ask yourself whether you’re still internally close to unwholesome acts (including the pursuit of sense pleasure) in body or speech if the suitable conditions arise. If that’s the case, the mind is too clouded for the breath, or any phenomenon, to stay as a background (i.e., seen where it always is whether you remember it or not). Before anything else, you have to tame those lingering intentions simply by not acting on them, along with adjusting your environment to support that restraint. That is why Anapanasati and Satipatthana were not taught to laypeople in the Suttas: laypeople live for the most part with clouded minds—constantly in the vicinity of unwholesome acts because their lives are built around facilitating them, which keeps them in the vicinity of them. A vicious circle.
+
+    If those acts are distant—your mind genuinely wouldn't be pushing for them if you just left it be, not because you're gripping it tight—but there is still some liability to the unwholesome on the *mental* level, then there might be enough room to see the background *as* background.
+
+    As to how you do that, the first thing is to entirely dispose of the idea implicit in modern techniques that breathing is measured by sensations. Everything within such a perspective will be a foreground, no matter how subtle it becomes. Rather, see breathing as an *activity* (of the body) that is occurring simultaneously but below all the other activities that will inevitably feel "more important". It's an activity that won't be going anywhere even if you completely ignore it, which is why it comes *first* even if you don't regard it so.
+
+    If you get lost in observing sensations due to past habits, or anything else that might captivate the mind, don't try to "restart"; simply notice that the actual breathing that's keeping you alive has been happening all along *anyway,* irrespective of your getting absorbed in things. 
+
+    Persisting in this is, with all the prerequisites in place, is what will de-nourish the sense of the body being something that exists *because* you attend to it, which is the implicit view of a *puthujjana* that the modern interpretions of *anapanasati* simply help proliferate. When that fades the sense of volition remains, but no longer as what's primordial.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/nsweuaw/)** _2025-12-08 07:06:26_ *(in reply to a comment not included)*:
+
+    Sitting is necessary only for the further 16 trainings. Not because of a need for one-pointed focus or anything related to the widespread interpretations of APS, but because breathing has to be the coarsest ongoing bodily activity to have space to train discernment on those subtler levels.
+
+    The basic Anapanasati outlined in the [Ariṭṭha Sutta](https://suttacentral.net/sn54.6/en/sujato?lang=en&layout=plain&reference=main&notes=asterisk&highlight=false&script=latin), without which none of the 16 trainings are possible, doesn't mention posture.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/nsyrhd5/)** _2025-12-08 17:14:06_ *(in reply to a comment not included)*:
+
+    > the middle between “doing” it and otherwise assuming it doesn’t need to be done at all,
+
+    Both of those mistakes will occur in different forms as long as you don't have the right view. There is no *sammāsati* without *sammādiṭṭhi.* But you can be sure that you're falling into them the least you can by (1) not  neglecting all the things that come before satipaṭthāna in the gradual training and (2) not forgetting what the Satipaṭṭhāna Sutta quite conspicuously starts with. 
+
+    That is, you're doing this to free yourself from the slightest traces of *liability* to suffering, not just suffering that's right in front of you. That will make you unable to be content with poetry, like the common "we're already enlightened"—or, as somebody listening to our talks might twist it, "the body is already there." 
+
+    If on the other hand you find yourself having to "do" and watch closely over *anything* to be free from suffering, that is evidently suffering in itself. So that too is off the right track. By making sure you are not doing *either*, you're getting closer to the middle.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/nt3aom0/)** _2025-12-09 10:31:05_ *(in reply to a comment not included)*:
+
+    > The issue I am running into with your second paragraph (months after you first wrote it) is that without the Right View it seems that even attempting to approach the yoni through specific things inevitably also leads to hypostasizing abstract ideas, and failure and vexation more generally. 
+
+    Yes. So the development as a *puthujjana* is not doing it more right, but less and less wrong (less hypostatization/abstraction/poetry and less craving-bound hyper-concreteness). Until there is so little wrongness left that it becomes right, just less accurate than the discernment of an Arahant. That's *sotāpatti.* And that process will be a grind, just like becoming proficient in anything that you are initially completely in the dark about.
+
+    But you don't endure the pain blindly, leaving it up to some magical future revelation to sort things out. If vexation is what your attempts at satipaṭṭhāna lead to, don't feel absolved from maintaining perspective over that vexation. That is closer to the "right level," where you're not creating anything new, but ceasing to look past what was always there while your craving was projecting you elsewhere.
+
+    If *any* displeasure hurts, it's not because of the displeasure but because you are still doing something on top of it.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pf7vi8/anapanasati_recollecting_the_breath_without/nt57kki/)** _2025-12-09 17:27:10_ *(in reply to a comment not included)*:
+
+    > In other words, that statement seems to convey that the problem of not understanding the instructions stems not from not being ready to understand (i.e., not enough GT), but from the displeasure (or relative lack of perspective) of not understanding. 
+
+    Lack of "drying up" from sensuality and misconduct is always the primary obstruction that nothing else can make up for. Someone who is well distanced from those things but has not overcome the hindrances entirely *could* have a sufficiently pliable mind to understand the Dhamma or at least make progress towards it. But they cannot measure in themselves how internally distant they truly are, nor even what really counts as progress, except in hindsight.
+
+    Without being the Buddha, let alone over the Internet, you also can't know that about someone else for sure. So the instruction has to be a mix between reminding about the prerequisites *and* giving pointers about what needs to be understood. Because laypeople almost always lack the former and it's by far the most urgent, it's hardly worth going in depth into anything else.
+
+---
+
 **r/HillsideHermitage** | Posted by account-7 _2025-12-04 16:28:06_
 ### [Useful "Minimum" Duration of Celibacy for Temporary Ordination](https://www.reddit.com/r/HillsideHermitage/comments/1pe4fi4/useful_minimum_duration_of_celibacy_for_temporary/)
 
