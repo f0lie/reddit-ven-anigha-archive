@@ -1,3 +1,243 @@
+**r/HillsideHermitage** | Posted by bodhiya _2025-12-16 21:26:01_
+### [What should be regarded as being within one's control?](https://www.reddit.com/r/HillsideHermitage/comments/1poe3wg/what_should_be_regarded_as_being_within_ones/)
+
+These are my present understandings/assumptions, if there are mistakes, please let me know.
+
+1. There is a presently enduring feeling which is beyond the domain of one's control.
+2. By either seeking to increase or decrease this feeling, suffering arises.
+3. One should instead patiently endure the presently arisen feeling.
+4. Maintaining this context, the citta will begin to become tamed as its inability to move the mind is developed.
+
+Assuming this is correct so far, I am still unclear on certain implications of this view. Take for example a situation where someone accidentally says something foolish in front of a group of people. A feeling of embarrassment arises, and it is immediately followed by a seemingly automatically reaction of physically tensing the body, i.e "cringing", and the thought "that was foolish of me." All of this occurs before the person has any sense of having a choice in how to respond, i.e with patient endurance.
+
+How should these habitual reactions be regarded? Are they considered to be in the domain of control, but only appear otherwise because one's mindfulness is not sufficiently developed? Would this imply that the instructions in MN 2 should apply to them, i.e that they should be cut off immediately?
+
+Conversely, should they be considered beyond the domain of control, and thus simply be patiently endured as well, just as the initial enduring feeling of embarrassment was. Is there a distinction between feeling and suffering, and does obtaining the right view involve clarifying that distinction? If so, in the above example would the initial embarrassment be the feeling, and the automatic reaction be the suffering?
+
+I hope this is clear, and I appreciate any response.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1poe3wg/what_should_be_regarded_as_being_within_ones/nutagif/)** _2025-12-19 05:04:48_:
+
+    > Conversely, should they be considered beyond the domain of control, and thus simply be patiently endured as well, just as the initial enduring feeling of embarrassment was.
+
+    They should be considered beyond control for practical purposes. That doesn't mean they will never cease, however.
+
+    These subtle "reactions" are not dealt with by catching sudden impulses fast enough or anything resembling that, but when the mind has been trained to not resist discomfort or lean towards the promise of pleasure in their nature, regardless of specifics. That's what the gradual training develops.
+
+    In that situation, if someone is already well established in the precepts then they should practice enduring the discomfort of embarrassment, without giving in to actions of resistance to it (including mental ones). That would be sense restraint.
+
+---
+
+**r/HillsideHermitage** | Posted by thereof_be_silent _2025-12-16 19:28:30_
+### [Clearing dust while knowingly standing in a dust storm?](https://www.reddit.com/r/HillsideHermitage/comments/1pob4l1/clearing_dust_while_knowingly_standing_in_a_dust/)
+
+Apologies for the somewhat rambling post—the upshot is at the end. Any advice would be appreciated, especially by u/Bhikkhu_Anigha and Ayye Medhini.
+
+I am currently in a long-term relationship that I am not ending due to attachment to my girlfriend, though the relationship is guaranteed to end in under 1 year owing to our life circumstances. It may even end in the next 6 months. I've also told my girlfriend about my intention to go forth soon after graduating university, and though she strongly opposes the idea, she accepts that this is the path I want to follow.
+
+All this is to say that I am not keeping complete celibacy for the foreseeable future despite my intellectual view that it is fundamentally opposed to the path. But I would still like to keep the 5 precepts, i.e. not add fuel to the fire **beyond** my relationship.
+
+Some questions are:
+
+1. What falls under "sexual misconduct" in a non-marital relationship? Beyond obvious answers like cheating, seeing prostitutes, etc. For instance, does sexting violate the precept?
+2. Does my refraining from masturbation and porn make my incelibacy "less bad"? Obviously there is a binary in that sexual activity cannot be done without unwholesome intention and so will always be obstructive, but it appears to me that there is a practical spectrum of obstructiveness: having sex once a week is "worse" than once a month; engaging in both masturbation and sex is "worse" than just sex, etc. Assuming one intellectually accepts the Dhamma.
+3. Is it possible that in the time between my sexual activity, I am somewhat seeing the mind? Can the dust in my eyes start to clear even a little?
+
+Question 3 comes from my attempt to reflect on the inevitability of aging, sickness, death, being parted with the things I hold dear, and my reflections on the peril of sensuality. I notice that in the time in between my sexual activity, reflecting on these things makes me fearful / averse / not incline towards sex and sensuality in general (I don't want to say "dispassionate" because I suspect it is not true dispassion).
+
+My intentions and moods also seem to become clearer. Finally, I seem "less" emotionally dependent on the sensual things I know I am dependent on, in the sense that I feel less pressure to act on my desires for them (especially sex, though I give in anyway).
+
+**This alleged increase in clarity is what confuses me. A situation that would strongly pressure me before seems to now only moderately pressure me. But how can that be if I am not celibate and thus not fulfilling even the first step of the gradual training? I don't want to overestimate myself.**
+
+**I do not have Right View, yet it feels like I am "closer" to it than before since I appear to be starting to relate to my experience differently—this concerns me.**
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pob4l1/clearing_dust_while_knowingly_standing_in_a_dust/nunad1h/)** _2025-12-18 06:25:34_:
+
+    > 1. What falls under "sexual misconduct" in a non-marital relationship? Beyond obvious answers like cheating, seeing prostitutes, etc. For instance, does sexting violate the precept?
+
+    The precept is not only about sexual but *sensual* misconduct (*kāmesu micchācāra*). So it's not about external criteria of what's "allowable," but about the state of your mind. Anything that's based on feverish desire—an itch that will not tolerate any alternative forms of scratching, that disregards harmful consequences of scratching in that way—falls within the precept because it takes your mind in the direction of an animal, even when entirely unrelated to sexuality. Infidelity is only the most obvious example of that. 
+
+    > Does my refraining from masturbation and porn make my incelibacy "less bad"? Obviously there is a binary in that sexual activity cannot be done without unwholesome intention and so will always be obstructive, but it appears to me that there is a practical spectrum of obstructiveness: having sex once a week is "worse" than once a month; engaging in both masturbation and sex is "worse" than just sex, etc. Assuming one intellectually accepts the Dhamma.
+
+    Of course. Less is always better in this case.
+
+    > Is it possible that in the time between my sexual activity, I am somewhat seeing the mind? Can the dust in my eyes start to clear even a little?
+
+    Only to the degree that you internally abandon (cultivate dispassion for) the *prospect* of sexual activity entirely, not merely postpone it. This is how laypeople in the Suttas were able to see the mind and gain Right View even within a short period of celibacy: during that time, they fully turned away from any possibility of engagement, however distant.
+
+    For such withdrawal to occur, you can't be treating celibacy as a temporary from the outset (which is what everyone does by default). The attitude has to be one of complete abandonment with no prospect of return, because it is the underlying *delight* in sensuality—not merely its enactment—that obstructs understanding. Actual engagement only reinforces the pollution that's always there.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pob4l1/clearing_dust_while_knowingly_standing_in_a_dust/nupjves/)** _2025-12-18 16:42:20_ *(in reply to a comment not included)*:
+
+    > Thus, one could violate the precept by engaging in a sexual act that externally is considered normal—like consensual intercourse with one's partner for pleasure—but is rooted in an "animalistic" mental state.
+
+    Yes. And not just sexuality. Anything sensual, including even things like food, desire for wealth/possessions, etc.
+
+    > My experiences of "turning away" seem along this direction. That certain sensual situations exert less "pressure" further confuses me.
+
+    Who knows, it could be the right direction by the sound of it. But no matter how accurate or inaccurate the attitude of "turning away" is, the fact remains that  *intending*  to return to sensuality, not just physically doing so, already sets you back on square one. It automatically reaffirms the view that craving is not suffering, that the aggregates belong to you and are not impermanent, etc.  So it won't be possible to take the withdrawal and the understanding to the necessary extent for as long as the intention to return is there.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pob4l1/clearing_dust_while_knowingly_standing_in_a_dust/nv10ex0/)** _2025-12-20 13:20:24_ *(in reply to a comment not included)*:
+
+    > The other 4 seem unambiguous (you know whether you have killed, stolen, lied or taking intoxicants), but the third seems so vague. 
+
+    All precepts are about intention. Those other actions are just not intrinsic to most people's lives so they can easily avoid them without much thought, whereas sensuality is fundamental to everyone's existence so the entry points for it are endless.
+
+    And yes, you could summarize *kāmesu micchācārā* as "moderation," but moderation in regard to your intention, not as if certain sensual acts are inherently "moderate." 
+
+    Essentially, when there's a desire that's so intense that it makes you blind to inconveniences, short- or long-term risks, and alternatives, don't act out of it. That kind of desire mirrors that of an animal. Adultery obviously falls within that, but the principle extends to any sensual object.
+
+---
+
+**r/HillsideHermitage** | Posted by keepcalmknowchange _2025-12-16 15:52:28_
+### [“Uncovering the choices that you make” questions](https://www.reddit.com/r/HillsideHermitage/comments/1po5exv/uncovering_the_choices_that_you_make_questions/)
+
+Hello friends,
+
+In the most recent video, the implication seems to be that meditative techniques are not beneficial for someone who’s still struggling with sense restraint. One should practice being aware of the volitional impulses towards craving, aversion, and delusion, and make effort to stop the actions that feed into those. This kind of daily practice should supersede any attempts at formal meditation. 
+
+However, one could say that practicing satipatthāna actually improves the ability to exercise sense restraint. Becoming aware of the body and contemplating its impermanence develops dispassion. Awareness of pleasant, painful, and neutral feelings helps illuminate the link of dependent origination between feeling and craving. Awareness of mind uncovers the underlying mental condition, whether it’s of craving, aversion, delusion, or of concentration and insight. All of these help illuminate the impermanence, unsatisfactoriness, and emptiness of the five aggregates.
+
+Once one develops greater mindfulness in meditation, it naturally supports the process of sense restraint and virtue in daily life. Greater perception of the body, its vulgarity, all of the pain it causes, and its impermanence, helps one become dispassionate towards momentary sensual craving that arises. Perception of feelings as a result of contact with sense objects helps detach one from conditioned impulses towards craving, aversion, and delusion, and gives one autonomy to choose how to react to sense impressions. Perception of mind and its condition gives one the space to bring about causes that will focus the mind towards liberation, rather than feeding any hindrance that arises. These all help orient one towards a life of dhamma, recognizing the three qualities in all experience, enabling non-clinging to arise.
+
+TLDR: mindfulness meditation improves virtue and sense restraint, rather than detracting from them. 
+
+What am I missing here?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1po5exv/uncovering_the_choices_that_you_make_questions/nuk6528/)** _2025-12-17 19:12:14_:
+
+    The practices that you're describing are not satipaṭṭhāna *because* they are management of impulses instead of purifying them at their root. Even though they are loaded with Sutta terminology, they are not the "one way path" to the cessation of suffering that the Satipaṭṭhāna Sutta is about. That's why people can and often do take them quite far even with imperfect virtue, despite the Buddha placing flawless virtue at the very beginning of the [gradual training](https://suttas.hillsidehermitage.org/?q=mn107) and mental cultivation and discernment much later. They are unrelated practices given Buddhist names.
+
+    When you introduce *anything* to help you cope with the discomfort of restraint, you're blocking the possibility for the mind to genuinely get used to it. The pressure to break restraint will return when the diversions are absent (when you couldn't practice a technique long enough or at all, or there was too much noise, or random circumstances).
+
+    Restraint practiced on its own—as the Suttas instruct it—versus restraint supplemented with techniques is like the difference between handing a child a toy to stop a tantrum and calmly standing your ground until the tantrum runs its course. The former buys you time while reinforcing the underlying habits, while the latter leaves no alternative but for those habits to fall away.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1po5exv/uncovering_the_choices_that_you_make_questions/nun6v38/)** _2025-12-18 05:54:35_ *(in reply to a comment not included)*:
+
+    >  isn't it preferable to do a management technique than to break a precept? 
+
+    In the immediate moment, yes. But if someone is repeatedly under pressure so intense that emergency management is required, they should really just address whatever is causing that. Their environment may be unsuitable, or they may be carelessly exposing themselves to unsuitable things. If none of those is the case and those episodes are frequent, then their mind might be too wild for the amount restraint they've taken on and they might benefit from a more gradual progression to the same point.
+
+    Regularly relying on techniques to not break your restraint—or sleeping, or pursuing activities to take your mind off things—is like a frail person using a forklift to move massive weights whenever they go to the gym.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1po5exv/uncovering_the_choices_that_you_make_questions/nv0xg6g/)** _2025-12-20 12:59:01_ *(in reply to a comment not included)*:
+
+    If your precepts are fine and you're able to contain yourself in body and speech during those episodes then don't try to prevent them. Avoiding things that provoke ill will is what the mind already wants to do.
+
+    Don't *try* to expose yourself either, because in doing so you'll be acting out by mind while regarding it as "work," and that nullifies any success in regard to body and speech.
+
+---
+
+**r/HillsideHermitage** | Posted by mentalw0rk _2025-12-16 06:57:09_
+### [Dispassion through investigation of experience](https://www.reddit.com/r/HillsideHermitage/comments/1pnvgx8/dispassion_through_investigation_of_experience/)
+
+You can only choose to go for sensuality because the phenomenon of {possibility of sensual experience} is already there on its own, present as an idea. Even as an ambiguous direction, it is present as a mental phenomenon you had no say in. You can choose to attend to, ignore, follow, reject, etc. Regardless of what you choose, you can only choose BECAUSE that phenomenon was just there as an OPTION. And you had no input in the fact that the option was available. 
+
+Also the option of "getting pleasure" through an experience is ONLY POSSIBLE because the painful desire IS ALREADY there as a phenomenon. For example, if I told you to "go and get pleasure by staring at that wall" it would be impossible. Its not even an option for you , because there is no desire for that ALREADY there . Even if you exerted all of your willpower to try to "create desire"  by convincing yourself of something, the success/failure of that attempt is completely out of your hands. Either the phenomenon of desire "shows up on its own" or it doesn't. If it's not there, even if you engage with the object, no pleasure will be felt., it's not an available option.
+
+You overlook the presence of the phenomenon {vague idea of sensuality} as something you had no say in, and put all the importance on your attention/choice in regard to it, though your choice is actually secondary to that {vague idea} phenomenon being there in the first place. Choice to go for, not go for; either way, you put all the weight on  your choice/attention. And that is already appropriation/passion even if you use that ALREADY APPROPIATED attention to deny everything.
+
+Even if you "create a new idea" with your creativity, that's only possible because the THOUGHT of your new creation was there available as a phenomenon. Or not, in the case of "blanking" or "writer's block", no matter how much willpower you exert. So you can't really create anything, you can only "appropriate" something that's already there. So your doing, thinking, attention, choices, is only a hand-me-down so to speak. And discerning that, is like a complete buzzkill, deflating all the weight/passion of "me", "my attention", "choosing this over that". 
+
+Is this what is meant by "appropriation" and "taking what's not yours" in the suttas? And you eliminate that appropriation by developing clarity that even the most "internal" "vague", or "personal" aspects of your experience AS EXTERNAL, as phenomena that are just there without your say? Which results in dispassion and peace?
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pnvgx8/dispassion_through_investigation_of_experience/nuh1opk/)** _2025-12-17 06:56:57_:
+
+    Yes, that sounds correct.
+
+    It never ceases to be  important to remember that those phenomena are overlooked and assumed as "internal" (as "me" or "mine") not because you failed to clarify them as the opposite, but because your actions by body, speech, and thought keep taking them as such. 
+
+    That refers not only to coarse indulgences that violate the precepts, but any acts based on internal pressure, even when they are entirely mental and seem harmless in their content. What those subtler acts are will only be apparent when the coarser ones are fully gone, however. Hence the gradual training.
+
+---
+
+**r/HillsideHermitage** | Posted by cryptocraft _2025-12-15 02:38:40_
+### [Where does the Hillside Hermitage approach come from?](https://www.reddit.com/r/HillsideHermitage/comments/1pmwbg2/where_does_the_hillside_hermitage_approach_come/)
+
+I have been practicing Buddhism for around fifteen years and listening to the teachings of Hillside and Samanadipa have profoundly transformed my understanding of the Dhamma.
+
+I have not heard the Dhamma explained in this way before, or perhaps if I have I did not understand it in the same way. I am curious where this approach to the suttas originates from, i.e Nanavira, the Galduwa tradition, the Thai Forest Tradition, etc.
+
+Similarly, outside of the suttas themselves, are there other teachers that have a similar approach and understanding? Thank you.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pmwbg2/where_does_the_hillside_hermitage_approach_come/nu4cdix/)** _2025-12-15 07:24:18_:
+
+    > I am curious where this approach to the suttas originates from, i.e Nanavira, the Galduwa tradition, the Thai Forest Tradition, etc.
+
+    The closest would be Ñāṇavīra. Not his entire approach, which we consider overly intellectual,  too divorced from the indispensable prerequisites for understanding, and highly likely to mislead/distract people even when correct. His most important contribution is the attitude of treating the Suttas as the sole authority on what needs to be practiced and understood—and, importantly, is *not* understood for as long as one suffers—rather than as a supply of helpful pointers to guide practices and ideas originating from later traditions ("meditation" being the prime example).
+
+    > Similarly, outside of the suttas themselves, are there other teachers that have a similar approach and understanding?
+
+    We haven't found any so far.
+
+---
+
+**r/HillsideHermitage** | Posted by spiffyhandle _2025-12-12 20:58:28_
+### [Feeling as a general mood vs feeling dependent of contact?](https://www.reddit.com/r/HillsideHermitage/comments/1pl2zle/feeling_as_a_general_mood_vs_feeling_dependent_of/)
+
+Is there a difference between the background feeling HH talks about and the feeling that is dependent on contact as described in the Six Sets of Six (MN 148)? How does this relate to satipatthana?
+
+I often hear HH talk about one's general feeling as sort of a mood. Does a person feel good, bad, or okay. And this background feeling influences the other aggregates. For example, if one is depressed even if they see beautiful things, it doesn't bring about pleasure. So the bad mood affects everything.
+
+But in the Six Sets of Six (MN 148) it talks about feeling as dependent on contact. The way I interpret it is if you see something beautiful, there's simultaneously a pleasant feeling. If you see something ugly, there's an unpleasant feeling. And if you see something that isn't ugly or beautiful, there's a neither-pleasant-nor-painful feeling.
+
+> Dependent on the eye and forms, eye-consciousness arises; the meeting of the three is contact; with contact as condition there is feeling; with feeling as condition there is craving.
+
+...
+
+> Bhikkhus, dependent on the eye and forms, eye-consciousness arises; the meeting of the three is contact; with contact as condition there arises a feeling felt as pleasant or painful or neither-painful-nor-pleasant. When one is touched by a pleasant feeling, if one delights in it, welcomes it, and remains holding to it, then the underlying tendency to lust lies within one. When one is touched by a painful feeling, if one sorrows, grieves and laments, weeps beating one’s breast and becomes distraught, then the underlying tendency to aversion lies within one. When one is touched by a neither-painful-nor-pleasant feeling, if one does not understand as it actually is the origination, the disappearance, the gratification, the danger, and the escape in regard to that feeling, then the underlying tendency to ignorance lies within one. Bhikkhus, that one shall here and now make an end of suffering without abandoning the underlying tendency to lust for pleasant feeling, without abolishing the underlying tendency to aversion towards painful feeling, without extirpating the underlying tendency to ignorance in regard to neither-painful-nor-pleasant feeling, without abandoning ignorance and arousing true knowledge—this is impossible.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pl2zle/feeling_as_a_general_mood_vs_feeling_dependent_of/ntxut97/)** _2025-12-14 06:23:04_:
+
+    > I often hear HH talk about one's general feeling as sort of a mood. Does a person feel good, bad, or okay. A
+
+    Feelings are not quite moods. Moods are along the lines of *citta.* They involve a degree of intentionality.
+
+    > But in the Six Sets of Six (MN 148) it talks about feeling as dependent on contact. The way I interpret it is if you see something beautiful, there's simultaneously a pleasant feeling. If you see something ugly, there's an unpleasant feeling. And if you see something that isn't ugly or beautiful, there's a neither-pleasant-nor-painful feeling.
+
+    This echoes the kind of reductionist/objectivist analysis of *phassa* that the commentaries came up with, but this is not quite how it works if you examine your own experience. Even for a *puthujjana,* it's not like every single sense object *touches* them. Certain things arise as irrelevant and are not even felt. And that is why, as MN 74 says, at any given time there can only be *one* feeling. There can only be one thing that's actually *touching* you at any given time, in the sense of pressuring you to act. Hence, when there is *phassa* there is not just feeling but also  necessarily intention.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pl2zle/feeling_as_a_general_mood_vs_feeling_dependent_of/nu12kiv/)** _2025-12-14 19:34:13_ *(in reply to a comment not included)*:
+
+    It's moods that involve intentionality.
+
+    > Can we be pressured by moods in the same way we are by feelings ?
+
+    Both moods and feelings are the result of being pressured (SN 35.93). With ignorance you have pressure, and with it both feelings and moods. Craving is automatically there. When there is no ignorance and thus no touch/pressure, as in an Arahant, there is neither a feeling nor a mood nor craving. 
+
+    This comes back to the issue with OP's and the commentaries interpretation of contact: it conflates *phassa* with the external event of *encountering* things. If that's what the Buddha meant with *phassa* then no escape would be possible. Furthermore, he would've talking about something other than suffering and its escape—providing analytical explanations of how irrelevant experiences "work"—and that is something he explicitly said he never did (the famous "This Dhamma has only one taste…").
+
+    The *puthujjana's* problem is not one of being touched by everything all at once, by merely seeing, hearing, etc., but of being *liable* to be touched—emotionally aroused or disturbed—by certain things in that domain due to their ignorance.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pl2zle/feeling_as_a_general_mood_vs_feeling_dependent_of/nu49d0b/)** _2025-12-15 06:56:50_ *(in reply to a comment not included)*:
+
+    > Bhante, so there is one feeling, but many sights, sounds, smells, etc? 
+
+    Broadly, yes. But to reiterate, the Dhamma is only concerned with suffering and its cessation. So whenever sights, sounds, smells, and so on are spoken of in the Suttas, it is only in relation to those where there is *dukkha*, where there is pressure, passion, aversion.
+
+    > What is the difference between neutral feeling being ignored and not being touched in the first place?
+
+    The difference is that, as the Buddha said, neutral feeling that is not understood is painful (and the opposite when it is understood). Practically speaking, for a *puthujjana*, an actual neutral feeling will carry uneasiness, a more low-key *dukkha.* Not being touched in the first place applies to countless things you do not even register or remember at all even though you technically perceived them, such as the vast majority of trees you pass while walking through a forest. By contrast, an Arahant remains untouched not only by such inconsequential things but also by the most significant ones, including death. Not because their significance has vanished, but because ignorance has. And that's the direction of the training.
+
+    > I was constantly touched by all sorts of sense objects but I didn't notice them, so they must have been neither-pleasant-nor-unpleasant, and I was exhibiting the underlying tendency to ignorance.
+
+    If that were the case, you would effectively have to be omniscient in order not to be ignorant, rendering Arahantship impossible.
+
+    > Also, when a sutta says, “dependent on eye and sights, eye-consciousness arises…”, would that mean eye-consciousness *can* arise, and not that every sight that meets the eye necessarily arises into eye-consciousness?
+
+    It means that eye-consciousness *with suffering*, as described in *paṭiccasamuppāda*, arises when you are touched by a sight, which itself occurs on account of ignorance. The Sutta is not concerned with every sight that meets the eye at the level of mere biological perception. So it's the type of consciousness that does not exist in an Arahant.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1pl2zle/feeling_as_a_general_mood_vs_feeling_dependent_of/nv0k9rk/)** _2025-12-20 11:00:39_ *(in reply to a comment not included)*:
+
+    > Is it correct to interpret your words as meaning that there are aspects of experience—for both a puthujjana and an arahant—that are utterly irrelevant to suffering and thus not ever what the Suttas are talking about? 
+
+    [No doubt about it](https://suttacentral.net/sn56.31/en/bodhi?lang=en&reference=none&highlight=false).
+
+    >  Is conceiving suffering to have something to do with the foreground—when it does not and cannot—one way of describing the mistake that causes suffering, or at least something related to it?
+
+    Not seeing the background to begin with (making into a foreground when attempting to see it) is what causes suffering. Though this doesn't become apparent through mere reasoning, but by ceasing to act in wrong ways in regard to the foreground.
+
+    When both are seen, background and foreground are not disconnectable. It's one tree whose root is no longer covered up. The contrast exists only when the background is invisible (which is how it inevitably starts).
+
+    > If the five aggregates were only ever supposed to be about what is involved with suffering, then **using the same phrase to talk about the experience of an arahant** seems like a guaranteed way to cause confusion. It is confusing to me, at least. I feel l
+
+    I don't recall any Sutta saying "an Arahant has five aggregates without *upādāna*."
+
+---
+
 **r/HillsideHermitage** | Posted by Difficult-Strain-580 _2025-12-11 18:21:30_
 ### [What does the taming?](https://www.reddit.com/r/HillsideHermitage/comments/1pk4t4s/what_does_the_taming/)
 
