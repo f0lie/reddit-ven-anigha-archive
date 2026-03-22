@@ -1,3 +1,52 @@
+**r/HillsideHermitage** | Posted by craveminerals _2026-03-16 16:53:33_
+### [Arahants laughing](https://www.reddit.com/r/HillsideHermitage/comments/1rvf0mf/arahants_laughing/)
+
+Would an Arahant laugh?
+
+Ñāṇavīra Thera wrote about humor and laughter, suggesting that laughter is closely bound up with fear or experienced threat—such as that arising from contradiction—and may appear when that threat is seen as harmless or passes.
+
+He writes:
+
+[“We laugh, then, when fear passes; we laugh as a charm to make fear pass; and we entertain imaginary fears to make ourselves laugh.”](https://nanavira.org/index.php/letters/post-sotapatti/1965/178-l-119-18-may-1965)“Laughter, then, is not so much a reaction to fear as its counterpart … He \[the sekha\] is already leaving behind him both laughter and tears.”
+
+If an Arahant’s mind is free from sorrow, anxiety, and tension ([see SN 22.43](https://suttacentral.net/sn22.43/en/bodhi?lang=en&reference=none&highlight=false)), it is unclear whether laughter could still arise. (If it did, it would presumably be of a different kind than we usually express, or only as a smile)
+
+Could it occur purely as a bodily reaction—like from an illness— or would laughter imply that there is some tension in the mind?
+
+Edit: reworded for more accuracy
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1rvf0mf/arahants_laughing/oay2bvv/)** _2026-03-17 15:28:57_:
+
+    [The Buddha said](https://suttacentral.net/an3.107/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin) that *too much* laughter is regarded as childish in the noble one's discipline. Besides, notice that unlike dancing and singing, he does not speak of "destroying the bridge" in regard to even this childish laughter. In other words, it's not something you would categorically fall away because it's not intrinsically unwholesome, but you should try to avoid it because for people whose understanding of the Dhamma is still shallow and who take you as an example, it can easily be interpreted as an allowance for laxity in regard to actually unwholesome things even when it's not unwholesome for you internally.
+
+    The Buddha himself supposedly never laughed, and that makes perfect sense given that he had refined his outward demeanor beyond the minimum threshold of an Arahant (who is only incapable of [five specific actions](https://suttas.hillsidehermitage.org/?q=an9.7). 
+
+    That refinement was only natural given the weight that his image had to carry as the absolute highest authority on the Dhamma.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1rvf0mf/arahants_laughing/oazii3e/)** _2026-03-17 19:27:05_ *(in reply to a comment not included)*:
+
+    > Being unable to take “a course of action influenced by desire, aversion, muddledness, or fear” wouldn’t eliminate laughter, then.
+
+    Yes, and laughter isn't even an action many times. Action requires intention, and laughter can happen despite one's intention being actively set on the opposite.
+
+    > In reading some of Ñāṇavīra’s thoughts on this, he seems to be saying something true. But there’s also a possibility that what he describes is quite removed from “real life” and how things actually work.
+
+    Yes, he definitely had a philosophical bent, and that's often at odds with the Dhamma. Granted, he openly admitted that he was writing all those letters to pass the time, having lost the motivation to strive further due to his sickness. He himself likely didn't see those ideas as fundamental to the training.
+
+    > If I may ask another question, what do you make of the “laughing wisdom” in SN 55.24, that spiffyhandle mentioned in their comment, what does that mean?
+
+    *Hāsapaññā* is used for Ven. Sāriputta in SN 2.29 and elsewhere, so it can't be connected with Sarakāni's drinking habit. 
+
+    It could simply mean "endowed with wisdom that brings happiness." But that would be strange according to Pāli convention, since it would be an outlier in a list of terms that all have very similar meanings. 
+
+    Perhaps *hāsa* is derived from (or is a corruption of) *haṁsa,* which means swan. In the Suttas, the swan is sometimes [used to convey swiftness](https://suttacentral.net/snp1.12/en/sujato?lang=en&layout=plain&reference=main&notes=asterisk&highlight=false&script=latin#15.1), which fits with the other qualifiers in the SN 2.29 list.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1rvf0mf/arahants_laughing/ob5qhnv/)** _2026-03-18 18:01:03_ *(in reply to a comment not included)*:
+
+    >  I wonder if that's the skill to bring about laughter and joy in others when giving dhamma talks.
+
+    No, it couldn't be a "skill" in a Dhamma context. It would at best remain as a habit built up from before, and a mostly counterproductive one at that. Hence the Buddha's own example.
+
+---
+
 **r/HillsideHermitage** | Posted by Financial-Wallaby316 _2026-03-06 16:11:58_
 ### [Wrong meditation as an aid for establishing virtue and sense restraint?](https://www.reddit.com/r/HillsideHermitage/comments/1rmi6pa/wrong_meditation_as_an_aid_for_establishing/)
 
