@@ -1,3 +1,30 @@
+**r/HillsideHermitage** | Posted by nubuda _2026-04-20 09:06:42_
+### [How do you practice tranquility?](https://www.reddit.com/r/HillsideHermitage/comments/1sqjyzr/how_do_you_practice_tranquility/)
+
+If I understand correctly, Ajahn N. does not consider any kind of relaxing meditation part of dhamma practice. I was listening to one of his dhamma talks and he mentioned that instead of calming meditation, people should instead practice sitting quietly and contemplating certain dhamma topics. This is of course great but it has limitations. There is a sutta (MN19) which clearly explains that there is no danger in skillful thinking but too much of even skillful thinking will tire the body and stress the mind.  So how do you practice tranquility according to Hillside Hermitage teachings? My definition of relaxing meditation is very flexible. I believe even sweeping floors or picking berries or laying in bed with resting awareness qualifies as relaxing meditation.
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1sqjyzr/how_do_you_practice_tranquility/oh9cuq0/)** _2026-04-20 13:48:06_:
+
+    > So how do you practice tranquility according to Hillside Hermitage teachings?
+
+    [The first, non-negotiable step is giving up sensuality](https://suttacentral.net/mn75/en/bodhi?lang=en&reference=main&highlight=false#sc34). Whatever a person who hasn't done this can achieve is not tranquility—the absence of craving—but is merely shifting their substantial mass of craving onto something else (e.g., the sensual bliss obtained in a state of absorption, often mistaken for tranquility).
+
+    From then onwards, you progress in the Gradual Training up until you reach the level of purifying your mind from the hindrances, which is done [by understanding them as mental activities that are harmful](https://suttas.hillsidehermitage.org/?q=mn39#mn39:14.1_mn39:14.30), not by any attentional technique or focusing effort whatsoever.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1sqjyzr/how_do_you_practice_tranquility/ohe30su/)** _2026-04-21 04:56:26_ *(in reply to a comment not included)*:
+
+    The pleasure that comes from what is generally mistaken as samādhi today. Pleasure that comes from engagement with a sense object rather than from withdrawal.
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1sqjyzr/how_do_you_practice_tranquility/ohe5gi5/)** _2026-04-21 05:15:37_ *(in reply to a comment not included)*:
+
+    > Just like the sutta I referenced says, too much thinking of dhamma topics can cause stress despite it being skillful thoughts.
+
+    It doesn't say that you simply decide to engage in a calming practice out of a view that skillful thoughts are tiresome. You develop the skillful thoughts until those have become the mind's natural inclination and unwholesome thoughts have subsided. 
+
+    If that's actually completed, you won't need a special practice to calm yourself down. You removed the greatest source of disturbance by undoing the unwholesome thoughts, and now with the wholesome thoughts, recognizing that the subtle burden they entail is no longer necessary will be enough for the mind to become internally calm (meaning it's preoccupied with neither wholesome nor unwholesome thoughts).
+
+    Whereas before that point, you only have two options apart from the wholesome thoughts: the blatant unwholesome thoughts, and distractions such as "relaxing meditation." Both are stressful compared to actual samādhi, where you don't have to do anything at all in order to be calm.
+
+---
+
 **r/HillsideHermitage** | Posted by Sa_Mahe_ri _2026-04-10 13:02:08_
 ### [Question regarding interpretation and application of Pātimokkha rules](https://www.reddit.com/r/HillsideHermitage/comments/1shlx31/question_regarding_interpretation_and_application/)
 
