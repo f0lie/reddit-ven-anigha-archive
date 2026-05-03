@@ -1,3 +1,18 @@
+**r/HillsideHermitage** | Posted by Hard_Tack4 _2026-04-26 17:06:42_
+### [Storage, items and Monks](https://www.reddit.com/r/HillsideHermitage/comments/1swd7ie/storage_items_and_monks/)
+
+What degree of personal items is allowable or a good idea for someone who is considering becoming a monk? The HH monks seem to have phones, maybe even laptops, cameras, audio equipment, have presumably used tickets, probably have medicines etc. What is reasonable? I have read that the rules about personal possession of even medicine like frankincense is very restricted, you couldn't have 200 grams on your person it seems without breaking a rule. Ofc many monks even use money which is unambiguously bad. What should I get for myself? Can I get a tent and a nice backpack? An e-ink-tablet? A small camera? Some pens? An Mp3/4? 
+
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1swd7ie/storage_items_and_monks/oii4gds/)** _2026-04-27 04:49:50_:
+
+    > I have read that the rules about personal possession of even medicine like frankincense is very restricted, you couldn't have 200 grams on your person it seems without breaking a rule. 
+
+    There is no such rule in the Vinaya. Every monk is personally responsible for checking his motivations for possessing things.
+
+    With certain things, no matter how externally "luxurious", you can harbor no internal desire and not be significantly bothered if they are lost, whereas there can be "modest" and inexpensive things (and living beings as well) that you would passionately protect even though they are not strictly necessary to survive and to practice. That passion, not the things, is the problem, and you will be unable to address that problem if your focus is on the level of what and how much you have.
+
+---
+
 **r/HillsideHermitage** | Posted by nubuda _2026-04-20 09:06:42_
 ### [How do you practice tranquility?](https://www.reddit.com/r/HillsideHermitage/comments/1sqjyzr/how_do_you_practice_tranquility/)
 
