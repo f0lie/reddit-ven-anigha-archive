@@ -32,8 +32,20 @@ jobs:
       - name: Install locked test and lint dependencies
         run: uv sync --frozen --group lint
 
+      - name: Install pinned Pandoc with embedded sandbox data
+        run: |
+          directory=$(mktemp -d)
+          archive="$directory/pandoc.tar.gz"
+          curl --fail --location --retry 3 \
+            https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-amd64.tar.gz \
+            --output "$archive"
+          echo "d0c90410e90204c9ca83b8539fac5c7aed01fd537207e4585849f8abc5df20b8  $archive" | sha256sum --check
+          tar -xzf "$archive" -C "$directory"
+          sudo install -m 0755 "$directory/pandoc-3.12.1/bin/pandoc" /usr/local/bin/pandoc
+          pandoc --version
+
       - name: Run tests
         run: uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
 
       - name: Lint
-        run: uv run --frozen --group lint ruff check src/fetch_comments.py tests/test_fetch_comments.py
+        run: uv run --frozen --group lint ruff check .

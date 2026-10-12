@@ -1,19 +1,21 @@
-from typing import Any
 import datetime
 import sqlite3
+from collections.abc import Iterator
 from pathlib import Path
+from typing import Any
+
 import pytest
 
 from src.generate_markdown import (
+    CommentType,
     create_intended_md_from_submission,
     create_intended_md_from_thread,
     create_non_indented_md_from_submission,
     create_non_indented_md_from_thread,
     create_thread_dicts,
     metablock_template,
-    save_comments_to_markdown,
     sanitize_markdown_content,
-    CommentType,
+    save_comments_to_markdown,
 )
 
 
@@ -197,9 +199,13 @@ def sample_db_data() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
 @pytest.fixture
 def in_memory_db(
     sample_db_data: tuple[list[dict[str, Any]], list[dict[str, Any]]],
-) -> sqlite3.Connection:
+) -> Iterator[sqlite3.Connection]:
     submissions_data, comments_data = sample_db_data
-    return setup_in_memory_db(submissions_data, comments_data)
+    connection = setup_in_memory_db(submissions_data, comments_data)
+    try:
+        yield connection
+    finally:
+        connection.close()
 
 
 # --- Test Cases ---

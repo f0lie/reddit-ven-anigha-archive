@@ -2,88 +2,214 @@ name: Update Reddit Comments
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Runs at midnight (00:00 UTC) every Sunday
-  workflow_dispatch:  # Allows the workflow to be triggered manually
+    - cron: '0 0 * * 0'  # Sunday at 00:00 UTC
+  workflow_dispatch:
+
+# Never give Reddit content or the renderer repository-write credentials.
+permissions:
+  contents: read
+
+concurrency:
+  group: archive-update-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update_comments:
-    runs-on: ubuntu-latest
+  checks:
+    uses: ./.github/workflows/ci.yml
 
+  fetch:
+    needs: checks
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Install uv
-      uses: astral-sh/setup-uv@v5
+      - name: Checkout repository without stored credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version-file: "pyproject.toml"
+      - name: Install uv
+        uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+        with:
+          version: "0.12.23"
+          enable-cache: false
 
-    - name: Install dependencies
-      run: |
-        uv sync --no-dev --frozen
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
 
-    - name: Run the Reddit comments fetch script
-      env:
-        CLIENT_ID: ${{ secrets.CLIENT_ID }}
-        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-        USER_AGENT: ${{ secrets.USER_AGENT }}
-        TARGET_USERNAME: ${{ secrets.TARGET_USERNAME }}
-        LIMIT: ${{ secrets.LIMIT }}
-        TILL_LAST_COMMENT: true  # Adjust based on whether you want to fetch since the last comment
-      run: |
-        uv run python src/fetch_comments.py
-    
-    - name: Set up Pandoc
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y pandoc texlive-xetex
-    
-    - name: Install Source Serif
-      run: |
-        cd $(mktemp -d /tmp/source_serif_4.XXXXXX)
-        TEMP_DIR=$(pwd)
+      - name: Install locked runtime dependencies
+        run: uv sync --frozen --no-dev
 
-        sudo mkdir -p /usr/share/fonts/opentype/source_serif_4/
+      - name: Fetch Reddit comments
+        env:
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          USER_AGENT: ${{ secrets.USER_AGENT }}
+          TARGET_USERNAME: ${{ secrets.TARGET_USERNAME }}
+          LIMIT: ${{ secrets.LIMIT }}
+          TILL_LAST_COMMENT: "true"
+        run: uv run --frozen --no-dev python src/fetch_comments.py
 
-        wget https://github.com/adobe-fonts/source-serif/releases/download/4.005R/source-serif-4.005_Desktop.zip
-        unzip source-serif-4.005_Desktop.zip
-        sudo cp source-serif-4.005_Desktop/OTF/*.otf /usr/share/fonts/opentype/source_serif_4/
+      - name: Pass database to the isolated renderer
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: archive-database
+          path: reddit_comments.db
+          if-no-files-found: error
+          retention-days: 7
 
-        sudo fc-cache -f -v
+  render:
+    needs: fetch
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout renderer without stored credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
 
-        cd $GITHUB_WORKSPACE
-        rm -rf $TEMP_DIR
+      - name: Download the updated database
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: archive-database
 
-    - name: Run the markdown generation script
-      run: |
-        uv run python src/generate_markdown.py
-    
-    - name: Commit and push changes if markdown files were created
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+      - name: Install uv
+        uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+        with:
+          version: "0.12.23"
+          enable-cache: false
 
-        echo "Adding files to staging area..."
-        git add **/ven_anigha_reddit_archive_* reddit_comments.db --verbose
-        echo
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
 
-        # Check if there are changes to commit
-        if git diff --cached --quiet; then
-          echo "No changes to commit."
-        else
-          echo "Committing changes..."
-          git commit -m "Update Reddit comments and markdown files" --verbose
-          echo
+      - name: Install locked runtime dependencies and book tools
+        run: |
+          uv sync --frozen --no-dev
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex texlive-latex-extra texlive-plain-generic unzip fontconfig
 
-          echo "Latest commit log:"
-          git --no-pager log -1 --stat
-          echo
+      - name: Install pinned Pandoc with embedded sandbox data
+        run: |
+          directory=$(mktemp -d)
+          archive="$directory/pandoc.tar.gz"
+          curl --fail --location --retry 3 \
+            https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-amd64.tar.gz \
+            --output "$archive"
+          echo "d0c90410e90204c9ca83b8539fac5c7aed01fd537207e4585849f8abc5df20b8  $archive" | sha256sum --check
+          tar -xzf "$archive" -C "$directory"
+          sudo install -m 0755 "$directory/pandoc-3.12.1/bin/pandoc" /usr/local/bin/pandoc
+          pandoc --version
 
-          echo "Pushing changes to remote repository..."
-          git push origin HEAD:${{ github.ref }} --verbose
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install the existing Source Serif book font
+        run: |
+          directory=$(mktemp -d)
+          archive="$directory/source-serif.zip"
+          curl --fail --location --retry 3 \
+            https://github.com/adobe-fonts/source-serif/releases/download/4.005R/source-serif-4.005_Desktop.zip \
+            --output "$archive"
+          echo "549fdb8f9a682bd06944298621404969f6de77c2e422ff3b8244a1dcd6a0c425  $archive" | sha256sum --check
+          unzip -q "$archive" -d "$directory"
+          sudo mkdir -p /usr/share/fonts/opentype/source_serif_4
+          sudo cp "$directory"/source-serif-4.005_Desktop/OTF/*.otf /usr/share/fonts/opentype/source_serif_4/
+          sudo fc-cache -f
+
+      - name: Generate and validate a complete set without credentials
+        run: |
+          # Do not let committed books masquerade as a successful new conversion.
+          rm -rf markdown_files epub_files pdf_files
+          mkdir -p "$RUNNER_TEMP/render-home"
+          env -i PATH="$PATH" HOME="$RUNNER_TEMP/render-home" LANG=C.UTF-8 \
+            "$GITHUB_WORKSPACE/.venv/bin/python" src/generate_markdown.py
+
+      - name: Pass only successfully validated books to the publisher
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: archive-books
+          path: |
+            markdown_files/ven_anigha_reddit_archive_*.md
+            epub_files/ven_anigha_reddit_archive_*.epub
+            pdf_files/ven_anigha_reddit_archive_*.pdf
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    needs: [fetch, render]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the exact revision used to generate the books
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Download the updated database
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: archive-database
+          path: ${{ runner.temp }}/archive-publish/database
+
+      - name: Download the complete book set
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: archive-books
+          path: ${{ runner.temp }}/archive-publish/books
+
+      - name: Copy only expected data files
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import re
+          import shutil
+
+          source = Path(os.environ["RUNNER_TEMP"]) / "archive-publish"
+          database = source / "database" / "reddit_comments.db"
+          if database.is_symlink() or not database.is_file() or not database.stat().st_size:
+              raise SystemExit("Missing or invalid database artifact")
+          books = source / "books"
+          outputs = []
+          years_by_format = []
+          for directory, suffix in (("markdown_files", "md"), ("epub_files", "epub"), ("pdf_files", "pdf")):
+              files = sorted((books / directory).iterdir())
+              years = set()
+              for file in files:
+                  match = re.fullmatch(rf"ven_anigha_reddit_archive_([0-9]{{4}})\.{suffix}", file.name)
+                  if not match or file.is_symlink() or not file.is_file() or not file.stat().st_size:
+                      raise SystemExit(f"Unexpected or empty output: {file.name}")
+                  years.add(match[1])
+                  outputs.append((file, Path(directory) / file.name))
+              if not years:
+                  raise SystemExit(f"No generated files in {directory}")
+              years_by_format.append(years)
+          if not all(years == years_by_format[0] for years in years_by_format):
+              raise SystemExit("Formats do not contain the same set of years")
+          shutil.copyfile(database, "reddit_comments.db")
+          for source_file, destination in outputs:
+              destination.parent.mkdir(exist_ok=True)
+              shutil.copyfile(source_file, destination)
+          PY
+
+      - name: Commit and push a complete snapshot
+        env:
+          TARGET_REF: ${{ github.ref }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -- reddit_comments.db markdown_files epub_files pdf_files
+          if git diff --cached --quiet; then
+            echo "No archive changes to publish."
+          else
+            git commit -m "Update Reddit archive snapshot"
+            # Refuse a non-fast-forward push if the branch moved during this run.
+            # Rerun against the new revision; never merge or force-push a stale database.
+            git push origin "HEAD:$TARGET_REF"
+          fi

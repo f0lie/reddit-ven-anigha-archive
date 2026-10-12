@@ -1,11 +1,9 @@
-from typing import Any
 import datetime
 import re
-import shutil
 import sqlite3
-import subprocess
-from pathlib import Path
 from enum import Enum
+from pathlib import Path
+from typing import Any
 
 metablock_template = """\
 ---
@@ -42,7 +40,8 @@ def save_comments_to_markdown(conn: sqlite3.Connection, markdown_files_dir, temp
     """
     markdown_dir = Path(markdown_files_dir)
     temp_dir = Path(temp_files_dir)
-    temp_dir.mkdir(exist_ok=True)
+    markdown_dir.mkdir(parents=True, exist_ok=True)
+    temp_dir.mkdir(parents=True, exist_ok=True)
 
     cursor = conn.cursor()
     cursor.execute(
@@ -313,55 +312,43 @@ def create_non_indented_md_from_thread(comment: dict[str, Any], level=0) -> str:
 
 
 def convert_to_epub_and_pdf(input_dir: Path, epub_dir: str, pdf_dir) -> None:
-    """
-    Converts markdown files in a directory to EPUB and PDF formats using pandoc.
+    """Build the full set in isolation and publish only validated outputs."""
+    try:
+        from .render_archive import convert_archive
+    except ImportError:  # Direct script execution.
+        from render_archive import convert_archive
+    convert_archive(input_dir, epub_dir, pdf_dir, metablock_template)
 
-    Args:
-        input_dir: The directory containing the markdown files.
-        epub_dir: The directory to save the generated EPUB files.
-        pdf_dir: The directory to save the generated PDF files.
-    """
-    epub_dir, pdf_dir = Path(epub_dir), Path(pdf_dir)
 
-    for file in input_dir.glob("*.md"):
-        base_name = file.stem
-        epub_path = epub_dir / f"{base_name}.epub"
-        pdf_path = pdf_dir / f"{base_name}.pdf"
-        try:
-            subprocess.run(
-                [
-                    "pandoc",
-                    str(file),
-                    "-o",
-                    str(epub_path),
-                ],
-                check=True,
-            )
-            subprocess.run(
-                [
-                    "pandoc",
-                    str(file),
-                    "-o",
-                    str(pdf_path),
-                    "--pdf-engine",
-                    "xelatex",
-                ],
-                check=True,
-            )
-            print(f"Converted {file} into {epub_path} and {pdf_path}.")
-        except subprocess.CalledProcessError as e:
-            print(f"Pandoc failed to convert {file}: {e}")
-        except Exception as e:
-            print(f"An unexpected error occurred while converting {file}: {e}")
+def build_archive(database="reddit_comments.db", output_dir="."):
+    """Read the database without modifying it; stage all formats before publishing."""
+    import tempfile
+    from contextlib import closing
+
+    try:
+        from .render_archive import publish_files
+    except ImportError:
+        from render_archive import publish_files
+    root = Path(output_dir).resolve()
+    root.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".archive-build-", dir=root) as temp:
+        stage = Path(temp)
+        markdown = stage / "markdown_files"
+        markdown.mkdir()
+        source = stage / "source"
+        epub = stage / "epub_files"
+        pdf = stage / "pdf_files"
+        uri = Path(database).resolve().as_uri() + "?mode=ro"
+        with closing(sqlite3.connect(uri, uri=True)) as conn:
+            save_comments_to_markdown(conn, markdown, source)
+        convert_to_epub_and_pdf(source, epub, pdf)
+        pairs = [
+            (file, root / directory.name / file.name)
+            for directory in (markdown, epub, pdf)
+            for file in sorted(directory.iterdir())
+        ]
+        publish_files(pairs)
 
 
 if __name__ == "__main__":
-    temp_files_dir = Path("temp_files")
-    temp_files_dir.mkdir(exist_ok=True)
-    try:
-        with sqlite3.connect("reddit_comments.db") as conn:
-            save_comments_to_markdown(conn, "markdown_files", temp_files_dir)
-
-        convert_to_epub_and_pdf(temp_files_dir, "epub_files", "pdf_files")
-    finally:
-        shutil.rmtree(temp_files_dir)
+    build_archive()
