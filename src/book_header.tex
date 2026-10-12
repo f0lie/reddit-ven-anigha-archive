@@ -1,0 +1,39 @@
+% Trusted presentation only. Source text is never interpreted as TeX.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{16pt}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO,RE]{\small\normalfont Ven Anīgha Reddit Archive}
+\renewcommand{\headrulewidth}{0.2pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% Explicit Unicode font fallback: never remove unsupported source characters.
+% Symbola is monochrome and therefore works with XeLaTeX (unlike color emoji).
+\newfontfamily\archiveCJK{Noto Serif CJK SC}
+\newfontfamily\archiveSymbols{Symbola}[Scale=MatchLowercase]
+% Bind each fallback character locally. Inter-character font transitions can leak
+% groups across generated TeX environments (notably a quote ending in an arrow).
+% New characters unsupported by the main font fail the build instead of vanishing.
+\usepackage{newunicodechar}
+\newunicodechar{》}{{\archiveCJK\char"300B}}
+\newunicodechar{非}{{\archiveCJK\char"975E}}
+\newunicodechar{梵}{{\archiveCJK\char"68B5}}
+\newunicodechar{行}{{\archiveCJK\char"884C}}
+\newunicodechar{→}{{\archiveSymbols\char"2192}}
+\newunicodechar{🏿}{{\archiveSymbols\char"1F3FF}}
+\newunicodechar{👌}{{\archiveSymbols\char"1F44C}}
+\newunicodechar{👍}{{\archiveSymbols\char"1F44D}}
+\newunicodechar{😂}{{\archiveSymbols\char"1F602}}
+\newunicodechar{😅}{{\archiveSymbols\char"1F605}}
+\newunicodechar{🙏}{{\archiveSymbols\char"1F64F}}
+\newunicodechar{🤔}{{\archiveSymbols\char"1F914}}
+
+% Archived indented/code quotations can contain long prose lines. Wrap them
+% within the text area rather than clipping preserved source off the page.
+\usepackage{fvextra}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true}

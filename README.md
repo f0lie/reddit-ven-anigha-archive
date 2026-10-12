@@ -1,52 +1,122 @@
-This repo archives all comments by [Venerable Anīgha on Reddit](https://www.reddit.com/user/Bhikkhu_Anigha/comments/) then generates readable files.
+# Ven. Anīgha Reddit Archive
 
-The sqlite database contains all comments by Ven. Anīgha as well as the original questions. This is database is populated by `fetch_comments.py`.
+An archive of available comments by [Venerable Anīgha on Reddit](https://www.reddit.com/user/Bhikkhu_Anigha/comments/), with the original submission questions and links back to Reddit. Read it online as Markdown, or download a PDF or EPUB.
 
-Then markdown, pdf, and epub files are created by year with `generate_markdown.py`. The resulting files are in the `*_files/` folders.
+## Read the archive
 
-Both database and output files are run every midnight Sunday UTC.
+| Year | PDF | EPUB | Markdown |
+| --- | --- | --- | --- |
+| 2026 | [Download PDF](pdf_files/ven_anigha_reddit_archive_2026.pdf?raw=true) | [Download EPUB](epub_files/ven_anigha_reddit_archive_2026.epub?raw=true) | [Read online](markdown_files/ven_anigha_reddit_archive_2026.md) |
+| 2025 | [Download PDF](pdf_files/ven_anigha_reddit_archive_2025.pdf?raw=true) | [Download EPUB](epub_files/ven_anigha_reddit_archive_2025.epub?raw=true) | [Read online](markdown_files/ven_anigha_reddit_archive_2025.md) |
+| 2024 | [Download PDF](pdf_files/ven_anigha_reddit_archive_2024.pdf?raw=true) | [Download EPUB](epub_files/ven_anigha_reddit_archive_2024.epub?raw=true) | [Read online](markdown_files/ven_anigha_reddit_archive_2024.md) |
+| 2023 | [Download PDF](pdf_files/ven_anigha_reddit_archive_2023.pdf?raw=true) | [Download EPUB](epub_files/ven_anigha_reddit_archive_2023.epub?raw=true) | [Read online](markdown_files/ven_anigha_reddit_archive_2023.md) |
 
-Most of the time, comments from Reddit have quotes markers in the correct place. However, there are some quotes that don't have their markers. Some comments have paragraphs that seem like Anigha is saying it, but it's actually a quote of the other person. This issue is quite rare though and it's very clear when Anigha is speaking in the text.
+The SQLite database, `reddit_comments.db`, is the source for the generated books. Discussions are grouped by the original submission's year in UTC, so a book can contain comments made in a later year.
 
-## Todo
+### Scope and freshness
 
-- [x] automatic pdf generation
-- [x] automatic epub generation
-- [ ] Add date of generation to the files.
-- [ ] (maybe) include the parent comments within threads as opposed to only the original question.
-- [ ] Fix questions that were deleted and show up as [removed] in the database.
-- [ ] Fix issue where emojis are missing from PDFs.
-- [ ] Make external links in the PDFs more noticable. Links work but are hard to distinguish from normal text because they don't have a different style.
+- This is a snapshot of what the fetcher has been able to retrieve and retain, not a guarantee that every comment or complete conversation is present. Reddit's available listings, deletions, and fetch limits affect coverage.
+- The archive collects the target account's comments and their original submissions. Replies from other people and intermediate parent comments may be missing; the books mark replies whose parent is unavailable.
+- A generation timestamp describes when a book was built. It does not prove that its source data is current, that every past edit was captured, or that the archive is complete. Rendering the checked-in database does not contact Reddit.
+- Previously captured text is retained when a later fetch returns a removal marker. Text already missing before capture cannot be recovered by this project. Routine incremental fetching is not a revision history of all old comments.
+- Quotation markers come from Reddit. A missing marker in the original can make quoted text look like the author's words; follow the discussion link when context is unclear.
 
-## Packages for PDF local package generation
+The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delayed, and failed runs do not publish; check the repository's Actions tab and commit history for the last successful update.
 
-[Install pandocs and PDF generation for the proper OS by following this link.](https://pandoc.org/installing.html)
+## Generate books locally
 
-[Install the latest Source Serif font from this repo.](https://github.com/adobe-fonts/source-serif/releases) This should be the *_Desktop.zip, not *_WOFF.zip which is intended for web.
+1. Install **Python 3.13 or newer** and [`uv`](https://docs.astral.sh/uv/getting-started/installation/). CI uses Python 3.13 and uv 0.12.23.
+2. Install XeLaTeX and the required fonts. On Ubuntu 24.04:
 
-For Windows, unpack the zip file, select all the *.ttf fonts, right click, then click on "install" to add the fonts to the OS.
+   ```sh
+   sudo apt-get update
+   sudo apt-get install -y --no-install-recommends \
+     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese \
+     fonts-noto-core fonts-noto-cjk fonts-symbola
+   ```
 
-Installing fonts in other OS's should be very similar.
+   Use [official Pandoc 3.12.1](https://github.com/jgm/pandoc/releases/tag/3.12.1), which embeds the EPUB resources required by sandbox mode. Some distribution packages omit those resources. CI uses the Linux amd64 release and verifies its SHA-256 before installation:
 
-## Setup and run locally
+   ```sh
+   directory=$(mktemp -d)
+   archive="$directory/pandoc.tar.gz"
+   curl --fail --location --retry 3 \
+     https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-amd64.tar.gz \
+     --output "$archive"
+   echo "d0c90410e90204c9ca83b8539fac5c7aed01fd537207e4585849f8abc5df20b8  $archive" | sha256sum --check
+   tar -xzf "$archive" -C "$directory"
+   sudo install -m 0755 "$directory/pandoc-3.12.1/bin/pandoc" /usr/local/bin/pandoc
+   ```
 
-1. Install Python 3.13 or some other reasonable modern version of Python.
-2. Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
-3. Run `uv sync` to sync and install the project's dependencies.
-4. Setup `.secrets` file with proper values for Reddit and script adjustment.
-5. Run `uv run src/fetch_comments.py` to generate `reddit_comments.db` with the latest comments.
-6. Run `uv run src/generate_markdown.py` to generate the markdown, epub, and pdf files.
-7. Run `uv run pytest --cov` to test all the code with coverage.
-8. Run `uvx ruff check --fix` and `uvx ruff format` to lint and format the code.
+   On other systems, choose the matching official release asset and verify its published checksum. See [Pandoc installation](https://pandoc.org/installing.html) for platform instructions.
 
-## Running github workflow locally.
+   The PDF setup uses Noto Serif, Noto Serif CJK SC, and Symbola. Other operating systems need the same font families and the XeLaTeX packages used by `src/book_header.tex`. Font fallback improves CJK and monochrome emoji support, but does not guarantee every Unicode sequence renders correctly.
+3. From the repository root, install the locked dependencies:
 
-Install [act](https://github.com/nektos/act) to run the github workflow locally. This is very useful for debugging the workflow.
+   ```sh
+   uv sync --frozen --group lint
+   ```
+4. Generate from the included database; Reddit credentials are not needed:
 
-Run `act -j update_comments --secret-file .secrets --artifact-server-path $PWD/.artifacts`.
+   ```sh
+   uv run --frozen python src/generate_markdown.py
+   ```
 
-`.secrets` is an env file that should contain all the secrets used to run the github workflow.
+Markdown, EPUB, and PDF output goes into `markdown_files/`, `epub_files/`, and `pdf_files/`. Generation stages and validates the complete set before replacing published outputs. A conversion or validation failure exits with an error rather than publishing a mixture of new and old books.
 
-`.artfacts` is a folder that stores the db between runs.
+Reddit text is untrusted input. The renderer disables raw markup and resource embedding, uses a restricted conversion environment, and applies timeouts. Run it in an isolated environment without credentials or private files; these defenses are not a general-purpose sandbox for arbitrary documents.
 
-This stalls at the final push for some reason.
+## Fetch newer comments
+
+Book generation works without this step. To fetch from Reddit, configure a Reddit API application and create a local `.secrets` file in the repository root:
+
+```dotenv
+CLIENT_ID=your_reddit_app_client_id
+CLIENT_SECRET=your_reddit_app_client_secret
+USER_AGENT=script:reddit-ven-anigha-archive:0.1.0 (by /u/your_username)
+TARGET_USERNAME=Bhikkhu_Anigha
+LIMIT=
+TILL_LAST_COMMENT=true
+```
+
+- `CLIENT_ID`, `CLIENT_SECRET`, and `USER_AGENT` identify your Reddit API application.
+- `TARGET_USERNAME` is the account to archive, without `/u/`.
+- Leave `LIMIT` empty to fetch the available listing without a configured item limit, or set a positive archive-batch size. The fetcher requests one extra comment as lookahead to distinguish a full batch from the end of a listing; that extra comment is saved in a later batch. This does not override Reddit's own availability limits.
+- `TILL_LAST_COMMENT=true` enables incremental fetching; `false` requests a refresh of the available listing. Neither setting proves full historical coverage.
+- Existing environment variables take precedence over `.secrets`. Keep the file private; it is ignored by Git. Never commit credentials.
+
+```sh
+uv run --frozen python src/fetch_comments.py
+uv run --frozen python src/generate_markdown.py
+```
+
+The fetcher initializes a new database when needed. Incremental fetches use a per-account checkpoint and resume capped batches with a stored cursor instead of silently skipping the remainder. Existing databases without checkpoints scan the accessible listing once. A missing or stalled resume cursor triggers a warning and a safe restart from the newest listing rather than advancing the checkpoint. A warning is also emitted when a listing ends before the old checkpoint can be found; review it before treating continuity as established. Previously observed text is retained in history tables when genuine edits are fetched; this only records revisions the fetcher sees. Reddit may no longer expose older data, so resumable fetching cannot establish complete historical coverage. Keep a backup before changing accounts or performing a full refresh of an existing archive.
+
+## Development checks
+
+```sh
+uv sync --frozen --group lint
+uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
+uv run --frozen --group lint ruff check .
+uv audit --frozen
+```
+
+Tests use mocks and temporary databases; they do not need Reddit credentials. Unit tests do not replace visually checking generated PDFs and EPUBs after font or layout changes. Review dependency updates and regenerate `uv.lock` with `uv lock`; use `--frozen` when reproducing an existing lock.
+
+## GitHub Actions
+
+`Tests and lint` runs read-only checks on pull requests and pushes. The scheduled/manual updater runs those checks first, then uses three separate jobs:
+
+1. **Fetch:** Reddit secrets are available only to the fetching step. Its database is passed as a workflow artifact.
+2. **Render:** A fresh, read-only job checks out without stored Git credentials and generates books without Reddit secrets or inherited credentials. Only a successful complete generation uploads the book artifact.
+3. **Publish:** Runs only after fetch and render succeed. It copies only the expected database/book paths and commits them together using repository-write permission.
+
+Set repository Actions secrets for `CLIENT_ID`, `CLIENT_SECRET`, `USER_AGENT`, and `TARGET_USERNAME`; `LIMIT` is optional. Repository policy and branch protection must permit the publisher's commit. Updates only publish from the default branch. Runs on the same branch are serialized, and publication refuses a non-fast-forward push if the branch moved while books were rendering. Rerun against the new revision rather than force-pushing or merging a stale database.
+
+To check the read-only CI locally with [act](https://github.com/nektos/act), use `act pull_request -W .github/workflows/ci.yml -j tests`. A local run of the updater can contact Reddit and reach its publishing step, so do not use it as a harmless test run.
+
+## Remaining limitations
+
+- Missing intermediate replies and text deleted before capture cannot be reconstructed from the stored target comments.
+- Incremental fetching does not continuously revisit every old comment for edits.
+- Unusual glyphs, emoji sequences, and very long links still warrant visual checks in generated books.

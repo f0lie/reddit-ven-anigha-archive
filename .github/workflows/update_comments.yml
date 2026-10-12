@@ -93,7 +93,8 @@ jobs:
           uv sync --frozen --no-dev
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            texlive-xetex texlive-latex-extra texlive-plain-generic unzip fontconfig
+            texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese \
+            fonts-noto-core fonts-noto-cjk fonts-symbola
 
       - name: Install pinned Pandoc with embedded sandbox data
         run: |
@@ -106,19 +107,6 @@ jobs:
           tar -xzf "$archive" -C "$directory"
           sudo install -m 0755 "$directory/pandoc-3.12.1/bin/pandoc" /usr/local/bin/pandoc
           pandoc --version
-
-      - name: Install the existing Source Serif book font
-        run: |
-          directory=$(mktemp -d)
-          archive="$directory/source-serif.zip"
-          curl --fail --location --retry 3 \
-            https://github.com/adobe-fonts/source-serif/releases/download/4.005R/source-serif-4.005_Desktop.zip \
-            --output "$archive"
-          echo "549fdb8f9a682bd06944298621404969f6de77c2e422ff3b8244a1dcd6a0c425  $archive" | sha256sum --check
-          unzip -q "$archive" -d "$directory"
-          sudo mkdir -p /usr/share/fonts/opentype/source_serif_4
-          sudo cp "$directory"/source-serif-4.005_Desktop/OTF/*.otf /usr/share/fonts/opentype/source_serif_4/
-          sudo fc-cache -f
 
       - name: Generate and validate a complete set without credentials
         run: |

@@ -1,3 +1,15 @@
+# Ven Anīgha Reddit Archive 2023
+
+**Generated:** 2026-10-12 14:22:00 UTC
+
+**Saved records in this volume:** 84 discussions and 271 comments.
+
+**Saved comment dates:** 2023-10-01 to 2025-03-08 (UTC).
+
+Volumes are grouped by the year each discussion began; replies may be from later years. This edition contains the records saved in the local database at generation time. It is not a claim of complete Reddit coverage. Deleted, unavailable, or unfetched material may be absent. Comment timestamps are shown in UTC.
+
+---
+
 **r/HillsideHermitage** | Posted by None _2023-12-27 21:36:05_
 ### [Physicality of Breath](https://www.reddit.com/r/HillsideHermitage/comments/18sbwjy/physicality_of_breath/)
 
@@ -3152,7 +3164,7 @@ is the samadhi of the layman (based on sila, etc) considered 'sammasamadhi?' I k
 ---
 
 **r/HillsideHermitage** | Posted by None _2023-11-13 07:40:30_
-### [[deleted by user]]()
+### [\[deleted by user\]]()
 
 [removed]
 

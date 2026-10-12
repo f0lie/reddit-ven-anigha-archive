@@ -1,6 +1,7 @@
 import datetime
 import re
 import sqlite3
+import unicodedata
 from enum import Enum
 from pathlib import Path
 from typing import Any
@@ -12,21 +13,64 @@ author: \"Ven Anīgha\"
 date: \"{year}\"
 description: \"Reddit discussions by Ven Anīgha in {year}.\"
 lang: en
-mainfont: "Source Serif 4"
+mainfont: "Noto Serif"
+sansfont: "Noto Sans"
+monofont: "Noto Sans Mono"
 fontsize: 12pt
 geometry: margin=1in
 documentclass: book
+classoption: openany
+colorlinks: true
+linkcolor: NavyBlue
+urlcolor: NavyBlue
 pdf-engine: xelatex
 toc: true
 toc-depth: 2
 ---
 
-# Ven Anīgha Reddit Archive {year}
+**Archive notes**
 
 """
 
 
-def save_comments_to_markdown(conn: sqlite3.Connection, markdown_files_dir, temp_files_dir) -> None:
+def archive_coverage_note(
+    cursor: sqlite3.Cursor,
+    submissions: list[dict[str, Any]],
+    generated_at: datetime.datetime,
+) -> str:
+    """Describe the saved records included, without implying a complete Reddit history."""
+    submission_ids = [submission["id"] for submission in submissions]
+    placeholders = ",".join("?" for _ in submission_ids)
+    count, earliest, latest = cursor.execute(
+        f"SELECT COUNT(*), MIN(created_utc), MAX(created_utc) FROM comments WHERE submission_id IN ({placeholders})",
+        submission_ids,
+    ).fetchone()
+    generated = generated_at.astimezone(datetime.UTC).strftime("%Y-%m-%d %H:%M:%S UTC")
+    note = (
+        f"**Generated:** {generated}\n\n"
+        f"**Saved records in this volume:** {len(submissions)} discussions and {count} comments.\n\n"
+    )
+    if count:
+        dates = [
+            datetime.datetime.fromtimestamp(value, datetime.UTC).strftime("%Y-%m-%d") for value in (earliest, latest)
+        ]
+        note += f"**Saved comment dates:** {dates[0]} to {dates[1]} (UTC).\n\n"
+    note += (
+        "Volumes are grouped by the year each discussion began; replies may be from later years. "
+        "This edition contains the records saved in the local database at generation time. "
+        "It is not a claim of complete Reddit coverage. Deleted, unavailable, or unfetched material "
+        "may be absent. Comment timestamps are shown in UTC.\n\n"
+    )
+    return note
+
+
+def save_comments_to_markdown(
+    conn: sqlite3.Connection,
+    markdown_files_dir,
+    temp_files_dir,
+    *,
+    generated_at: datetime.datetime | None = None,
+) -> None:
     """
     Saves Reddit submissions and comments from a SQLite database to markdown files.
 
@@ -42,6 +86,7 @@ def save_comments_to_markdown(conn: sqlite3.Connection, markdown_files_dir, temp
     temp_dir = Path(temp_files_dir)
     markdown_dir.mkdir(parents=True, exist_ok=True)
     temp_dir.mkdir(parents=True, exist_ok=True)
+    generated_at = generated_at or datetime.datetime.now(datetime.UTC)
 
     cursor = conn.cursor()
     cursor.execute(
@@ -66,8 +111,9 @@ def save_comments_to_markdown(conn: sqlite3.Connection, markdown_files_dir, temp
 
     # Process submissions year by year
     for year, submissions_in_year in submissions_by_year.items():
-        markdown_text = ""
-        epub_text = metablock_template.format(year=year)
+        coverage = archive_coverage_note(cursor, submissions_in_year, generated_at)
+        markdown_text = f"# Ven Anīgha Reddit Archive {year}\n\n{coverage}---\n\n"
+        epub_text = metablock_template.format(year=year) + coverage
         for submission_dict in submissions_in_year:
             markdown_text += create_intended_md_from_submission(cursor, submission_dict)
             epub_text += create_non_indented_md_from_submission(cursor, submission_dict)
@@ -75,7 +121,7 @@ def save_comments_to_markdown(conn: sqlite3.Connection, markdown_files_dir, temp
         markdown_file = markdown_dir / f"ven_anigha_reddit_archive_{year}.md"
         markdown_file.write_text(markdown_text, encoding="utf-8")
         epub_file = temp_dir / f"ven_anigha_reddit_archive_{year}.md"
-        epub_file.write_text(epub_text, encoding="utf-8")
+        epub_file.write_text(unicodedata.normalize("NFC", epub_text), encoding="utf-8")
         print(f"Generated markdown file with indention for {year} at: {markdown_file}")
         print(f"Generated markdown file for EPUB creation for {year} at: {epub_file}")
 
@@ -148,6 +194,12 @@ def create_thread_dicts(comments: list[list[Any]]) -> list[dict[str, Any]]:
     return top_level_comments + orphan_comments
 
 
+def format_submission_title(title: str) -> str:
+    """Keep a saved title on one heading line and escape link-label delimiters."""
+    title = " ".join(title.split())
+    return title.replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
+
+
 def create_intended_md_from_submission(cursor: sqlite3.Cursor, submission_dict: dict[str, str | float]) -> str:
     """
     Generates indented markdown text for a given Reddit submission and its comments.
@@ -167,7 +219,7 @@ def create_intended_md_from_submission(cursor: sqlite3.Cursor, submission_dict: 
     submission_md = (
         f"**{submission_dict['subreddit']}** | Posted by {submission_dict['author']} _{submission_time_str}_\n"
     )
-    submission_md += f"### [{submission_dict['title']}]({submission_dict['link']})\n\n"
+    submission_md += f"### [{format_submission_title(submission_dict['title'])}]({submission_dict['link']})\n\n"
     submission_md += f"{submission_dict['body']}\n\n"
 
     # Fetch and process comments for the submission
@@ -232,7 +284,7 @@ def sanitize_markdown_content(content: str) -> str:
         The sanitized string content.
     """
     # Escape markdown headers by prefixing with a backslash
-    sanitized_content = re.sub(r"^(#+)", r"\\\1", content, flags=re.MULTILINE)
+    sanitized_content = re.sub(r"^(#+)", r"\\\1", unicodedata.normalize("NFC", content), flags=re.MULTILINE)
     return sanitized_content
 
 
@@ -254,7 +306,7 @@ def create_non_indented_md_from_submission(cursor: sqlite3.Cursor, submission_di
         "%Y-%m-%d %H:%M:%S"
     )
 
-    submission_md = f"## [{submission_dict['title']}]({submission_dict['link']})\n"
+    submission_md = f"## [{format_submission_title(submission_dict['title'])}]({submission_dict['link']}) {{#discussion-{submission_dict['id']}}}\n"
     submission_md += f"**Subreddit**: {submission_dict['subreddit']} | **Posted by**: {submission_dict['author']} _{submission_time_str}_\n\n"
     submission_md += f"{sanitize_markdown_content(submission_dict['body'])}\n\n"
 
@@ -292,14 +344,15 @@ def create_non_indented_md_from_thread(comment: dict[str, Any], level=0) -> str:
         without indentation and using headings for structure.
     """
     # Use level to determine heading level (e.g., ###, ####)
-    heading_prefix = "#" * (level + 3)  # Start from ### for comments
+    heading_prefix = "#" * min(level + 3, 6)  # Markdown supports at most six levels.
     comment_time = datetime.datetime.fromtimestamp(comment["created_utc"], datetime.UTC).strftime("%Y-%m-%d %H:%M:%S")
 
     parent_info = ""
     if comment["type"] == CommentType.ORPHAN:
         parent_info = " *(in reply to a comment not included)*"
     comment_title = (
-        f"{heading_prefix} Comment by [{comment['author']}]({comment['permalink']}) on {comment_time}{parent_info}"
+        f"{heading_prefix} Comment by [{comment['author']}]({comment['permalink']}) on {comment_time}{parent_info} "
+        f"{{#comment-{comment['id']} .unnumbered .unlisted}}"
     )
 
     markdown = f"{comment_title}\n\n{sanitize_markdown_content(comment['comment_body'])}\n\n"

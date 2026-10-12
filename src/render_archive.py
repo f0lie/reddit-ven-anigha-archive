@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 READER = (
-    "markdown-raw_tex-raw_html-raw_attribute-yaml_metadata_block"
+    "markdown+autolink_bare_uris-raw_tex-raw_html-raw_attribute-yaml_metadata_block"
     "-latex_macros-tex_math_dollars-tex_math_single_backslash-tex_math_double_backslash"
 )
 TIMEOUT = 300
@@ -109,12 +109,16 @@ def restrict_ast(value):
             return {"t": "Link", "c": [["", [], []], label, target]}
         return {"t": "Span", "c": [["", [], []], label + [{"t": "Space"}, {"t": "Str", "c": "(" + target[0] + ")"}]]}
     result = {key: restrict_ast(item) for key, item in value.items()}
-    # Preserve anchors but discard user-selected classes and attributes.
+    # Only generated anchors and safe navigation classes survive to the writer.
     attr_index = {"Header": 1, "Div": 0, "Span": 0, "Code": 0, "CodeBlock": 0, "Table": 0, "Figure": 0}.get(kind)
     if attr_index is not None:
         attr = result["c"][attr_index]
-        attr[1] = []
+        attr[1] = [name for name in attr[1] if name in {"unnumbered", "unlisted"}]
         attr[2] = []
+        if kind == "Header" and not attr[0].startswith("discussion-"):
+            for name in ("unnumbered", "unlisted"):
+                if name not in attr[1]:
+                    attr[1].append(name)
     if kind == "Table":
         # TableHead, TableBody, TableFoot, Row and Cell are untagged tuples,
         # so the normal node traversal cannot recognize their Attr fields.
@@ -129,6 +133,60 @@ def restrict_ast(value):
                     for cell in row[1]:
                         cell[0][1:] = [[], []]
     return result
+
+
+def visible_inline_text(inlines):
+    """Read simple label text without interpreting metadata or raw markup."""
+    parts = []
+    for inline in inlines:
+        kind, content = inline.get("t"), inline.get("c")
+        if kind == "Str":
+            parts.append(content)
+        elif kind in {"Space", "SoftBreak"}:
+            parts.append(" ")
+        elif kind in {"Emph", "Strong", "Strikeout", "SmallCaps", "Superscript", "Subscript"}:
+            nested = visible_inline_text(content)
+            if nested is None:
+                return None
+            parts.append(nested)
+        elif kind in {"Span", "Cite"}:
+            nested = visible_inline_text(content[1])
+            if nested is None:
+                return None
+            parts.append(nested)
+        else:
+            return None  # Do not rewrite labels whose visible text is uncertain.
+    return "".join(parts)
+
+
+def latex_line_breaks(value):
+    """Add only trusted layout commands after untrusted raw nodes were removed.
+
+    Long paths and punctuation-separated prose can occur inside linked titles,
+    where xurl cannot help. The source text stays in Str nodes (escaped by the
+    LaTeX writer); this constant command never contains user-supplied TeX.
+    """
+    if isinstance(value, list):
+        result = []
+        for item in value:
+            if isinstance(item, dict) and item.get("t") == "Str" and len(item["c"]) >= 40:
+                parts = [part for part in re.split(r"(?<=[/_?=&,;:+.*…‧()\-])", item["c"]) if part]
+                for index, part in enumerate(parts):
+                    if index:
+                        result.append({"t": "RawInline", "c": ["latex", r"\allowbreak{}"]})
+                    result.append({"t": "Str", "c": part})
+            else:
+                result.append(latex_line_breaks(item))
+        return result
+    if isinstance(value, dict):
+        if value.get("t") == "Link":
+            attr, label, target = value["c"]
+            if target[0].startswith(("https://", "http://")) and visible_inline_text(label) == target[0]:
+                # A formatted literal URL otherwise becomes an unbreakable
+                # href label. Plain URL text lets Pandoc use xurl's breakpoints.
+                return {"t": "Link", "c": [attr, [{"t": "Str", "c": target[0]}], target]}
+        return {key: latex_line_breaks(item) for key, item in value.items()}
+    return value
 
 
 def prepare_document(file, template, workdir):
@@ -226,6 +284,7 @@ def convert_archive(input_dir, epub_dir, pdf_dir, template):
     epub_dir.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=".archive-render-", dir=epub_dir.parent) as temp:
         workdir = Path(temp).resolve()
+        header = Path(__file__).with_name("book_header.tex").resolve()
         pairs = []
         for file in files:
             document = prepare_document(file, template, workdir)
@@ -247,19 +306,25 @@ def convert_archive(input_dir, epub_dir, pdf_dir, template):
                             "--standalone",
                             "--toc",
                             "--toc-depth=2",
+                            "-H",
+                            str(header),
                             "-o",
                             str(tex),
                         ],
                         workdir,
-                        input_text=document,
+                        input_text=json.dumps(latex_line_breaks(json.loads(document)), ensure_ascii=False),
                     )
                     for _ in range(3):  # Resolve the TOC, page numbers, and links.
-                        run_pandoc(
+                        log = run_pandoc(
                             ["-no-shell-escape", "-interaction=nonstopmode", "-halt-on-error", tex.name],
                             workdir,
                             executable_name="xelatex",
                         )
+                        missing = [line for line in log.splitlines() if "Missing character:" in line]
+                        if missing:
+                            raise ValueError("PDF has unsupported glyphs: " + "\n".join(missing))
                 else:
+                    args += ["--split-level=2"]
                     run_pandoc(args, workdir, input_text=document)
                 validate_output(output)
                 pairs.append((output, target_dir / output.name))

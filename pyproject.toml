@@ -2,7 +2,7 @@
 name = "reddit-ven-anigha-archive"
 requires-python = ">=3.13"
 version = "0.1.0"
-description = "Fetches and archives comments from /u/Bhikkhu_Anigha's comments on Reddit"
+description = "Archives available Reddit comments by /u/Bhikkhu_Anigha and their submission context"
 readme = "README.md"
 authors = [
   { name = "f0lie", email = "9092074+f0lie@users.noreply.github.com" }

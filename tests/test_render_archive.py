@@ -54,7 +54,7 @@ def test_restrict_ast_preserves_anchors_but_removes_arbitrary_attributes():
         "t": "Header",
         "c": [3, ["comment-123", ["unlisted", "evil"], [["style", "evil"]]], [{"t": "Str", "c": "Hello"}]],
     }
-    assert render.restrict_ast(node)["c"][1] == ["comment-123", [], []]
+    assert render.restrict_ast(node)["c"][1] == ["comment-123", ["unlisted", "unnumbered"], []]
 
 
 def test_render_failure_keeps_all_previous_outputs(tmp_path, monkeypatch):
@@ -109,7 +109,6 @@ def test_subprocess_receives_no_credentials(tmp_path, monkeypatch):
     monkeypatch.setenv("CLIENT_SECRET", "secret")
     monkeypatch.setenv("GITHUB_TOKEN", "secret")
     seen = {}
-    monkeypatch.setattr(render.shutil, "which", lambda name: "/usr/bin/pandoc")
 
     class FakeProcess:
         returncode = 0
@@ -182,6 +181,48 @@ def test_missing_database_is_not_silently_created(tmp_path):
     with pytest.raises(sqlite3.OperationalError):
         build_archive(missing, tmp_path)
     assert not missing.exists()
+
+
+def test_long_text_wraps_without_interpreting_source_tex():
+    text = r"/r/theravada/comments/long_title_with_punctuation/\input{secret}"
+    node = {"t": "Para", "c": [{"t": "Str", "c": text}]}
+    result = render.latex_line_breaks(node)["c"]
+    assert "".join(item["c"] for item in result if item["t"] == "Str") == text
+    commands = [item["c"] for item in result if item["t"] == "RawInline"]
+    assert commands and all(command == ["latex", r"\allowbreak{}"] for command in commands)
+
+
+@pytest.mark.skipif(not shutil.which("pandoc"), reason="Pandoc is not installed")
+def test_bare_urls_are_links_for_safe_line_wrapping(tmp_path):
+    source = make_source(tmp_path, "Visit https://www.reddit.com/r/HillsideHermitage/comments/example/ .")
+    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    assert '"t": "Link"' in document
+
+
+def test_formatted_literal_url_uses_url_writer_without_changing_target():
+    url = "https://medium.com/@someone/" + "a-long-article-title-" * 5
+    node = {"t": "Link", "c": [["", [], []], [{"t": "Emph", "c": [{"t": "Str", "c": url}]}], [url, ""]]}
+    result = render.latex_line_breaks(node)
+    assert result["c"][1] == [{"t": "Str", "c": url}]
+    assert result["c"][2] == [url, ""]
+    assert node["c"][1][0]["t"] == "Emph"
+
+
+@pytest.mark.parametrize("kind", ["Span", "Cite"])
+def test_visible_label_text_handles_wrapper_metadata(kind):
+    assert (
+        render.visible_inline_text(
+            [{"t": kind, "c": [[], [{"t": "Str", "c": "a"}, {"t": "Space"}, {"t": "Str", "c": "b"}]]}]
+        )
+        == "a b"
+    )
+
+
+@pytest.mark.parametrize("kind", ["Emph", "Span", "Cite"])
+def test_uncertain_nested_label_is_not_silently_discarded(kind):
+    unknown = [{"t": "Code", "c": [["", [], []], "extra visible text"]}]
+    content = [[], unknown] if kind in {"Span", "Cite"} else unknown
+    assert render.visible_inline_text([{"t": kind, "c": content}, {"t": "Str", "c": "https://example.com"}]) is None
 
 
 def test_restrict_ast_removes_attributes_from_every_table_and_figure_slot():
