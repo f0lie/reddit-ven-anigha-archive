@@ -1,0 +1,39 @@
+name: Tests and lint
+
+on:
+  pull_request:
+  push:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout without stored credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+        with:
+          version: "0.12.23"
+          enable-cache: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+
+      - name: Install locked test and lint dependencies
+        run: uv sync --frozen --group lint
+
+      - name: Run tests
+        run: uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
+
+      - name: Lint
+        run: uv run --frozen --group lint ruff check src/fetch_comments.py tests/test_fetch_comments.py
