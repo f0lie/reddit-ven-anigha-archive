@@ -81,7 +81,11 @@ def run_pandoc(args, workdir, *, input_text=None, executable_name="pandoc"):
 
 
 def safe_url(url):
-    return url.startswith("#") or urlsplit(url).scheme.lower() in {"https", "http", "mailto"}
+    try:
+        return url.startswith("#") or urlsplit(url).scheme.lower() in {"https", "http", "mailto"}
+    except ValueError:
+        # Malformed authorities must become visible text, not abort a volume.
+        return False
 
 
 def restrict_ast(value):

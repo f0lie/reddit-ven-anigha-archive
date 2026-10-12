@@ -249,3 +249,23 @@ def test_table_attributes_cannot_add_active_content_to_epub(tmp_path):
     assert '<table id="id">' in pages
     assert "caption" in pages
     assert all(unsafe not in pages for unsafe in ("onclick", "alert(1)", "background-image", "pixel.png"))
+
+
+@pytest.mark.parametrize("url", ["http://[", "https://example.com／bad", "https://foo＠bar"])
+def test_malformed_url_is_plain_text(url):
+    assert not render.safe_url(url)
+    node = {"t": "Link", "c": [["", [], []], [{"t": "Str", "c": "visible label"}], [url, ""]]}
+    result = render.restrict_ast(node)
+    assert result["t"] == "Span"
+    assert "visible label" in json.dumps(result)
+    assert url in json.dumps(result, ensure_ascii=False)
+
+
+@pytest.mark.skipif(not shutil.which("pandoc"), reason="Pandoc is not installed")
+def test_malformed_authority_does_not_abort_document(tmp_path):
+    source = make_source(tmp_path, "[visible label](https://example.com／bad)")
+    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    parsed = json.loads(document)
+    assert parsed["blocks"][0]["c"][0]["t"] == "Span"
+    assert "visible" in document
+    assert "https://example.com／bad" in document
