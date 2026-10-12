@@ -312,3 +312,34 @@ def test_malformed_authority_does_not_abort_document(tmp_path):
     assert parsed["blocks"][0]["c"][0]["t"] == "Span"
     assert "visible" in document
     assert "https://example.com／bad" in document
+
+
+@pytest.mark.parametrize("text", ["faith/dhamma", "absorbed/proliferating/dwelling", "dependence/simultaneity"])
+def test_short_slash_terms_wrap_without_changing_text_or_link_target(text):
+    target = ["https://example.com/original/path", "Original title"]
+    node = {"t": "Link", "c": [["discussion-test", [], []], [{"t": "Str", "c": text}], target]}
+    result = render.latex_line_breaks(node)
+    label = result["c"][1]
+    assert "".join(item["c"] for item in label if item["t"] == "Str") == text
+    assert sum(item["t"] == "RawInline" for item in label) == text.count("/")
+    assert result["c"][2] == target
+    assert node["c"][1] == [{"t": "Str", "c": text}]
+
+
+def test_italic_nonbreaking_space_quotation_gets_safe_breaks_and_keeps_characters():
+    text = "yaṁ\u00a0nimittaṁ\u00a0manasikaroto\u00a0uppajjanti\u00a0pāpakā\u00a0akusalā\u00a0vitakkā"
+    node = {"t": "Emph", "c": [{"t": "Str", "c": text}]}
+    result = render.latex_line_breaks(node)
+    assert result["t"] == "Emph"
+    assert "".join(item["c"] for item in result["c"] if item["t"] == "Str") == text
+    assert [item["c"] for item in result["c"] if item["t"] == "RawInline"] == [
+        ["latex", r"\allowbreak{}"]
+    ] * text.count("\u00a0")
+
+
+def test_short_prose_retains_normal_punctuation_and_decimal_spacing():
+    for text in ["12.5", "e.g.", "well-being", "(i.e.\u00a0becoming"]:
+        node = {"t": "Para", "c": [{"t": "Str", "c": text}]}
+        result = render.latex_line_breaks(node)
+        assert "".join(item["c"] for item in result["c"] if item["t"] == "Str") == text
+        assert sum(item["t"] == "RawInline" for item in result["c"]) == text.count("\u00a0")

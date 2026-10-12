@@ -174,14 +174,21 @@ def latex_line_breaks(value):
     """Add only trusted layout commands after untrusted raw nodes were removed.
 
     Long paths and punctuation-separated prose can occur inside linked titles,
-    where xurl cannot help. The source text stays in Str nodes (escaped by the
-    LaTeX writer); this constant command never contains user-supplied TeX.
+    where xurl cannot help. Short slash-separated terms also need breaks, and
+    copied nonbreaking spaces can otherwise bind an entire quotation together.
+    Keep every source character in Str nodes, escaped by the LaTeX writer;
+    only the fixed layout command below is trusted TeX.
     """
     if isinstance(value, list):
         result = []
         for item in value:
-            if isinstance(item, dict) and item.get("t") == "Str" and len(item["c"]) >= 40:
-                parts = [part for part in re.split(r"(?<=[/_?=&,;:+.*…‧()\-])", item["c"]) if part]
+            if (
+                isinstance(item, dict)
+                and item.get("t") == "Str"
+                and (len(item["c"]) >= 40 or "/" in item["c"] or "\u00a0" in item["c"])
+            ):
+                pattern = r"(?<=[/_?=&,;:+.*…‧()\-\u00a0])" if len(item["c"]) >= 40 else r"(?<=[/\u00a0])"
+                parts = [part for part in re.split(pattern, item["c"]) if part]
                 for index, part in enumerate(parts):
                     if index:
                         result.append({"t": "RawInline", "c": ["latex", r"\allowbreak{}"]})
