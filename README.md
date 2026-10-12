@@ -31,7 +31,7 @@ The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delaye
    ```sh
    sudo apt-get update
    sudo apt-get install -y --no-install-recommends \
-     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese \
+     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese fontconfig \
      fonts-noto-core fonts-noto-cjk fonts-symbola
    ```
 
@@ -50,7 +50,7 @@ The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delaye
 
    On other systems, choose the matching official release asset and verify its published checksum. See [Pandoc installation](https://pandoc.org/installing.html) for platform instructions.
 
-   The PDF setup uses Noto Serif, Noto Serif CJK SC, and Symbola. Other operating systems need the same font families and the XeLaTeX packages used by `src/book_header.tex`. Font fallback improves CJK and monochrome emoji support, but does not guarantee every Unicode sequence renders correctly.
+   The PDF setup uses Noto Serif, Noto Serif CJK SC, and Symbola. Other operating systems need the same font families and the XeLaTeX packages used by `src/book_header.tex`. The renderer queries those fixed font families with Fontconfig and generates per-document fallback mappings from their installed Unicode coverage. New characters supported by those fonts need no code change. Unsupported glyphs fail the build; complex emoji sequences still require visual checks.
 3. From the repository root, install the locked dependencies:
 
    ```sh
@@ -63,6 +63,8 @@ The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delaye
    ```
 
 Markdown, EPUB, and PDF output goes into `markdown_files/`, `epub_files/`, and `pdf_files/`. Generation stages and validates the complete set before replacing published outputs. A conversion or validation failure exits with an error rather than publishing a mixture of new and old books.
+
+Every build derives a record inventory from the same read-only database snapshot used for generation. Parsed record headings and EPUB destinations must contain each discussion/comment exactly once. Malformed Markdown that swallows a later record (for example, fences spanning two comments) fails the build and preserves the previous outputs rather than publishing an incomplete book.
 
 Reddit text is untrusted input. The renderer disables raw markup and resource embedding, uses a restricted conversion environment, and applies timeouts. Run it in an isolated environment without credentials or private files; these defenses are not a general-purpose sandbox for arbitrary documents.
 
@@ -100,6 +102,8 @@ uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
 uv run --frozen --group lint ruff check .
 uv audit --frozen
 ```
+
+With the complete rendering toolchain installed, run `ANIGHA_PDF_TESTS=1 uv run --frozen pytest tests/test_font_pdf.py` for real-PDF Unicode and failure-preservation checks.
 
 Tests use mocks and temporary databases; they do not need Reddit credentials. Unit tests do not replace visually checking generated PDFs and EPUBs after font or layout changes. Review dependency updates and regenerate `uv.lock` with `uv lock`; use `--frozen` when reproducing an existing lock.
 

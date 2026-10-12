@@ -12,9 +12,20 @@ import shutil
 import signal
 import subprocess
 import tempfile
+import xml.etree.ElementTree as ET
 import zipfile
 from pathlib import Path
 from urllib.parse import urlsplit
+
+try:
+    from .archive_manifest import is_record_anchor, validate_record_anchors
+except ImportError:  # Direct script execution.
+    from archive_manifest import is_record_anchor, validate_record_anchors
+
+try:
+    from .font_fallback import unicode_fallbacks
+except ImportError:  # Direct script execution.
+    from font_fallback import unicode_fallbacks
 
 READER = (
     "markdown+autolink_bare_uris-raw_tex-raw_html-raw_attribute-yaml_metadata_block"
@@ -39,7 +50,7 @@ def run_pandoc(args, workdir, *, input_text=None, executable_name="pandoc"):
         "openout_any": "p",
         "shell_escape": "f",
     }
-    if executable_name not in {"pandoc", "xelatex"}:
+    if executable_name not in {"pandoc", "xelatex", "fc-match"}:
         raise ValueError(f"Unsupported rendering executable: {executable_name}")
     executable = shutil.which(executable_name)
     if not executable:
@@ -189,7 +200,30 @@ def latex_line_breaks(value):
     return value
 
 
-def prepare_document(file, template, workdir):
+def validate_document_records(document, expected_anchors, context):
+    """Check parsed record headings, never source-text occurrences inside fences."""
+
+    def headers(value):
+        if isinstance(value, dict):
+            if value.get("t") == "Header" and is_record_anchor(value["c"][1][0]):
+                yield value["c"][1][0]
+            for child in value.values():
+                yield from headers(child)
+        elif isinstance(value, list):
+            for child in value:
+                yield from headers(child)
+
+    validate_record_anchors(expected_anchors, headers(document["blocks"]), context)
+    # A body may also absorb later headings into a list, quote, or other block.
+    top_level = [
+        block["c"][1][0]
+        for block in document["blocks"]
+        if block["t"] == "Header" and is_record_anchor(block["c"][1][0])
+    ]
+    validate_record_anchors(expected_anchors, top_level, f"top-level headings in {context}")
+
+
+def prepare_document(file, template, workdir, expected_anchors):
     match = re.fullmatch(r"ven_anigha_reddit_archive_(\d{4})", file.stem)
     if not match:
         raise ValueError(f"Unexpected archive filename: {file.name}")
@@ -206,7 +240,21 @@ def prepare_document(file, template, workdir):
     )
     document = restrict_ast(document)
     document["meta"] = trusted["meta"]
+    validate_document_records(document, expected_anchors, file.name)
     return json.dumps(document, ensure_ascii=False)
+
+
+def validate_epub_records(path, expected_anchors):
+    """Verify real XHTML destinations after Pandoc has split and written the book."""
+    anchors = []
+    with zipfile.ZipFile(path) as archive:
+        for name in archive.namelist():
+            if name.endswith(".xhtml"):
+                for element in ET.fromstring(archive.read(name)).iter():
+                    identifier = element.get("id", "")
+                    if is_record_anchor(identifier):
+                        anchors.append(identifier)
+    validate_record_anchors(expected_anchors, anchors, path.name)
 
 
 def validate_output(path):
@@ -275,19 +323,27 @@ def publish_files(pairs):
                 shutil.rmtree(directory, ignore_errors=True)
 
 
-def convert_archive(input_dir, epub_dir, pdf_dir, template):
+def convert_archive(input_dir, epub_dir, pdf_dir, template, *, expected_records):
     files = sorted(Path(input_dir).glob("*.md"))
     if not files:
         raise ValueError("No archive Markdown files were generated")
+    actual_volumes, expected_volumes = {file.stem for file in files}, set(expected_records)
+    if actual_volumes != expected_volumes:
+        raise ValueError(
+            "Archive volume coverage failed: "
+            f"missing {sorted(expected_volumes - actual_volumes)}, "
+            f"unexpected {sorted(actual_volumes - expected_volumes)}"
+        )
     epub_dir, pdf_dir = Path(epub_dir).resolve(), Path(pdf_dir).resolve()
     # Stage on the destination filesystem, then publish the complete validated set.
     epub_dir.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=".archive-render-", dir=epub_dir.parent) as temp:
         workdir = Path(temp).resolve()
-        header = Path(__file__).with_name("book_header.tex").resolve()
+        header_template = Path(__file__).with_name("book_header.tex").read_text(encoding="utf-8")
         pairs = []
         for file in files:
-            document = prepare_document(file, template, workdir)
+            expected_anchors = expected_records[file.stem]
+            document = prepare_document(file, template, workdir, expected_anchors)
             for suffix, target_dir in ((".epub", epub_dir), (".pdf", pdf_dir)):
                 output = workdir / (file.stem + suffix)
                 args = ["--sandbox", "-f", "json", "-o", str(output), "--toc", "--toc-depth=2"]
@@ -296,6 +352,10 @@ def convert_archive(input_dir, epub_dir, pdf_dir, template):
                     # Pandoc's PDF wrapper passes an absolute input path, which
                     # that policy correctly rejects on some TeX installations.
                     tex = output.with_suffix(".tex")
+                    header = output.with_suffix(".header.tex")
+                    header.write_text(
+                        header_template + unicode_fallbacks(json.loads(document), workdir, run_pandoc), encoding="utf-8"
+                    )
                     run_pandoc(
                         [
                             "--sandbox",
@@ -327,5 +387,7 @@ def convert_archive(input_dir, epub_dir, pdf_dir, template):
                     args += ["--split-level=2"]
                     run_pandoc(args, workdir, input_text=document)
                 validate_output(output)
+                if suffix == ".epub":
+                    validate_epub_records(output, expected_anchors)
                 pairs.append((output, target_dir / output.name))
         publish_files(pairs)

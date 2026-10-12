@@ -364,13 +364,13 @@ def create_non_indented_md_from_thread(comment: dict[str, Any], level=0) -> str:
     return markdown
 
 
-def convert_to_epub_and_pdf(input_dir: Path, epub_dir: str, pdf_dir) -> None:
+def convert_to_epub_and_pdf(input_dir: Path, epub_dir: str, pdf_dir, *, expected_records) -> None:
     """Build the full set in isolation and publish only validated outputs."""
     try:
         from .render_archive import convert_archive
     except ImportError:  # Direct script execution.
         from render_archive import convert_archive
-    convert_archive(input_dir, epub_dir, pdf_dir, metablock_template)
+    convert_archive(input_dir, epub_dir, pdf_dir, metablock_template, expected_records=expected_records)
 
 
 def build_archive(database="reddit_comments.db", output_dir="."):
@@ -379,8 +379,10 @@ def build_archive(database="reddit_comments.db", output_dir="."):
     from contextlib import closing
 
     try:
+        from .archive_manifest import record_manifest
         from .render_archive import publish_files
     except ImportError:
+        from archive_manifest import record_manifest
         from render_archive import publish_files
     root = Path(output_dir).resolve()
     root.mkdir(parents=True, exist_ok=True)
@@ -393,8 +395,11 @@ def build_archive(database="reddit_comments.db", output_dir="."):
         pdf = stage / "pdf_files"
         uri = Path(database).resolve().as_uri() + "?mode=ro"
         with closing(sqlite3.connect(uri, uri=True)) as conn:
+            # Keep the inventory and generated text on the same SQLite snapshot.
+            conn.execute("BEGIN")
+            expected_records = record_manifest(conn)
             save_comments_to_markdown(conn, markdown, source)
-        convert_to_epub_and_pdf(source, epub, pdf)
+        convert_to_epub_and_pdf(source, epub, pdf, expected_records=expected_records)
         pairs = [
             (file, root / directory.name / file.name)
             for directory in (markdown, epub, pdf)

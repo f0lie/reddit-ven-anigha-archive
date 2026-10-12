@@ -34,7 +34,7 @@ header-includes: '\input{/etc/passwd}'
 [good](https://www.reddit.com/)
 """,
     )
-    output = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    output = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ())
     doc = json.loads(output)
     assert doc["meta"] == {
         "title": {"t": "MetaInlines", "c": [{"t": "Str", "c": "Archive"}, {"t": "Space"}, {"t": "Str", "c": "2026"}]}
@@ -78,7 +78,7 @@ def test_render_failure_keeps_all_previous_outputs(tmp_path, monkeypatch):
 
     monkeypatch.setattr(render, "run_pandoc", fail_pdf)
     with pytest.raises(subprocess.CalledProcessError):
-        render.convert_archive(inputs, epub, pdf, "")
+        render.convert_archive(inputs, epub, pdf, "", expected_records={"ven_anigha_reddit_archive_2026": ()})
     assert old_epub.read_bytes() == b"old epub"
     assert old_pdf.read_bytes() == b"old pdf"
 
@@ -102,7 +102,7 @@ def test_invalid_output_blocks_whole_publication(tmp_path):
 
 def test_empty_archive_is_an_error(tmp_path):
     with pytest.raises(ValueError, match="No archive"):
-        render.convert_archive(tmp_path, tmp_path / "epub", tmp_path / "pdf", "")
+        render.convert_archive(tmp_path, tmp_path / "epub", tmp_path / "pdf", "", expected_records={})
 
 
 def test_subprocess_receives_no_credentials(tmp_path, monkeypatch):
@@ -144,6 +144,8 @@ def test_build_failure_keeps_markdown_and_database_unchanged(tmp_path, monkeypat
     database = tmp_path / "archive.db"
     with closing(sqlite3.connect(database)) as conn:
         conn.execute("CREATE TABLE preserved (body TEXT)")
+        conn.execute("CREATE TABLE submissions (id TEXT, created_at REAL)")
+        conn.execute("CREATE TABLE comments (id TEXT, submission_id TEXT)")
         conn.execute("INSERT INTO preserved VALUES ('original')")
         conn.commit()
     original = database.read_bytes()
@@ -160,7 +162,7 @@ def test_build_failure_keeps_markdown_and_database_unchanged(tmp_path, monkeypat
         (markdown / old.name).write_text("new markdown")
         make_source(source)
 
-    def fail_conversion(*args):
+    def fail_conversion(*args, **kwargs):
         raise RuntimeError("conversion failed")
 
     monkeypatch.setattr(generate, "save_comments_to_markdown", stage_markdown)
@@ -195,7 +197,7 @@ def test_long_text_wraps_without_interpreting_source_tex():
 @pytest.mark.skipif(not shutil.which("pandoc"), reason="Pandoc is not installed")
 def test_bare_urls_are_links_for_safe_line_wrapping(tmp_path):
     source = make_source(tmp_path, "Visit https://www.reddit.com/r/HillsideHermitage/comments/example/ .")
-    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ())
     assert '"t": "Link"' in document
 
 
@@ -281,7 +283,7 @@ def test_table_attributes_cannot_add_active_content_to_epub(tmp_path):
         '| A |\n|---|\n|x|\n\n: caption {#id style="background-image:url(https://example.test/pixel.png)" '
         'onclick="alert(1)"}',
     )
-    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ())
     output = tmp_path / "book.epub"
     render.run_pandoc(["--sandbox", "-f", "json", "-o", str(output)], tmp_path, input_text=document)
     render.validate_output(output)
@@ -305,7 +307,7 @@ def test_malformed_url_is_plain_text(url):
 @pytest.mark.skipif(not shutil.which("pandoc"), reason="Pandoc is not installed")
 def test_malformed_authority_does_not_abort_document(tmp_path):
     source = make_source(tmp_path, "[visible label](https://example.com／bad)")
-    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path)
+    document = render.prepare_document(source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, set())
     parsed = json.loads(document)
     assert parsed["blocks"][0]["c"][0]["t"] == "Span"
     assert "visible" in document

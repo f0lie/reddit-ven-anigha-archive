@@ -135,18 +135,6 @@ def test_epub_toc_lists_discussions_only_and_keeps_comment_anchors(tmp_path):
     assert any("🙏" in chapter and "非梵行" in chapter for chapter in chapters)
 
 
-def test_fallback_characters_are_locally_grouped():
-    """Global inter-character group transitions break at quote/emphasis boundaries."""
-    header = Path("src/book_header.tex").read_text()
-    assert r"\usepackage{newunicodechar}" in header
-    assert "ucharclasses" not in header
-    assert r"\setTransitionsFor" not in header
-    for char in "》非梵行→🏿👌👍😂😅🙏🤔":
-        font = "archiveCJK" if char in "》非梵行" else "archiveSymbols"
-        declaration = "\\newunicodechar{" + char + "}{{\\" + font + '\\char"' + format(ord(char), "X") + "}}"
-        assert declaration in header
-
-
 def test_code_blocks_wrap_without_discarding_text():
     header = Path("src/book_header.tex").read_text()
     assert r"\usepackage{fvextra}" in header
