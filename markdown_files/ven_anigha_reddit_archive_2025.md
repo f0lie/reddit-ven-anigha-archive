@@ -1,3 +1,15 @@
+# Ven Anīgha Reddit Archive 2025
+
+**Generated:** 2026-10-12 14:57:07 UTC
+
+**Saved records in this volume:** 220 discussions and 507 comments.
+
+**Saved comment dates:** 2025-01-02 to 2026-04-11 (UTC).
+
+Volumes are grouped by the year each discussion began; replies may be from later years. This edition contains the records saved in the local database at generation time. It is not a claim of complete Reddit coverage. Deleted, unavailable, or unfetched material may be absent. Comment timestamps are shown in UTC.
+
+---
+
 **r/HillsideHermitage** | Posted by Solip123 _2025-12-31 05:20:06_
 ### [Do you need a conceptual understanding of paṭiccasamuppāda for the Right View?](https://www.reddit.com/r/HillsideHermitage/comments/1q04t0h/do_you_need_a_conceptual_understanding_of/)
 
@@ -989,7 +1001,7 @@ So I’m left with this dilemma: to properly practice the 7th precept, should I 
 ---
 
 **r/HillsideHermitage** | Posted by craveminerals _2025-11-19 16:25:53_
-### [How do you know if you’ve  destroyed a fetter, and not just temporarily “subdued” it?](https://www.reddit.com/r/HillsideHermitage/comments/1p1c77m/how_do_you_know_if_youve_destroyed_a_fetter_and/)
+### [How do you know if you’ve destroyed a fetter, and not just temporarily “subdued” it?](https://www.reddit.com/r/HillsideHermitage/comments/1p1c77m/how_do_you_know_if_youve_destroyed_a_fetter_and/)
 
 
 What’s the difference between someone who (temporarily) transcends sensuality and someone annihilating the fetter of sensuality in an irreversible way? Maybe the former could be convinced that they’re completely done with it, as the desire for sensuality has apparently ceased, (as in old age perhaps) but in fact that’s not the case.
@@ -2164,7 +2176,7 @@ What is Hillside's position when it comes to whom the Suttas are directed to?  D
 ---
 
 **r/HillsideHermitage** | Posted by ComprehensiveCamp486 _2025-09-20 18:53:59_
-### [How attainable are the attainments of a saddhānusārī (faith-follower) and a dhammānusārī (Dhamma-follower)?](https://www.reddit.com/r/HillsideHermitage/comments/1nm6ce6/how_attainable_are_the_attainments_of_a/)
+### [How attainable are the attainments of a saddhānusārī (faith-follower) and a dhammānusārī (Dhamma-follower)?](https://www.reddit.com/r/HillsideHermitage/comments/1nm6ce6/how_attainable_are_the_attainments_of_a/)
 
 From what I’ve read, these seem far beyond mere intellectual belief common in many Buddhist circles. Wouldn’t someone at this stage already be like 80–90% of the way to stream-entry, and what exactly have they understood or realized to be called such?
 
@@ -9026,7 +9038,7 @@ Mark
 ---
 
 **r/HillsideHermitage** | Posted by Ok-Addition-7759 _2025-01-10 20:06:07_
-### [What is the appropriate attitude/view to have towards one's parents? ](https://www.reddit.com/r/HillsideHermitage/comments/1hydjpc/what_is_the_appropriate_attitudeview_to_have/)
+### [What is the appropriate attitude/view to have towards one's parents?](https://www.reddit.com/r/HillsideHermitage/comments/1hydjpc/what_is_the_appropriate_attitudeview_to_have/)
 
 As I prepare to go forth it's becoming much more real the fact that I'm leaving my family behind. When I leave, I don't know when or if I might see them again.  It feels easier to see the body as not mine than it is to see my mom or dad as not my mine.  I don't want to say they're "not mine" in the wrong way.  Nothing can belong to anyone, but it's too easy to take that in the wrong way, in a way that avoids responsibility or isn't taken personally enough or is dissonant with the actual underlying emotions and attachments(denial, repression, etc).
 

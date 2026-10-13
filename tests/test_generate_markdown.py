@@ -519,39 +519,43 @@ def test_create_non_indented_md_from_submission(
         if submission_dict["id"] == "sub1":
             expected = (
                 "## [Submission Title 1](https://reddit.com/r/subreddit1/co"
-                "mments/sub1)\n"
+                "mments/sub1) {#discussion-sub1}\n"
                 "**Subreddit**: r/subreddit1 | **Posted by**: Author1 "
                 "_2024-01-01 00:00:00_\n\n"
                 "Submission Body 1\n\n"
                 "### Comment by [Commenter1](https://www.reddit.com/r/subre"
-                "ddit1/comments/sub1/comment_1/) on 2024-01-02 00:00:00\n\n"
+                "ddit1/comments/sub1/comment_1/) on 2024-01-02 00:00:00 "
+                "{#comment-com1 .unnumbered .unlisted}\n\n"
                 "Comment 1 on Submission 1\n\n"
                 "#### Comment by [Commenter2](https://www.reddit.com/r/subr"
-                "eddit1/comments/sub1/comment_2/) on 2024-01-03 "
-                "00:00:00\n\n"
+                "eddit1/comments/sub1/comment_2/) on 2024-01-03 00:00:00 "
+                "{#comment-com2 .unnumbered .unlisted}\n\n"
                 "Comment 2 (reply to Comment 1)\n\n"
             )
         elif submission_dict["id"] == "sub2":
             expected = (
                 "## [Submission Title 2 # "
-                "Header](https://reddit.com/r/subreddit2/comments/sub2)\n"
+                "Header](https://reddit.com/r/subreddit2/comments/sub2) "
+                "{#discussion-sub2}\n"
                 "**Subreddit**: r/subreddit2 | **Posted by**: Author2 "
                 "_2023-02-01 00:00:00_\n\n"
                 "Submission Body 2\n\n\\# Another Header\n\n"
                 "### Comment by [Commenter3](https://www.reddit.com/r/subre"
-                "ddit2/comments/sub2/comment_3/) on 2023-02-02 00:00:00\n\n"
+                "ddit2/comments/sub2/comment_3/) on 2023-02-02 00:00:00 "
+                "{#comment-com3 .unnumbered .unlisted}\n\n"
                 "Comment 3 on Submission 2\n\n"
                 "#### Comment by [Commenter4](https://www.reddit.com/r/subr"
-                "eddit2/comments/sub2/comment_4/) on 2023-02-03 "
-                "00:00:00\n\n"
+                "eddit2/comments/sub2/comment_4/) on 2023-02-03 00:00:00 "
+                "{#comment-com4 .unnumbered .unlisted}\n\n"
                 "Comment 4 (reply to Comment 3)\n\n\\# Header in comment\n\n"
                 "##### Comment by [Commenter5](https://www.reddit.com/r/sub"
-                "reddit2/comments/sub2/comment_5/) on 2023-02-04 "
-                "00:00:00\n\n"
+                "reddit2/comments/sub2/comment_5/) on 2023-02-04 00:00:00 "
+                "{#comment-com5 .unnumbered .unlisted}\n\n"
                 "Comment 5 (reply to Comment 4)\n\n"
                 "### Comment by [Commenter7](https://www.reddit.com/r/subre"
                 "ddit2/comments/sub2/comment_7/) on 2023-02-04 00:00:00 "
-                "*(in reply to a comment not included)*\n\n"
+                "*(in reply to a comment not included)* {#comment-com7 "
+                ".unnumbered .unlisted}\n\n"
                 "Comment 7 (orphaned)\n\n"
             )
         else:
@@ -597,10 +601,12 @@ def test_create_non_indented_md_from_thread() -> None:
     result = generate.create_non_indented_md_from_thread(comment1)
     expected = (
         "### Comment by [Commenter1](https://www.reddit.com/r/subreddit1/co"
-        "mments/sub1/comment_1/) on 2024-01-02 00:00:00\n\n"
+        "mments/sub1/comment_1/) on 2024-01-02 00:00:00 {#comment-com1 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 1 on Submission 1\n\n"
         "#### Comment by [Commenter2](https://www.reddit.com/r/subreddit1/c"
-        "omments/sub1/comment_2/) on 2024-01-03 00:00:00\n\n"
+        "omments/sub1/comment_2/) on 2024-01-03 00:00:00 {#comment-com2 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 2 (reply to Comment 1)\n\n"
     )
     assert result == expected
@@ -653,13 +659,16 @@ def test_create_non_indented_md_from_thread() -> None:
     result = generate.create_non_indented_md_from_thread(comment3)
     expected = (
         "### Comment by [Commenter3](https://www.reddit.com/r/subreddit2/co"
-        "mments/sub2/comment_3/) on 2023-02-02 00:00:00\n\n"
+        "mments/sub2/comment_3/) on 2023-02-02 00:00:00 {#comment-com3 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 3 on Submission 2\n\n"
         "#### Comment by [Commenter4](https://www.reddit.com/r/subreddit2/c"
-        "omments/sub2/comment_4/) on 2023-02-03 00:00:00\n\n"
+        "omments/sub2/comment_4/) on 2023-02-03 00:00:00 {#comment-com4 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 4 (reply to Comment 3)\n\n\\# Header in comment\n\n"
         "##### Comment by [Commenter5](https://www.reddit.com/r/subreddit2/"
-        "comments/sub2/comment_5/) on 2023-02-04 00:00:00\n\n"
+        "comments/sub2/comment_5/) on 2023-02-04 00:00:00 {#comment-com5 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 5 (reply to Comment 4)\n\n"
     )
     assert result == expected
@@ -710,22 +719,26 @@ def test_save_comments_to_markdown(
     expected_2023_epub = (
         generate.METABLOCK_TEMPLATE.format(year=2023)
         + "## [Submission Title 2 # "
-        "Header](https://reddit.com/r/subreddit2/comments/sub2)\n"
+        "Header](https://reddit.com/r/subreddit2/comments/sub2) "
+        "{#discussion-sub2}\n"
         "**Subreddit**: r/subreddit2 | **Posted by**: Author2 _2023-02-01 "
         "00:00:00_\n\n"
         "Submission Body 2\n\n\\# Another Header\n\n"
         "### Comment by [Commenter3](https://www.reddit.com/r/subreddit2/co"
-        "mments/sub2/comment_3/) on 2023-02-02 00:00:00\n\n"
+        "mments/sub2/comment_3/) on 2023-02-02 00:00:00 {#comment-com3 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 3 on Submission 2\n\n"
         "#### Comment by [Commenter4](https://www.reddit.com/r/subreddit2/c"
-        "omments/sub2/comment_4/) on 2023-02-03 00:00:00\n\n"
+        "omments/sub2/comment_4/) on 2023-02-03 00:00:00 {#comment-com4 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 4 (reply to Comment 3)\n\n\\# Header in comment\n\n"
         "##### Comment by [Commenter5](https://www.reddit.com/r/subreddit2/"
-        "comments/sub2/comment_5/) on 2023-02-04 00:00:00\n\n"
+        "comments/sub2/comment_5/) on 2023-02-04 00:00:00 {#comment-com5 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 5 (reply to Comment 4)\n\n"
         "### Comment by [Commenter7](https://www.reddit.com/r/subreddit2/co"
         "mments/sub2/comment_7/) on 2023-02-04 00:00:00 *(in reply to a "
-        "comment not included)*\n\n"
+        "comment not included)* {#comment-com7 .unnumbered .unlisted}\n\n"
         "Comment 7 (orphaned)\n\n"
     )
 
@@ -746,15 +759,17 @@ def test_save_comments_to_markdown(
     expected_2024_epub = (
         generate.METABLOCK_TEMPLATE.format(year=2024)
         + "## [Submission Title 1](https://reddit.com/r/subreddit1/comments/s"
-        "ub1)\n"
+        "ub1) {#discussion-sub1}\n"
         "**Subreddit**: r/subreddit1 | **Posted by**: Author1 _2024-01-01 "
         "00:00:00_\n\n"
         "Submission Body 1\n\n"
         "### Comment by [Commenter1](https://www.reddit.com/r/subreddit1/co"
-        "mments/sub1/comment_1/) on 2024-01-02 00:00:00\n\n"
+        "mments/sub1/comment_1/) on 2024-01-02 00:00:00 {#comment-com1 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 1 on Submission 1\n\n"
         "#### Comment by [Commenter2](https://www.reddit.com/r/subreddit1/c"
-        "omments/sub1/comment_2/) on 2024-01-03 00:00:00\n\n"
+        "omments/sub1/comment_2/) on 2024-01-03 00:00:00 {#comment-com2 "
+        ".unnumbered .unlisted}\n\n"
         "Comment 2 (reply to Comment 1)\n\n"
     )
 
@@ -768,7 +783,23 @@ def test_save_comments_to_markdown(
     epub_file_2023 = temp_files_dir / "ven_anigha_reddit_archive_2023.md"
     epub_file_2024 = temp_files_dir / "ven_anigha_reddit_archive_2024.md"
 
-    assert markdown_file_2023.read_text(encoding="utf-8") == expected_2023_md
-    assert markdown_file_2024.read_text(encoding="utf-8") == expected_2024_md
-    assert epub_file_2023.read_text(encoding="utf-8") == expected_2023_epub
-    assert epub_file_2024.read_text(encoding="utf-8") == expected_2024_epub
+    assert (
+        markdown_file_2023.read_text(encoding="utf-8").split("\n---\n\n", 1)[1]
+        == expected_2023_md
+    )
+    assert (
+        markdown_file_2024.read_text(encoding="utf-8").split("\n---\n\n", 1)[1]
+        == expected_2024_md
+    )
+    assert (
+        generate.METABLOCK_TEMPLATE.format(year=2023)
+        + epub_file_2023.read_text(encoding="utf-8").split(
+            "Comment timestamps are shown in UTC.\n\n", 1
+        )[1]
+    ) == expected_2023_epub
+    assert (
+        generate.METABLOCK_TEMPLATE.format(year=2024)
+        + epub_file_2024.read_text(encoding="utf-8").split(
+            "Comment timestamps are shown in UTC.\n\n", 1
+        )[1]
+    ) == expected_2024_epub

@@ -63,7 +63,7 @@ header-includes: '\input{/etc/passwd}'
 """,
     )
     output = render.prepare_document(
-        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path
+        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ()
     )
     document = json.loads(output)
     assert document["meta"] == {
@@ -98,7 +98,11 @@ def test_restrict_ast_preserves_anchors_without_attributes() -> None:
             [{"t": "Str", "c": "Hello"}],
         ],
     }
-    assert render.restrict_ast(node)["c"][1] == ["comment-123", [], []]
+    assert render.restrict_ast(node)["c"][1] == [
+        "comment-123",
+        ["unlisted", "unnumbered"],
+        [],
+    ]
 
 
 def test_render_failure_keeps_all_previous_outputs(
@@ -143,7 +147,13 @@ def test_render_failure_keeps_all_previous_outputs(
 
     monkeypatch.setattr(render, "run_pandoc", fail_pdf)
     with pytest.raises(subprocess.CalledProcessError):
-        render.convert_archive(inputs, epub, pdf, "")
+        render.convert_archive(
+            inputs,
+            epub,
+            pdf,
+            "",
+            expected_records={"ven_anigha_reddit_archive_2026": ()},
+        )
     assert old_epub.read_bytes() == b"old epub"
     assert old_pdf.read_bytes() == b"old pdf"
 
@@ -190,7 +200,11 @@ def test_empty_archive_is_an_error(tmp_path: pathlib.Path) -> None:
     """
     with pytest.raises(ValueError, match="No archive"):
         render.convert_archive(
-            tmp_path, tmp_path / "epub", tmp_path / "pdf", ""
+            tmp_path,
+            tmp_path / "epub",
+            tmp_path / "pdf",
+            "",
+            expected_records={},
         )
 
 
@@ -206,7 +220,6 @@ def test_subprocess_receives_no_credentials(
     monkeypatch.setenv("CLIENT_SECRET", "secret")
     monkeypatch.setenv("GITHUB_TOKEN", "secret")
     seen = {}
-    monkeypatch.setattr(render.shutil, "which", lambda name: "/usr/bin/pandoc")
 
     class FakeProcess:
         """Captures renderer options using the Popen test protocol."""
@@ -272,6 +285,8 @@ def test_build_failure_keeps_markdown_and_database_unchanged(
     database = tmp_path / "archive.db"
     with contextlib.closing(sqlite3.connect(database)) as conn:
         conn.execute("CREATE TABLE preserved (body TEXT)")
+        conn.execute("CREATE TABLE submissions (id TEXT, created_at REAL)")
+        conn.execute("CREATE TABLE comments (id TEXT, submission_id TEXT)")
         conn.execute("INSERT INTO preserved VALUES ('original')")
         conn.commit()
     original = database.read_bytes()
@@ -297,11 +312,12 @@ def test_build_failure_keeps_markdown_and_database_unchanged(
         (markdown / old.name).write_text("new markdown")
         make_source(source)
 
-    def fail_conversion(*args: object) -> None:
+    def fail_conversion(*args: object, **kwargs: object) -> None:
         """Simulates an archive conversion failure.
 
         Args:
             *args: Unused conversion paths.
+            **kwargs: Unused record-inventory options.
 
         Raises:
             RuntimeError: Always raised to exercise build cleanup.
@@ -329,6 +345,103 @@ def test_missing_database_is_not_silently_created(
     with pytest.raises(sqlite3.OperationalError):
         generate.build_archive(missing, tmp_path)
     assert not missing.exists()
+
+
+def test_long_text_wraps_without_interpreting_source_tex() -> None:
+    """Verifies long text wraps without interpreting source tex."""
+    text = r"/r/theravada/comments/long_title_with_punctuation/\input{secret}"
+    node = {"t": "Para", "c": [{"t": "Str", "c": text}]}
+    result = render.latex_line_breaks(node)["c"]
+    assert "".join(item["c"] for item in result if item["t"] == "Str") == text
+    commands = [item["c"] for item in result if item["t"] == "RawInline"]
+    assert commands and all(
+        command == ["latex", r"\allowbreak{}"] for command in commands
+    )
+
+
+@pytest.mark.skipif(
+    not shutil.which("pandoc"), reason="Pandoc is not installed"
+)
+def test_bare_urls_are_links_for_safe_line_wrapping(
+    tmp_path: pathlib.Path,
+) -> None:
+    """Verifies bare urls are links for safe line wrapping.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+    """
+    source = make_source(
+        tmp_path,
+        "Visit https://www.reddit.com/r/HillsideHermitage/comments/example/ .",
+    )
+    document = render.prepare_document(
+        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ()
+    )
+    assert '"t": "Link"' in document
+
+
+def test_formatted_literal_url_keeps_its_target() -> None:
+    """Verifies formatted URLs gain breaks while keeping their destination."""
+    url = "https://medium.com/@someone/" + "a-long-article-title-" * 5
+    node = {
+        "t": "Link",
+        "c": [
+            ["", [], []],
+            [{"t": "Emph", "c": [{"t": "Str", "c": url}]}],
+            [url, ""],
+        ],
+    }
+    result = render.latex_line_breaks(node)
+    assert result["c"][1] == [{"t": "Str", "c": url}]
+    assert result["c"][2] == [url, ""]
+    assert node["c"][1][0]["t"] == "Emph"
+
+
+@pytest.mark.parametrize("kind", ["Span", "Cite"])
+def test_visible_label_text_handles_wrapper_metadata(kind: str) -> None:
+    """Verifies visible label text handles wrapper metadata.
+
+    Args:
+        kind: Pandoc node type supplied by the parametrized test.
+    """
+    assert (
+        render.visible_inline_text(
+            [
+                {
+                    "t": kind,
+                    "c": [
+                        [],
+                        [
+                            {"t": "Str", "c": "a"},
+                            {"t": "Space"},
+                            {"t": "Str", "c": "b"},
+                        ],
+                    ],
+                }
+            ]
+        )
+        == "a b"
+    )
+
+
+@pytest.mark.parametrize("kind", ["Emph", "Span", "Cite"])
+def test_uncertain_nested_label_is_not_silently_discarded(kind: str) -> None:
+    """Verifies uncertain nested label is not silently discarded.
+
+    Args:
+        kind: Pandoc node type supplied by the parametrized test.
+    """
+    unknown = [{"t": "Code", "c": [["", [], []], "extra visible text"]}]
+    content = [[], unknown] if kind in {"Span", "Cite"} else unknown
+    assert (
+        render.visible_inline_text(
+            [
+                {"t": kind, "c": content},
+                {"t": "Str", "c": "https://example.com"},
+            ]
+        )
+        is None
+    )
 
 
 def test_restrict_ast_cleans_table_and_figure_attributes() -> None:
@@ -425,7 +538,7 @@ def test_table_attributes_cannot_add_active_content_to_epub(
         'onclick="alert(1)"}',
     )
     document = render.prepare_document(
-        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path
+        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, ()
     )
     output = tmp_path / "book.epub"
     render.run_pandoc(
@@ -481,9 +594,69 @@ def test_malformed_authority_does_not_abort_document(
     """
     source = make_source(tmp_path, "[visible label](https://example.com／bad)")
     document = render.prepare_document(
-        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path
+        source, '---\ntitle: "Archive {year}"\n---\n', tmp_path, set()
     )
     parsed = json.loads(document)
     assert parsed["blocks"][0]["c"][0]["t"] == "Span"
     assert "visible" in document
     assert "https://example.com／bad" in document
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "faith/dhamma",
+        "absorbed/proliferating/dwelling",
+        "dependence/simultaneity",
+    ],
+)
+def test_short_slash_terms_wrap_without_changing_text_or_link_target(
+    text: str,
+) -> None:
+    """Verifies short slash terms wrap without changing text or link target.
+
+    Args:
+        text: Visible source text supplied by the parametrized test.
+    """
+    target = ["https://example.com/original/path", "Original title"]
+    node = {
+        "t": "Link",
+        "c": [["discussion-test", [], []], [{"t": "Str", "c": text}], target],
+    }
+    result = render.latex_line_breaks(node)
+    label = result["c"][1]
+    assert "".join(item["c"] for item in label if item["t"] == "Str") == text
+    assert sum(item["t"] == "RawInline" for item in label) == text.count("/")
+    assert result["c"][2] == target
+    assert node["c"][1] == [{"t": "Str", "c": text}]
+
+
+def test_italic_nonbreaking_spaces_wrap_without_text_changes() -> None:
+    """Verifies italic quotations keep their characters and gain safe breaks."""
+    text = (
+        "yaṁ\xa0nimittaṁ\xa0manasikaroto\xa0uppajjanti\xa0pāpakā\xa0akusalā\xa0"
+        "vitakkā"
+    )
+    node = {"t": "Emph", "c": [{"t": "Str", "c": text}]}
+    result = render.latex_line_breaks(node)
+    assert result["t"] == "Emph"
+    assert (
+        "".join(item["c"] for item in result["c"] if item["t"] == "Str") == text
+    )
+    assert [item["c"] for item in result["c"] if item["t"] == "RawInline"] == [
+        ["latex", r"\allowbreak{}"]
+    ] * text.count("\u00a0")
+
+
+def test_short_prose_retains_normal_punctuation_and_decimal_spacing() -> None:
+    """Verifies short prose retains normal punctuation and decimal spacing."""
+    for text in ["12.5", "e.g.", "well-being", "(i.e.\u00a0becoming"]:
+        node = {"t": "Para", "c": [{"t": "Str", "c": text}]}
+        result = render.latex_line_breaks(node)
+        assert (
+            "".join(item["c"] for item in result["c"] if item["t"] == "Str")
+            == text
+        )
+        assert sum(
+            item["t"] == "RawInline" for item in result["c"]
+        ) == text.count("\u00a0")

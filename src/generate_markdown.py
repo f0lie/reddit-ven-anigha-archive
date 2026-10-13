@@ -4,6 +4,8 @@ The database is read-only during a build. Markdown and rendered files stay in
 an isolated staging directory until the complete archive is ready to publish.
 """
 
+from collections.abc import Collection
+from collections.abc import Mapping
 from collections.abc import Sequence
 import contextlib
 import datetime
@@ -14,12 +16,15 @@ import re
 import sqlite3
 import tempfile
 from typing import Any
+import unicodedata
 
 # Both module imports and the documented direct-script entry point are
 # supported.
 if __package__:
+    from src import archive_manifest
     from src import render_archive
 else:
+    import archive_manifest  # pylint: disable=import-error
     import render_archive  # pylint: disable=import-error
 
 METABLOCK_TEMPLATE = """\
@@ -29,21 +34,85 @@ author: \"Ven Anīgha\"
 date: \"{year}\"
 description: \"Reddit discussions by Ven Anīgha in {year}.\"
 lang: en
-mainfont: "Source Serif 4"
+mainfont: "Noto Serif"
+sansfont: "Noto Sans"
+monofont: "Noto Sans Mono"
 fontsize: 12pt
 geometry: margin=1in
 documentclass: book
+classoption: openany
+colorlinks: true
+linkcolor: NavyBlue
+urlcolor: NavyBlue
 pdf-engine: xelatex
 toc: true
 toc-depth: 2
 ---
 
-# Ven Anīgha Reddit Archive {year}
+**Archive notes**
 
 """
 
 # Preserve the existing exported template name for callers of earlier versions.
 metablock_template = METABLOCK_TEMPLATE  # pylint: disable=invalid-name
+
+
+def archive_coverage_note(
+    cursor: sqlite3.Cursor,
+    submissions: list[dict[str, Any]],
+    generated_at: datetime.datetime,
+) -> str:
+    """Describe saved records without claiming complete Reddit coverage.
+
+    Args:
+        cursor: Open SQLite cursor for the archive snapshot. The query reads
+            comment counts and UTC Unix-second timestamps without writing.
+        submissions: Saved submission mappings in this volume; each must have
+            an ``id`` key. Counts include their comments, including later
+            replies.
+        generated_at: Generation time. Pass a timezone-aware datetime for an
+            unambiguous UTC timestamp; naive values use the local timezone.
+
+    Returns:
+        Markdown with generation time, record counts, the available comment
+        date range, and archive-coverage limitations.
+
+    Raises:
+        sqlite3.Error: If the archive query fails.
+    """
+    submission_ids = [submission["id"] for submission in submissions]
+    placeholders = ",".join("?" for _ in submission_ids)
+    count, earliest, latest = cursor.execute(
+        "SELECT COUNT(*), MIN(created_utc), MAX(created_utc) "
+        f"FROM comments WHERE submission_id IN ({placeholders})",
+        submission_ids,
+    ).fetchone()
+    generated = generated_at.astimezone(datetime.UTC).strftime(
+        "%Y-%m-%d %H:%M:%S UTC"
+    )
+    note = (
+        f"**Generated:** {generated}\n\n"
+        f"**Saved records in this volume:** {len(submissions)} discussions "
+        f"and {count} comments.\n\n"
+    )
+    if count:
+        dates = [
+            datetime.datetime.fromtimestamp(value, datetime.UTC).strftime(
+                "%Y-%m-%d"
+            )
+            for value in (earliest, latest)
+        ]
+        note += f"**Saved comment dates:** {dates[0]} to {dates[1]} (UTC).\n\n"
+    note += (
+        "Volumes are grouped by the year each discussion began; replies "
+        "may be from later years. "
+        "This edition contains the records saved in the local database at "
+        "generation time. "
+        "It is not a claim of complete Reddit coverage. Deleted, "
+        "unavailable, or unfetched material "
+        "may be absent. Comment timestamps are shown in UTC.\n\n"
+    )
+    return note
 
 
 # Keep the per-year staging steps together for straightforward review.
@@ -52,6 +121,8 @@ def save_comments_to_markdown(
     conn: sqlite3.Connection,
     markdown_files_dir: str | os.PathLike[str],
     temp_files_dir: str | os.PathLike[str],
+    *,
+    generated_at: datetime.datetime | None = None,
 ) -> None:
     """Saves Reddit submissions and comments in yearly Markdown files.
 
@@ -63,6 +134,8 @@ def save_comments_to_markdown(
         conn: An SQLite database connection.
         markdown_files_dir: The directory to save the indented markdown files.
         temp_files_dir: Destination for non-indented EPUB/PDF source Markdown.
+        generated_at: Time used for the coverage note, defaulting to current
+            UTC.
 
     Raises:
         sqlite3.Error: The submissions or comments cannot be read.
@@ -72,6 +145,7 @@ def save_comments_to_markdown(
     temp_dir = pathlib.Path(temp_files_dir)
     markdown_dir.mkdir(parents=True, exist_ok=True)
     temp_dir.mkdir(parents=True, exist_ok=True)
+    generated_at = generated_at or datetime.datetime.now(datetime.UTC)
 
     cursor = conn.cursor()
     cursor.execute(
@@ -98,8 +172,13 @@ def save_comments_to_markdown(
 
     # Process submissions year by year
     for year, submissions_in_year in submissions_by_year.items():
-        markdown_text = ""
-        epub_text = METABLOCK_TEMPLATE.format(year=year)
+        coverage = archive_coverage_note(
+            cursor, submissions_in_year, generated_at
+        )
+        markdown_text = (
+            f"# Ven Anīgha Reddit Archive {year}\n\n{coverage}---\n\n"
+        )
+        epub_text = METABLOCK_TEMPLATE.format(year=year) + coverage
         for submission_dict in submissions_in_year:
             markdown_text += create_intended_md_from_submission(
                 cursor, submission_dict
@@ -111,7 +190,9 @@ def save_comments_to_markdown(
         markdown_file = markdown_dir / f"ven_anigha_reddit_archive_{year}.md"
         markdown_file.write_text(markdown_text, encoding="utf-8")
         epub_file = temp_dir / f"ven_anigha_reddit_archive_{year}.md"
-        epub_file.write_text(epub_text, encoding="utf-8")
+        epub_file.write_text(
+            unicodedata.normalize("NFC", epub_text), encoding="utf-8"
+        )
         print(
             f"Generated markdown file with indention for {year} at: "
             f"{markdown_file}"
@@ -194,6 +275,20 @@ def create_thread_dicts(
     return top_level_comments + orphan_comments
 
 
+def format_submission_title(title: str) -> str:
+    """Escape a saved title for a single Markdown link-label heading.
+
+    Args:
+        title: Original submission title, possibly containing line breaks.
+
+    Returns:
+        A copy with whitespace collapsed and backslashes/brackets escaped. The
+        saved database value is not modified.
+    """
+    title = " ".join(title.split())
+    return title.replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
+
+
 def create_intended_md_from_submission(
     cursor: sqlite3.Cursor, submission_dict: dict[str, Any]
 ) -> str:
@@ -222,7 +317,8 @@ def create_intended_md_from_submission(
         f"Posted by {submission_dict['author']} _{submission_time_str}_\n"
     )
     submission_md += (
-        f"### [{submission_dict['title']}]({submission_dict['link']})\n\n"
+        f"### [{format_submission_title(submission_dict['title'])}]"
+        f"({submission_dict['link']})\n\n"
     )
     submission_md += f"{submission_dict['body']}\n\n"
 
@@ -302,7 +398,12 @@ def sanitize_markdown_content(content: str) -> str:
         The sanitized string content.
     """
     # Escape markdown headers by prefixing with a backslash
-    return re.sub(r"^(#+)", r"\\\1", content, flags=re.MULTILINE)
+    return re.sub(
+        r"^(#+)",
+        r"\\\1",
+        unicodedata.normalize("NFC", content),
+        flags=re.MULTILINE,
+    )
 
 
 def create_non_indented_md_from_submission(
@@ -329,7 +430,8 @@ def create_non_indented_md_from_submission(
     ).strftime("%Y-%m-%d %H:%M:%S")
 
     submission_md = (
-        f"## [{submission_dict['title']}]({submission_dict['link']})\n"
+        f"## [{format_submission_title(submission_dict['title'])}]"
+        f"({submission_dict['link']}) {{#discussion-{submission_dict['id']}}}\n"
     )
     submission_md += (
         f"**Subreddit**: {submission_dict['subreddit']} | "
@@ -374,7 +476,9 @@ def create_non_indented_md_from_thread(
         replies, without indentation and using headings for structure.
     """
     # Use level to determine heading level (e.g., ###, ####)
-    heading_prefix = "#" * (level + 3)  # Start from ### for comments
+    heading_prefix = "#" * min(
+        level + 3, 6
+    )  # At most six Markdown heading levels.
     comment_time = datetime.datetime.fromtimestamp(
         comment["created_utc"], datetime.UTC
     ).strftime("%Y-%m-%d %H:%M:%S")
@@ -385,7 +489,8 @@ def create_non_indented_md_from_thread(
     comment_title = (
         f"{heading_prefix} Comment by "
         f"[{comment['author']}]({comment['permalink']}) "
-        f"on {comment_time}{parent_info}"
+        f"on {comment_time}{parent_info} "
+        f"{{#comment-{comment['id']} .unnumbered .unlisted}}"
     )
 
     markdown = (
@@ -406,6 +511,8 @@ def convert_to_epub_and_pdf(
     input_dir: str | os.PathLike[str],
     epub_dir: str | os.PathLike[str],
     pdf_dir: str | os.PathLike[str],
+    *,
+    expected_records: Mapping[str, Collection[str]],
 ) -> None:
     """Builds the complete EPUB/PDF set and publishes validated outputs.
 
@@ -413,18 +520,26 @@ def convert_to_epub_and_pdf(
         input_dir: Directory containing generated yearly Markdown sources.
         epub_dir: Destination directory for EPUB files.
         pdf_dir: Destination directory for PDF files.
+        expected_records: Volume stems mapped to database-derived record
+            anchors. Use the same snapshot as the generated Markdown.
 
     Raises:
-        ValueError: No Markdown exists or an archive file is invalid.
+        ValueError: A record inventory, font, glyph, or archive file is invalid,
+            or no Markdown exists.
         OSError: An input, staging directory, or published file is inaccessible.
         RuntimeError: A renderer is missing or publication recovery fails.
         subprocess.TimeoutExpired: A renderer exceeds its time limit.
         subprocess.CalledProcessError: A renderer exits unsuccessfully.
         zipfile.BadZipFile: An EPUB is not a readable ZIP archive.
         KeyError: An EPUB lacks its required mimetype entry.
+        xml.etree.ElementTree.ParseError: Rendered EPUB XHTML is malformed.
     """
     render_archive.convert_archive(
-        input_dir, epub_dir, pdf_dir, METABLOCK_TEMPLATE
+        input_dir,
+        epub_dir,
+        pdf_dir,
+        METABLOCK_TEMPLATE,
+        expected_records=expected_records,
     )
 
 
@@ -440,13 +555,15 @@ def build_archive(
 
     Raises:
         sqlite3.Error: The database cannot be opened read-only or queried.
-        ValueError: No Markdown exists or an archive file is invalid.
+        ValueError: A record inventory, font, glyph, or archive file is invalid,
+            or no Markdown exists.
         OSError: A staging directory or published file is inaccessible.
         RuntimeError: A renderer is missing or publication recovery fails.
         subprocess.TimeoutExpired: A renderer exceeds its time limit.
         subprocess.CalledProcessError: A renderer exits unsuccessfully.
         zipfile.BadZipFile: An EPUB is not a readable ZIP archive.
         KeyError: An EPUB lacks its required mimetype entry.
+        xml.etree.ElementTree.ParseError: Rendered EPUB XHTML is malformed.
     """
     root = pathlib.Path(output_dir).resolve()
     root.mkdir(parents=True, exist_ok=True)
@@ -461,8 +578,13 @@ def build_archive(
         pdf_dir = stage / "pdf_files"
         uri = pathlib.Path(database).resolve().as_uri() + "?mode=ro"
         with contextlib.closing(sqlite3.connect(uri, uri=True)) as connection:
+            # Inventory and rendered text must use the same SQLite snapshot.
+            connection.execute("BEGIN")
+            expected_records = archive_manifest.record_manifest(connection)
             save_comments_to_markdown(connection, markdown_dir, source_dir)
-        convert_to_epub_and_pdf(source_dir, epub_dir, pdf_dir)
+        convert_to_epub_and_pdf(
+            source_dir, epub_dir, pdf_dir, expected_records=expected_records
+        )
         pairs = []
         for directory in (markdown_dir, epub_dir, pdf_dir):
             for file in sorted(directory.iterdir()):

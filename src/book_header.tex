@@ -1,0 +1,36 @@
+% Trusted presentation only. Source text is never interpreted as TeX.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{16pt}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO,RE]{\small\normalfont Ven Anīgha Reddit Archive}
+\renewcommand{\headrulewidth}{0.2pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% Coverage-driven declarations are appended for each document by the renderer.
+% Bind each fallback locally: inter-character transitions can leak font groups
+% across generated TeX environments. Symbola provides monochrome XeTeX emoji.
+\newfontfamily\archiveSerif{Noto Serif}
+\newfontfamily\archiveCJK{Noto Serif CJK SC}
+\newfontfamily\archiveSymbols{Symbola}[Scale=MatchLowercase]
+% Only validated non-ASCII scalar numbers and allowlisted font macros call this.
+% The replacement body is outside \lowercase so hexadecimal digits stay intact.
+\newcommand{\archiveDeclareFallback}[2]{%
+  \catcode"#1=\active
+  \begingroup\lccode`\~="#1%
+  \lowercase{\endgroup\protected\def~}{{#2\char"#1}}%
+}
+
+% Archived indented/code quotations can contain long prose lines. Wrap them
+% within the text area rather than clipping preserved source off the page.
+\usepackage{fvextra}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true}
+
+% Give difficult justified headings a final line-breaking pass with more stretch.
+% Normal paragraphs keep their natural spacing and the body remains 12pt.
+\setlength{\emergencystretch}{6em}
