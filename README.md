@@ -13,6 +13,12 @@ An archive of available comments by [Venerable Anīgha on Reddit](https://www.re
 
 The SQLite database, `reddit_comments.db`, is the source for the generated books. Discussions are grouped by the original submission's year in UTC, so a book can contain comments made in a later year.
 
+### Dated editions
+
+Download a dated PDF or EPUB edition from [GitHub Releases](https://github.com/f0lie/reddit-ven-anigha-archive/releases).
+Published editions stay unchanged; the links above always provide the latest books.
+A new edition is added only when archived content changes.
+
 ### Scope and freshness
 
 - This is a snapshot of what the fetcher has been able to retrieve and retain, not a guarantee that every comment or complete conversation is present. Reddit's available listings, deletions, and fetch limits affect coverage.
@@ -119,9 +125,14 @@ Tests use mocks and temporary databases; they do not need Reddit credentials. Un
 
 1. **Fetch:** Reddit secrets are available only to the fetching step. Its database is passed as a workflow artifact.
 2. **Render:** A fresh, read-only job checks out without stored Git credentials and generates books without Reddit secrets or inherited credentials. Only a successful complete generation uploads the book artifact.
-3. **Publish:** Runs only after fetch and render succeed. It copies only the expected database/book paths and commits them together using repository-write permission.
+3. **Publish:** Runs only after fetch and render succeed. It commits the database and books together and publishes dated editions using repository-write permission.
 
 Set repository Actions secrets for `CLIENT_ID`, `CLIENT_SECRET`, `USER_AGENT`, and `TARGET_USERNAME`; `LIMIT` is optional. Repository policy and branch protection must permit the publisher's commit. Updates only publish from the default branch. Runs on the same branch are serialized, and publication refuses a non-fast-forward push if the branch moved while books were rendering. Rerun against the new revision rather than force-pushing or merging a stale database.
+
+Releases use the built-in `GITHUB_TOKEN`; no additional secret is needed. If
+publication fails, check the publisher step in Actions and start a new manual
+updater run from the current default branch. Conflicting release assets require
+manual review; the publisher will not overwrite them.
 
 To check the read-only CI locally with [act](https://github.com/nektos/act), use `act pull_request -W .github/workflows/ci.yml -j tests`. A local run of the updater can contact Reddit and reach its publishing step, so do not use it as a harmless test run.
 
