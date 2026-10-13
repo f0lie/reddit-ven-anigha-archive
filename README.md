@@ -98,10 +98,16 @@ The fetcher initializes a new database when needed. Incremental fetches use a pe
 
 ```sh
 uv sync --frozen --group lint
-uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
+uv run --frozen --group lint pytest -W error::ResourceWarning --cov=src --cov-report=term-missing
+uv run --frozen --group lint ruff format --check .
 uv run --frozen --group lint ruff check .
+uv run --frozen --group lint pylint src
+uv run --frozen --group lint pylint \
+  --disable=missing-module-docstring,redefined-outer-name,unused-argument tests
 uv audit --frozen
 ```
+
+Python source and tests follow the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). [AGENTS.md](AGENTS.md) records the repository's review requirements and narrowly scoped tool exceptions. Ruff enforces 80-column formatting, import order, naming, and Google-style docstring structure; Pylint adds readability and docstring consistency checks using a modern adaptation of Google's [best-effort configuration](https://google.github.io/styleguide/pylintrc). Run `uv run --frozen --group lint ruff format .` to apply formatting locally. Automated checks cannot establish that documentation is accurate or replace human review; passing them is not formal Google readability approval.
 
 With the complete rendering toolchain installed, run `ANIGHA_PDF_TESTS=1 uv run --frozen pytest tests/test_font_pdf.py` for real-PDF Unicode and failure-preservation checks.
 

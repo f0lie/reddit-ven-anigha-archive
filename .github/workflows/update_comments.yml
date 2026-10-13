@@ -154,27 +154,44 @@ jobs:
       - name: Copy only expected data files
         run: |
           python - <<'PY'
+          """Validate the complete artifact set before copying publication inputs."""
+
           import os
-          from pathlib import Path
+          import pathlib
           import re
           import shutil
 
-          source = Path(os.environ["RUNNER_TEMP"]) / "archive-publish"
+          source = pathlib.Path(os.environ["RUNNER_TEMP"]) / "archive-publish"
           database = source / "database" / "reddit_comments.db"
-          if database.is_symlink() or not database.is_file() or not database.stat().st_size:
+          if (
+              database.is_symlink()
+              or not database.is_file()
+              or not database.stat().st_size
+          ):
               raise SystemExit("Missing or invalid database artifact")
           books = source / "books"
           outputs = []
           years_by_format = []
-          for directory, suffix in (("markdown_files", "md"), ("epub_files", "epub"), ("pdf_files", "pdf")):
+          for directory, suffix in (
+              ("markdown_files", "md"),
+              ("epub_files", "epub"),
+              ("pdf_files", "pdf"),
+          ):
               files = sorted((books / directory).iterdir())
               years = set()
               for file in files:
-                  match = re.fullmatch(rf"ven_anigha_reddit_archive_([0-9]{{4}})\.{suffix}", file.name)
-                  if not match or file.is_symlink() or not file.is_file() or not file.stat().st_size:
+                  match = re.fullmatch(
+                      rf"ven_anigha_reddit_archive_([0-9]{{4}})\.{suffix}", file.name
+                  )
+                  if (
+                      not match
+                      or file.is_symlink()
+                      or not file.is_file()
+                      or not file.stat().st_size
+                  ):
                       raise SystemExit(f"Unexpected or empty output: {file.name}")
                   years.add(match[1])
-                  outputs.append((file, Path(directory) / file.name))
+                  outputs.append((file, pathlib.Path(directory) / file.name))
               if not years:
                   raise SystemExit(f"No generated files in {directory}")
               years_by_format.append(years)
