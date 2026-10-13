@@ -31,7 +31,7 @@ The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delaye
    ```sh
    sudo apt-get update
    sudo apt-get install -y --no-install-recommends \
-     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese lmodern fontconfig \
+     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese texlive-fonts-recommended lmodern fontconfig \
      fonts-noto-core fonts-noto-cjk fonts-symbola
    ```
 
