@@ -20,7 +20,8 @@ dev= [
     "pytest-cov"
 ]
 lint = [
-    "ruff"
+    "ruff>=0.17.0,<0.18",
+    "pylint>=4.1.3,<5"
 ]
 
 [tool.pytest.ini_options]
@@ -35,8 +36,86 @@ addopts = [
 ]
 pythonpath = ["."]
 
+# Automated checks support the Google Python Style Guide; they do not replace
+# reviewing names, interfaces, side effects, or the truth of documentation.
 [tool.ruff]
-line-length = 120
+line-length = 80
+target-version = "py313"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "E501", "F", "I", "N", "D", "W"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+# Google sections 3.13 and 2.2: one import per line, alphabetized by module.
+force-single-line = true
+force-sort-within-sections = true
+known-first-party = ["src"]
+
+[tool.ruff.lint.per-file-ignores]
+# Meaningful test names need no paraphrased docstring. Explain unusual setup
+# and document nontrivial helpers/fixtures; see AGENTS.md.
+"tests/**" = ["D100", "D103", "D104"]
+
+[tool.pylint.main]
+py-version = "3.13"
+persistent = false
+load-plugins = ["pylint.extensions.docparams"]
+
+[tool.pylint.messages_control]
+# This is a modern, bounded adaptation of Google's best-effort pylintrc:
+# https://google.github.io/styleguide/pylintrc
+# Ruff owns import ordering because Google sorts by module, including from
+# imports. Data records need no artificial methods. Duplicated test setup and
+# module size require judgment rather than code reshuffling for a threshold.
+# Unlike upstream's R-category disable, other refactor checks remain enabled.
+disable = [
+    "duplicate-code",
+    "too-few-public-methods",
+    "too-many-lines",
+    "ungrouped-imports",
+    "wrong-import-order",
+]
+
+[tool.pylint.format]
+max-line-length = 80
+# Google's line-length exceptions: standalone URLs and import statements.
+ignore-long-lines = '^\s*(# )?<?https?://\S+>?$|^\s*(from \S+ )?import .+$'
+
+[tool.pylint.basic]
+good-names = ["_"]
+# Tests describe their behavior in their names. Helpers and fixtures still
+# need useful documentation, especially ownership and cleanup guarantees.
+no-docstring-rgx = "^(test_|Test)"
+# Nontrivial private helpers are checked too; Ruff also requires public docs.
+docstring-min-length = 10
+function-naming-style = "snake_case"
+method-naming-style = "snake_case"
+argument-naming-style = "snake_case"
+variable-naming-style = "snake_case"
+attr-naming-style = "snake_case"
+module-naming-style = "snake_case"
+class-naming-style = "PascalCase"
+const-naming-style = "UPPER_CASE"
+
+[tool.pylint.parameter_documentation]
+default-docstring-type = "google"
+# Google permits short, self-explanatory docstrings without sections and
+# excludes API-misuse exceptions from Raises. Check any sections that exist;
+# reviewers must require complete caller-facing contracts where needed.
+accept-no-param-doc = true
+accept-no-return-doc = true
+accept-no-yields-doc = true
+accept-no-raise-doc = true
+
+[tool.pylint.reports]
+reports = false
+score = false
 
 [tool.coverage.run]
 branch = true
