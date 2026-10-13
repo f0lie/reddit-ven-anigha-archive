@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2026
 
-**Generated:** 2026-10-12 14:57:07 UTC
+**Generated:** 2026-10-13 16:24:15 UTC
 
 **Saved records in this volume:** 70 discussions and 149 comments.
 
@@ -1225,9 +1225,9 @@ So if many of these rules are basically historical fossils, and they are not dir
 **r/HillsideHermitage** | Posted by None _2026-05-26 17:56:59_
 ### [Venerable Anigha and Venerable Medhini please have pity on me]()
 
-[deleted]
+[removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1toeqdc/venerable_anigha_and_venerable_medhini_please/ooeuqbn/)** _2026-05-28 17:36:46_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1toeqdc/deleted_by_user/ooeuqbn/)** _2026-05-28 17:36:46_:
 
     > In my doubt, last night, I decided to see what it would feel like to have that pressure endure. So I thought up some lustful images, and started masturbating to the point where I was close to ejaculation, and I had to absorb myself in the fantasies to keep going. I stopped and observed what would happen in my mind. There was an urge to keep going, and as soon as I stopped willfully ignoring it, it stopped pressuring me. I went to bed without trouble.
 
@@ -1601,8 +1601,7 @@ If a nun who is not ill travels in a vehicle, she commits an offense entailing c
 
 Any further reflections on how to put the Pātimokkha rules into practice are very welcome.
 
-With respectful regards,  
-Sāmaṇerī Mahesī
+With respectful regards
 
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1shlx31/question_regarding_interpretation_and_application/ofqvbq9/)** _2026-04-12 13:09:13_:
 
@@ -1701,7 +1700,7 @@ However, when I opened up, some monks urged me to stay. I now feel at ease rathe
 ---
 
 **r/HillsideHermitage** | Posted by No_Fishing_3019 _2026-04-06 18:12:14_
-### [Intrusive thoughts](https://www.reddit.com/r/HillsideHermitage/comments/1se6pjp/intrusive_thoughts/)
+### [Intrusive thoughts]()
 
 This is just a short practice question and probably doesn't deserve its own thread, but I didn't know where else to put it.
 
@@ -1711,7 +1710,7 @@ I notice that this thought is predicated on craving and will lead to further cra
 
 Is that the right way to react?
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1se6pjp/intrusive_thoughts/oey39py/)** _2026-04-08 06:00:23_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1se6pjp/deleted_by_user/oey39py/)** _2026-04-08 06:00:23_:
 
     > I notice that this thought is predicated on craving and will lead to further craving, so I stop myself from engaging with it. This basically amounts to forcefully cutting it off, because the citta really wants me to think that thought right now. When the thought is gone, I notice the aversion that the thought generated and make sure not to resist it. I stay peripherally aware of that aversion until it is gone.
 

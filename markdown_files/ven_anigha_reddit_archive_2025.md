@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-10-12 14:57:07 UTC
+**Generated:** 2026-10-13 16:24:15 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -5395,9 +5395,9 @@ If not, is there any conceptualization of what does come from it available that 
 **r/HillsideHermitage** | Posted by Bhikkhu_Anigha _2025-04-28 11:04:10_
 ### [HH Confession Server on Discord](https://www.reddit.com/r/HillsideHermitage/comments/1k9st1y/hh_confession_server_on_discord/)
 
-(Invite link updated on 15/05/2025)
+(Invite link updated on 04/05/2026)
 
-I've created a [Discord server](https://discord.gg/eqTuUFRjm) for people who want to commit to the very valuable practice of confessing whenever they break a precept. It is inspired by the core principles of the regular, compulsory confession that the Buddha established for all monastics.
+I've created a [Discord server](https://discord.gg/d4Q2XtHUHD) for people who want to commit to the very valuable practice of confessing whenever they break a precept. It is inspired by the core principles of the regular, compulsory confession that the Buddha established for all monastics.
 
 ***Upon joining, please read the rules.***
 
