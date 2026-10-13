@@ -93,7 +93,7 @@ jobs:
           uv sync --frozen --no-dev
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese fontconfig \
+            texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese texlive-fonts-recommended lmodern fontconfig \
             fonts-noto-core fonts-noto-cjk fonts-symbola
 
       - name: Install pinned Pandoc with embedded sandbox data

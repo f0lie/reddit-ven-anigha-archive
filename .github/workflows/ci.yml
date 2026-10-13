@@ -32,6 +32,13 @@ jobs:
       - name: Install locked test and lint dependencies
         run: uv sync --frozen --group lint
 
+      - name: Install PDF test toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese texlive-fonts-recommended lmodern fontconfig \
+            fonts-noto-core fonts-noto-cjk fonts-symbola poppler-utils
+
       - name: Install pinned Pandoc with embedded sandbox data
         run: |
           directory=$(mktemp -d)
@@ -44,7 +51,9 @@ jobs:
           sudo install -m 0755 "$directory/pandoc-3.12.1/bin/pandoc" /usr/local/bin/pandoc
           pandoc --version
 
-      - name: Run tests
+      - name: Run tests including real PDF conversion
+        env:
+          ANIGHA_PDF_TESTS: "1"
         run: uv run --frozen --group lint pytest -W error::ResourceWarning --cov=src --cov-report=term-missing
 
       - name: Check Python formatting
