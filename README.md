@@ -31,7 +31,7 @@ The updater is scheduled for Sunday at 00:00 UTC. GitHub schedules can be delaye
    ```sh
    sudo apt-get update
    sudo apt-get install -y --no-install-recommends \
-     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese fontconfig \
+     texlive-xetex texlive-latex-extra texlive-plain-generic texlive-lang-chinese lmodern fontconfig \
      fonts-noto-core fonts-noto-cjk fonts-symbola
    ```
 
@@ -109,7 +109,7 @@ uv audit --frozen
 
 Python source and tests follow the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). [AGENTS.md](AGENTS.md) records the repository's review requirements and narrowly scoped tool exceptions. Ruff enforces 80-column formatting, import order, naming, and Google-style docstring structure; Pylint adds readability and docstring consistency checks using a modern adaptation of Google's [best-effort configuration](https://google.github.io/styleguide/pylintrc). Run `uv run --frozen --group lint ruff format .` to apply formatting locally. Automated checks cannot establish that documentation is accurate or replace human review; passing them is not formal Google readability approval.
 
-With the complete rendering toolchain installed, run `ANIGHA_PDF_TESTS=1 uv run --frozen pytest tests/test_font_pdf.py` for real-PDF Unicode and failure-preservation checks.
+With the complete rendering toolchain installed, run `ANIGHA_PDF_TESTS=1 uv run --frozen pytest tests/test_font_pdf.py` for real-PDF Unicode and failure-preservation checks. GitHub CI installs this toolchain and runs these checks on every pull request; local runs without the flag still skip them.
 
 Tests use mocks and temporary databases; they do not need Reddit credentials. Unit tests do not replace visually checking generated PDFs and EPUBs after font or layout changes. Review dependency updates and regenerate `uv.lock` with `uv lock`; use `--frozen` when reproducing an existing lock.
 
