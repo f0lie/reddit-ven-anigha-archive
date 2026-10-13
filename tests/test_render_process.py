@@ -1,17 +1,29 @@
+"""Tests renderer process isolation and atomic publication recovery."""
+
 import os
+import pathlib
 import subprocess
 import sys
 import time
-from pathlib import Path
 
 import pytest
 
 from src import render_archive as render
 
 
-@pytest.mark.skipif(os.name != "posix", reason="Process-group isolation is POSIX-specific")
-def test_timeout_kills_renderer_descendants(tmp_path, monkeypatch):
+@pytest.mark.skipif(
+    os.name != "posix", reason="Process-group isolation is POSIX-specific"
+)
+def test_timeout_kills_renderer_descendants(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
     # Use a harmless local helper instead of running attacker-controlled TeX.
+    """Verifies timeout kills renderer descendants.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     script = (
         "import os,time; child=os.fork(); "
         "time.sleep(0.8 if child==0 else 3); "
@@ -25,42 +37,105 @@ def test_timeout_kills_renderer_descendants(tmp_path, monkeypatch):
     assert not (tmp_path / "descendant-survived").exists()
 
 
-def test_nonzero_process_status_is_an_error(tmp_path, monkeypatch):
+def test_nonzero_process_status_is_an_error(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies nonzero process status is an error.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     monkeypatch.setattr(render.shutil, "which", lambda name: sys.executable)
     with pytest.raises(subprocess.CalledProcessError) as failure:
-        render.run_pandoc(["-c", "import sys; print('failed',file=sys.stderr); sys.exit(9)"], tmp_path)
+        render.run_pandoc(
+            ["-c", "import sys; print('failed',file=sys.stderr); sys.exit(9)"],
+            tmp_path,
+        )
     assert failure.value.returncode == 9
     assert "failed" in failure.value.stderr
 
 
-def test_xelatex_uses_same_isolation_without_haskell_options(tmp_path, monkeypatch):
+def test_xelatex_uses_same_isolation_without_haskell_options(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies xelatex uses same isolation without haskell options.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     monkeypatch.setattr(render.shutil, "which", lambda name: sys.executable)
-    output = render.run_pandoc(["-c", "import sys; print(sys.argv[1:])"], tmp_path, executable_name="xelatex")
+    output = render.run_pandoc(
+        ["-c", "import sys; print(sys.argv[1:])"],
+        tmp_path,
+        executable_name="xelatex",
+    )
     assert output.strip() == "[]"
 
 
-def test_other_executables_are_rejected(tmp_path):
+def test_other_executables_are_rejected(tmp_path: pathlib.Path) -> None:
+    """Verifies other executables are rejected.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+    """
     with pytest.raises(ValueError, match="Unsupported rendering executable"):
         render.run_pandoc([], tmp_path, executable_name="sh")
 
 
-def make_publication(tmp_path, count):
+def make_publication(
+    tmp_path: pathlib.Path, count: int
+) -> list[tuple[pathlib.Path, pathlib.Path]]:
+    """Creates staged and existing files for publication tests.
+
+    Args:
+        tmp_path: Directory containing the staged and published files.
+        count: Number of source/destination pairs to create.
+
+    Returns:
+        Pairs of source and destination paths containing distinct test text.
+
+    Raises:
+        OSError: A test file cannot be written.
+    """
     pairs = []
     for index in range(count):
-        source, target = tmp_path / f"source{index}.md", tmp_path / f"target{index}.md"
+        source, target = (
+            tmp_path / f"source{index}.md",
+            tmp_path / f"target{index}.md",
+        )
         source.write_text(f"new{index}")
         target.write_text(f"old{index}")
         pairs.append((source, target))
     return pairs
 
 
-def test_replace_failure_restores_only_changed_files_atomically(tmp_path, monkeypatch):
+def test_replace_failure_restores_only_changed_files_atomically(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies replace failure restores only changed files atomically.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     pairs = make_publication(tmp_path, 2)
     real_replace = render.os.replace
     calls = []
 
-    def replace(source, target):
-        calls.append((Path(source), Path(target)))
+    def replace(source: pathlib.Path, target: pathlib.Path) -> None:
+        """Injects a replacement failure to exercise publication rollback.
+
+        Args:
+            source: Staged output or backup being moved.
+            target: Publication destination being replaced.
+
+        Raises:
+            PermissionError: The publication or recovery target is selected to
+                fail.
+        """
+        calls.append((pathlib.Path(source), pathlib.Path(target)))
         if target == pairs[1][1]:
             raise PermissionError("Second target is read-only")
         return real_replace(source, target)
@@ -74,21 +149,47 @@ def test_replace_failure_restores_only_changed_files_atomically(tmp_path, monkey
     assert not list(tmp_path.glob(".archive-backup-*"))
 
 
-def test_failed_recovery_keeps_backup_and_recovers_other_files(tmp_path, monkeypatch):
+def test_failed_recovery_keeps_backup_and_recovers_other_files(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies failed recovery keeps backup and recovers other files.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     pairs = make_publication(tmp_path, 3)
     real_replace = render.os.replace
 
-    def replace(source, target):
+    def replace(source: pathlib.Path, target: pathlib.Path) -> None:
+        """Injects a replacement failure to exercise publication rollback.
+
+        Args:
+            source: Staged output or backup being moved.
+            target: Publication destination being replaced.
+
+        Raises:
+            PermissionError: The publication or recovery target is selected to
+                fail.
+        """
         if target == pairs[2][1]:
             raise PermissionError("Third publication fails")
-        if target == pairs[1][1] and Path(source).parent.name.startswith(".archive-backup-"):
+        if target == pairs[1][1] and pathlib.Path(
+            source
+        ).parent.name.startswith(".archive-backup-"):
             raise PermissionError("Second recovery fails")
         return real_replace(source, target)
 
     monkeypatch.setattr(render.os, "replace", replace)
-    with pytest.raises(RuntimeError, match="Previous files are preserved") as failure:
+    with pytest.raises(
+        RuntimeError, match="Previous files are preserved"
+    ) as failure:
         render.publish_files(pairs)
-    assert [target.read_text() for _, target in pairs] == ["old0", "new1", "old2"]
+    assert [target.read_text() for _, target in pairs] == [
+        "old0",
+        "new1",
+        "old2",
+    ]
     assert isinstance(failure.value.__cause__, PermissionError)
     backups = list(tmp_path.glob(".archive-backup-*"))
     assert len(backups) == 1
@@ -96,11 +197,31 @@ def test_failed_recovery_keeps_backup_and_recovers_other_files(tmp_path, monkeyp
     assert str(backups[0]) in str(failure.value)
 
 
-def test_all_backups_are_prepared_before_any_publication(tmp_path, monkeypatch):
+def test_all_backups_are_prepared_before_any_publication(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies all backups are prepared before any publication.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     pairs = make_publication(tmp_path, 2)
     real_copy = render.shutil.copy2
 
-    def copy(source, target):
+    def copy(source: pathlib.Path, target: pathlib.Path) -> pathlib.Path:
+        """Injects a backup failure before publication starts.
+
+        Args:
+            source: Existing output being backed up.
+            target: Backup destination path.
+
+        Returns:
+            The copied backup path.
+
+        Raises:
+            OSError: The selected backup simulates a full filesystem.
+        """
         if source == pairs[1][1]:
             raise OSError("Backup filesystem is full")
         return real_copy(source, target)
@@ -113,7 +234,14 @@ def test_all_backups_are_prepared_before_any_publication(tmp_path, monkeypatch):
     assert not list(tmp_path.glob(".archive-backup-*"))
 
 
-def test_success_publishes_every_file_and_removes_backups(tmp_path):
+def test_success_publishes_every_file_and_removes_backups(
+    tmp_path: pathlib.Path,
+) -> None:
+    """Verifies success publishes every file and removes backups.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+    """
     pairs = make_publication(tmp_path, 2)
     pairs[1][1].unlink()
     render.publish_files(iter(pairs))
@@ -121,12 +249,30 @@ def test_success_publishes_every_file_and_removes_backups(tmp_path):
     assert not list(tmp_path.glob(".archive-backup-*"))
 
 
-def test_rollback_removes_new_target(tmp_path, monkeypatch):
+def test_rollback_removes_new_target(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Verifies rollback removes new target.
+
+    Args:
+        tmp_path: Isolated filesystem directory provided by pytest.
+        monkeypatch: Pytest helper for temporarily replacing process behavior.
+    """
     pairs = make_publication(tmp_path, 2)
     pairs[0][1].unlink()
     real_replace = render.os.replace
 
-    def replace(source, target):
+    def replace(source: pathlib.Path, target: pathlib.Path) -> None:
+        """Injects a replacement failure to exercise publication rollback.
+
+        Args:
+            source: Staged output or backup being moved.
+            target: Publication destination being replaced.
+
+        Raises:
+            PermissionError: The publication or recovery target is selected to
+                fail.
+        """
         if target == pairs[1][1]:
             raise PermissionError("Second target is read-only")
         return real_replace(source, target)

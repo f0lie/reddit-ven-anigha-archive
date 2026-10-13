@@ -45,7 +45,19 @@ jobs:
           pandoc --version
 
       - name: Run tests
-        run: uv run --frozen --group lint pytest --cov=src --cov-report=term-missing
+        run: uv run --frozen --group lint pytest -W error::ResourceWarning --cov=src --cov-report=term-missing
+
+      - name: Check Python formatting
+        run: uv run --frozen --group lint ruff format --check .
 
       - name: Lint
         run: uv run --frozen --group lint ruff check .
+
+      - name: Check source readability and docstrings
+        run: uv run --frozen --group lint pylint src
+
+      - name: Check test readability
+        run: >-
+          uv run --frozen --group lint pylint
+          --disable=missing-module-docstring,redefined-outer-name,unused-argument
+          tests
