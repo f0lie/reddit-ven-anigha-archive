@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2026
 
-**Generated:** 2026-10-13 16:24:15 UTC
+**Generated:** 2026-10-13 19:04:35 UTC
 
 **Saved records in this volume:** 70 discussions and 149 comments.
 
@@ -2657,18 +2657,18 @@ I don't see how there is wrong intention in the livelihood of being a meat cooke
 ---
 
 **r/HillsideHermitage** | Posted by Formal_Breath_2026 _2026-01-16 18:22:33_
-### [Beautiful and Ugly](https://www.reddit.com/r/HillsideHermitage/comments/1qenu9m/beautiful_and_ugly/)
+### [Beautiful and Ugly]()
 
 I have heard Ajahn Ñānamoli say several times about how the ugly is a more fundamental context than the beautiful, and I was thinking about how to understand this concretely. What I have arrived at is that the ugly is more fundamental because that is exactly how sensuality is there at all — if things were more beautiful than ugly, it would just be a matter of avoiding the ugly; there would be no drive to go towards the beautiful. But it is the interplay between the signs/features of the beautiful and the broader context of the ugly — and the resulting *pressure* to engage with the beautiful — that makes sensual being (kāmabhava) what it is as opposed to a mere pleasant abiding (rūpabhava). This is why sensuality, being driven by that pressure to get away from the ugly, is always unwholesome, whereas material states (Jhānas) can be experienced wholesomely. This is also why sensuality is insatiable and unsatisfactory, as the ugly is always there ‘waiting’ as the broader context whenever the less fundamental beauty runs out. Similarly, if you were put in harsh enough conditions, [you would start finding sensual appeal in less and less pleasant things](https://youtu.be/lRK96f55ad8), like an animal that enjoys eating filth. But when you develop the theme that whatever beauty in sensuality there is is only there because the broader context of the ugly gives it its appeal, it all becomes ugly and loses its pressure, and ironically that is what ultimately brings peace. The ugly is only a problem relative to the value you place in beauty, but when it’s all ugly, it becomes basically neutral. The more I think about it, the more it seems to me that this interplay between the signs of the beautiful, and the broader context of the ugly, are what make up the entirety of human existence, and developing that context is also how one can surmount it.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1qenu9m/beautiful_and_ugly/o04wq36/)** _2026-01-17 17:15:00_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1qenu9m/deleted_by_user/o04wq36/)** _2026-01-17 17:15:00_:
 
     > The more I think about it, the more it seems to me that this interplay between the signs of the beautiful, and the broader context of the ugly, are what make up the entirety of human existence, and developing that context is also how one can surmount it. 
 
     Yes, exactly—granted one has stopped acting on desire for the beautiful no matter how invisible its more fundamental ugliness is.
 
     The disgusting nature of your own body (the contemplation of organs often given in the Suttas) is the most acute and inescapable type of ugliness, but the principle extends to everything that you wouldn't want to look at because it would ruin your enjoyment/anticipation of something pleasant. [Anything of that nature](https://suttas.hillsidehermitage.org/?q=mn13#mn13:8.1_mn13:15.3) is by default more fundamental, since it's what stands out when desire isn't there to obscure it.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1qenu9m/beautiful_and_ugly/o04tdm0/)** _2026-01-17 16:59:29_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1qenu9m/deleted_by_user/o04tdm0/)** _2026-01-17 16:59:29_ *(in reply to a comment not included)*:
 
     The implication here that "jhāna is a subtler form of sensuality" is wrong. Jhāna definitionally is the complete cessation of sensuality ([through dispassion, not replacement of objects](https://suttas.hillsidehermitage.org/?q=an9.42#an9.42:4.1_an9.42:4.5)). 
 
