@@ -50,3 +50,16 @@ Run `act -j update_comments --secret-file .secrets --artifact-server-path $PWD/.
 `.artfacts` is a folder that stores the db between runs.
 
 This stalls at the final push for some reason.
+
+## Python readability
+
+Python source and tests follow the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). [AGENTS.md](AGENTS.md) records the repository's review requirements and narrowly scoped tool exceptions. Ruff enforces 80-column formatting, import order, naming, and Google-style docstring structure; Pylint adds readability and docstring consistency checks using a modern adaptation of Google's [best-effort configuration](https://google.github.io/styleguide/pylintrc). Run `uv run --frozen --group lint ruff format .` to apply formatting locally. Automated checks cannot establish that documentation is accurate or replace human review; passing them is not formal Google readability approval.
+
+```sh
+uv sync --frozen --group lint
+uv run --frozen --group lint ruff format --check .
+uv run --frozen --group lint ruff check .
+uv run --frozen --group lint pylint src
+uv run --frozen --group lint pylint \
+  --disable=missing-module-docstring,redefined-outer-name,unused-argument tests
+```
