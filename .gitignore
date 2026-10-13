@@ -2,6 +2,11 @@
 .secrets
 .artifacts/
 
+# Local archive build staging
+.archive-build-*/
+.archive-render-*/
+.archive-backup-*/
+
 # Ignore jj
 .jj/
 

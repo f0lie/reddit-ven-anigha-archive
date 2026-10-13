@@ -1,19 +1,26 @@
-"""Generates yearly Markdown and converts it with the legacy renderer.
+"""Generates yearly Markdown and safely publishes EPUB/PDF archives.
 
-The legacy conversion path logs per-file failures and continues. The isolated,
-fail-closed build pipeline is introduced in the next stacked change.
+The database is read-only during a build. Markdown and rendered files stay in
+an isolated staging directory until the complete archive is ready to publish.
 """
 
 from collections.abc import Sequence
+import contextlib
 import datetime
 import enum
 import os
 import pathlib
 import re
-import shutil
 import sqlite3
-import subprocess
+import tempfile
 from typing import Any
+
+# Both module imports and the documented direct-script entry point are
+# supported.
+if __package__:
+    from src import render_archive
+else:
+    import render_archive  # pylint: disable=import-error
 
 METABLOCK_TEMPLATE = """\
 ---
@@ -63,7 +70,8 @@ def save_comments_to_markdown(
     """
     markdown_dir = pathlib.Path(markdown_files_dir)
     temp_dir = pathlib.Path(temp_files_dir)
-    temp_dir.mkdir(exist_ok=True)
+    markdown_dir.mkdir(parents=True, exist_ok=True)
+    temp_dir.mkdir(parents=True, exist_ok=True)
 
     cursor = conn.cursor()
     cursor.execute(
@@ -363,8 +371,7 @@ def create_non_indented_md_from_thread(
 
     Returns:
         A string containing the markdown representation of the comment and its
-        replies,
-        without indentation and using headings for structure.
+        replies, without indentation and using headings for structure.
     """
     # Use level to determine heading level (e.g., ###, ####)
     heading_prefix = "#" * (level + 3)  # Start from ### for comments
@@ -396,76 +403,72 @@ def create_non_indented_md_from_thread(
 
 
 def convert_to_epub_and_pdf(
-    input_dir: pathlib.Path,
+    input_dir: str | os.PathLike[str],
     epub_dir: str | os.PathLike[str],
     pdf_dir: str | os.PathLike[str],
 ) -> None:
-    """Runs the legacy per-file Pandoc conversion and logs failures.
-
-    Outputs are written directly rather than staged. A failed conversion is
-    printed and processing continues; callers cannot infer that every book
-    was successfully replaced from this function returning normally.
+    """Builds the complete EPUB/PDF set and publishes validated outputs.
 
     Args:
-        input_dir: Directory containing Markdown files matched by ``*.md``.
-        epub_dir: Existing destination directory for EPUB files.
-        pdf_dir: Existing destination directory for PDF files.
-    """
-    epub_dir = pathlib.Path(epub_dir)
-    pdf_dir = pathlib.Path(pdf_dir)
-    for source_file in input_dir.glob("*.md"):
-        base_name = source_file.stem
-        epub_path = epub_dir / f"{base_name}.epub"
-        pdf_path = pdf_dir / f"{base_name}.pdf"
-        try:
-            subprocess.run(
-                ["pandoc", str(source_file), "-o", str(epub_path)], check=True
-            )
-            subprocess.run(
-                [
-                    "pandoc",
-                    str(source_file),
-                    "-o",
-                    str(pdf_path),
-                    "--pdf-engine",
-                    "xelatex",
-                ],
-                check=True,
-            )
-            print(f"Converted {source_file} into {epub_path} and {pdf_path}.")
-        except subprocess.CalledProcessError as error:
-            print(f"Pandoc failed to convert {source_file}: {error}")
-        # Preserve the legacy continue-on-error contract in this stack layer.
-        except Exception as error:  # pylint: disable=broad-exception-caught
-            print(
-                f"An unexpected error occurred while converting "
-                f"{source_file}: {error}"
-            )
-
-
-def main() -> None:
-    """Generates the legacy archive from the working directory's database.
-
-    Reads ``reddit_comments.db`` and writes Markdown, EPUB, and PDF files in
-    their conventional working-directory folders. The temporary source folder
-    is removed even when generation fails. Per-file conversion failures are
-    logged by the legacy converter rather than propagated.
+        input_dir: Directory containing generated yearly Markdown sources.
+        epub_dir: Destination directory for EPUB files.
+        pdf_dir: Destination directory for PDF files.
 
     Raises:
-        sqlite3.Error: The database cannot be opened or queried.
-        OSError: A source/output directory or file operation fails.
+        ValueError: No Markdown exists or an archive file is invalid.
+        OSError: An input, staging directory, or published file is inaccessible.
+        RuntimeError: A renderer is missing or publication recovery fails.
+        subprocess.TimeoutExpired: A renderer exceeds its time limit.
+        subprocess.CalledProcessError: A renderer exits unsuccessfully.
+        zipfile.BadZipFile: An EPUB is not a readable ZIP archive.
+        KeyError: An EPUB lacks its required mimetype entry.
     """
-    temp_files_dir = pathlib.Path("temp_files")
-    temp_files_dir.mkdir(exist_ok=True)
-    try:
-        with sqlite3.connect("reddit_comments.db") as connection:
-            save_comments_to_markdown(
-                connection, "markdown_files", temp_files_dir
-            )
-        convert_to_epub_and_pdf(temp_files_dir, "epub_files", "pdf_files")
-    finally:
-        shutil.rmtree(temp_files_dir)
+    render_archive.convert_archive(
+        input_dir, epub_dir, pdf_dir, METABLOCK_TEMPLATE
+    )
+
+
+def build_archive(
+    database: str | os.PathLike[str] = "reddit_comments.db",
+    output_dir: str | os.PathLike[str] = ".",
+) -> None:
+    """Reads the database and stages every archive format before publication.
+
+    Args:
+        database: Existing SQLite archive database, opened read-only.
+        output_dir: Root containing markdown_files, epub_files, and pdf_files.
+
+    Raises:
+        sqlite3.Error: The database cannot be opened read-only or queried.
+        ValueError: No Markdown exists or an archive file is invalid.
+        OSError: A staging directory or published file is inaccessible.
+        RuntimeError: A renderer is missing or publication recovery fails.
+        subprocess.TimeoutExpired: A renderer exceeds its time limit.
+        subprocess.CalledProcessError: A renderer exits unsuccessfully.
+        zipfile.BadZipFile: An EPUB is not a readable ZIP archive.
+        KeyError: An EPUB lacks its required mimetype entry.
+    """
+    root = pathlib.Path(output_dir).resolve()
+    root.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(
+        prefix=".archive-build-", dir=root
+    ) as temporary_directory:
+        stage = pathlib.Path(temporary_directory)
+        markdown_dir = stage / "markdown_files"
+        markdown_dir.mkdir()
+        source_dir = stage / "source"
+        epub_dir = stage / "epub_files"
+        pdf_dir = stage / "pdf_files"
+        uri = pathlib.Path(database).resolve().as_uri() + "?mode=ro"
+        with contextlib.closing(sqlite3.connect(uri, uri=True)) as connection:
+            save_comments_to_markdown(connection, markdown_dir, source_dir)
+        convert_to_epub_and_pdf(source_dir, epub_dir, pdf_dir)
+        pairs = []
+        for directory in (markdown_dir, epub_dir, pdf_dir):
+            for file in sorted(directory.iterdir()):
+                pairs.append((file, root / directory.name / file.name))
+        render_archive.publish_files(pairs)
 
 
 if __name__ == "__main__":
-    main()
+    build_archive()

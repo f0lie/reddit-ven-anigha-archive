@@ -8,13 +8,13 @@ authors = [
   { name = "f0lie", email = "9092074+f0lie@users.noreply.github.com" }
 ]
 dependencies = [
-    "praw",
+    "praw>=7.8.1,<8",
     "python-dotenv",
     "tqdm",
 ]
 
 [dependency-groups]
-dev= [
+dev = [
     "pytest>=8.0",
     "coverage",
     "pytest-cov"
@@ -116,6 +116,13 @@ accept-no-raise-doc = true
 [tool.pylint.reports]
 reports = false
 score = false
+
+# Security floors for PRAW's HTTP dependencies, including their transitive uses.
+[tool.uv]
+constraint-dependencies = [
+    "requests>=2.34.2",
+    "urllib3>=2.8.0",
+]
 
 [tool.coverage.run]
 branch = true
