@@ -138,6 +138,13 @@ jobs:
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: ${{ github.sha }}
+          # Interrupted releases resume their original committed book bytes.
+          fetch-depth: 0
+
+      - name: Set up Python for release publication
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
 
       - name: Download the updated database
         uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
@@ -218,3 +225,10 @@ jobs:
             # Rerun against the new revision; never merge or force-push a stale database.
             git push origin "HEAD:$TARGET_REF"
           fi
+
+      - name: Publish a dated edition when archived content changed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          # Run even after a no-op commit: an earlier release may need retrying.
+          python -m src.archive_releases --commit "$(git rev-parse HEAD)"

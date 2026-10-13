@@ -13,6 +13,24 @@ An archive of available comments by [Venerable Anīgha on Reddit](https://www.re
 
 The SQLite database, `reddit_comments.db`, is the source for the generated books. Discussions are grouped by the original submission's year in UTC, so a book can contain comments made in a later year.
 
+### Dated editions
+
+The links above always point to the current books on `main`, including updates
+to earlier years. [GitHub Releases](https://github.com/f0lie/reddit-ven-anigha-archive/releases)
+provides dated PDF and EPUB snapshots for readers who want to keep a particular
+edition. The first successful updater run with release publication enabled
+creates the initial edition. Later runs create an edition only when archived
+content differs from the last successfully published edition, not merely
+because the books were rebuilt.
+
+Each edition contains a PDF and EPUB for every archived year (currently eight
+books covering 2023–2026), a checksum inventory, and its exact source commit.
+The automated publisher never replaces files in a published edition. These are
+preserved snapshots by convention, not a claim that GitHub prevents repository
+maintainers from editing or deleting releases. They cannot recover text or
+editions that the archive never captured; download copies for an independent
+backup.
+
 ### Scope and freshness
 
 - This is a snapshot of what the fetcher has been able to retrieve and retain, not a guarantee that every comment or complete conversation is present. Reddit's available listings, deletions, and fetch limits affect coverage.
@@ -119,9 +137,29 @@ Tests use mocks and temporary databases; they do not need Reddit credentials. Un
 
 1. **Fetch:** Reddit secrets are available only to the fetching step. Its database is passed as a workflow artifact.
 2. **Render:** A fresh, read-only job checks out without stored Git credentials and generates books without Reddit secrets or inherited credentials. Only a successful complete generation uploads the book artifact.
-3. **Publish:** Runs only after fetch and render succeed. It copies only the expected database/book paths and commits them together using repository-write permission.
+3. **Publish:** Runs only after fetch and render succeed. It copies only the expected database/book paths and commits them together using repository-write permission. After a successful commit/push (or a no-change commit step), it publishes a dated release when archived content differs from the last successfully published release. Only this job receives repository-write permission; rendering never receives release credentials.
 
 Set repository Actions secrets for `CLIENT_ID`, `CLIENT_SECRET`, `USER_AGENT`, and `TARGET_USERNAME`; `LIMIT` is optional. Repository policy and branch protection must permit the publisher's commit. Updates only publish from the default branch. Runs on the same branch are serialized, and publication refuses a non-fast-forward push if the branch moved while books were rendering. Rerun against the new revision rather than force-pushing or merging a stale database.
+
+Release publication uses the built-in `GITHUB_TOKEN` through GitHub CLI; no
+additional secret or personal access token is needed. The publisher prepares a
+draft, uploads and verifies the complete asset set, then publishes it. Failed
+uploads leave an unpublished draft. Rerunning the updater resumes the original
+committed bytes rather than substituting freshly rendered books. An unexpected
+asset or checksum mismatch fails safely for manual review instead of overwriting
+an edition. A snapshot commit can succeed while release publication fails;
+check the publisher step in Actions and start a new manual updater run from the
+current default branch to finish publication. Re-running an old workflow revision
+can correctly fail its non-fast-forward safeguard after a snapshot was pushed.
+
+Release change detection hashes the meaningful submission/comment fields and
+observed revision content in SQLite. Fetch checkpoints, observation timestamps,
+row order, and generated-book timestamps are excluded. Rebuilding or changing
+formatting alone does not create a new edition. Captured revisions count even
+when the current text is unchanged; duplicate observations of identical revision
+content do not. Tags include a UTC date and content-derived identifier so multiple
+editions on one day can coexist. Releases are tied to exact snapshot commits,
+not a moving branch head.
 
 To check the read-only CI locally with [act](https://github.com/nektos/act), use `act pull_request -W .github/workflows/ci.yml -j tests`. A local run of the updater can contact Reddit and reach its publishing step, so do not use it as a harmless test run.
 
