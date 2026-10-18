@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-10-13 19:04:35 UTC
+**Generated:** 2026-10-18 04:13:45 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -1904,7 +1904,7 @@ Hopefully by making this post I make this more serious for myself and receive fe
 ---
 
 **r/HillsideHermitage** | Posted by Novel-Commercial2006 _2025-10-12 22:27:22_
-### [Confusion in regards to seeing the mind and more](https://www.reddit.com/r/HillsideHermitage/comments/1o52qhd/confusion_in_regards_to_seeing_the_mind_and_more/)
+### [Confusion in regards to seeing the mind and more]()
 
 Good evening everyone,
 
@@ -1914,7 +1914,7 @@ I know that keeping the eight precepts is one of the biggest and most important 
 
 I was thinking should I instead just try to keep the eight precepts and not watch videos by hillside and samanadipa hermitage because it seems like I end up confusing myself even more than before and am not really understanding anything. My mindfulness is so weak when it comes to seeing what they speak about it seems like being able to have any sort of "enduring context" is just so far off for me and Im not even sure if what I have in mind would be an accurate description of what it would be. Are these things that even someone of a generally lower intelligence could come to understand? Why is this so hard to even understand on any level?
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1o52qhd/confusion_in_regards_to_seeing_the_mind_and_more/njar8n2/)** _2025-10-13 16:42:10_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1o52qhd/deleted_by_user/njar8n2/)** _2025-10-13 16:42:10_:
 
     You should remember that the measure of successful understanding is your ability to keep the precepts. If you have that attitude then you won't get sidetracked from the basic work that's right in front of you. Losing that context, not listening to the talks per se, is the dangerous mistake.
 
@@ -2090,12 +2090,12 @@ Has anyone else experienced this? What might be the causes, and are there ways t
 **r/HillsideHermitage** | Posted by None _2025-09-25 13:02:14_
 ### [HH and Yogācāra]()
 
-[deleted]
+[removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nq667s/hh_and_yogācāra/ngirmbt/)** _2025-09-27 18:27:33_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nq667s/deleted_by_user/ngirmbt/)** _2025-09-27 18:27:33_:
 
     All of the key tenets you listed fall within the types of speculation that the Buddha denounced as *ayoniso manasikara* in MN 2. I don't see any similarity with our teachings at all, and some of those ideas directly contradict the Suttas (just like the bulk of what is standard doctrine in Theravada).
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nq667s/hh_and_yogācāra/ngm1yif/)** _2025-09-28 07:12:58_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nq667s/deleted_by_user/ngm1yif/)** _2025-09-28 07:12:58_ *(in reply to a comment not included)*:
 
     > MN2 lists questions concerned with the existence or non-existence of the self or the world. None of the points I listed deal with that. 
 
@@ -2364,16 +2364,16 @@ Would appreciate any thoughts and feedback. Thank you!
 ---
 
 **r/HillsideHermitage** | Posted by Many_Relation_2784 _2025-09-08 16:50:30_
-### [Nothing is mine, everything is me.](https://www.reddit.com/r/HillsideHermitage/comments/1nbt0m2/nothing_is_mine_everything_is_me/)
+### [Nothing is mine, everything is me.]()
 
 I’m curious to hear a response from Bhante Aniga here, because I am well versed and deeply understanding the Buddha Dhamma and especially the teachings at HH. Nonetheless, the sentence posted at the title “nothing is mine, everything is me” is the best description of the freedom the Dhamma has catalyzed. I’m wondering, Bhante, if you know what I mean by that statement?
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nbt0m2/nothing_is_mine_everything_is_me/ndec91c/)** _2025-09-10 05:27:29_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nbt0m2/deleted_by_user/ndec91c/)** _2025-09-10 05:27:29_:
 
     > I’m wondering, Bhante, if you know what I mean by that statement?
 
     After reading your other comments, yes: something that I definitely wouldn't call the Dhamma.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nbt0m2/nothing_is_mine_everything_is_me/ndefxt8/)** _2025-09-10 05:59:47_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1nbt0m2/deleted_by_user/ndefxt8/)** _2025-09-10 05:59:47_ *(in reply to a comment not included)*:
 
     Sure. You asked for my opinion, so that's what I replied.
 
@@ -2467,7 +2467,9 @@ I see the benefit in going to Sri Lanka or something because there you can estab
 
     Since it seems you're not seeking company and distraction to a blatantly unwholesome degree, I would not take that desire at face value and instead focus on clarifying exactly why you want to minimize conversations further. There could be an underlying aversion to the mental pressure that contact with other people naturally generates even when not laced with delight in company, and that aversion follows naturally from insufficient discernment about where the delight/danger begins.
 
-    If there is that aversion, it doesn't mean that you need to start socializing, but that you should overcome the pressure in the right way instead of finding ways to avoid it. Forceful memories and thoughts about conversations that you did not even initiate or particularly enjoy will be coming up, and you train your citta to be unmoved by them by not allowing those thoughts to suck your attention. Through such training (which requires physical seclusion and prior abandonment of the deliberate pursuit of company for entertainment) you would extirpate the very root of every issue related to human contact, including the delight, even if you speak to people quite frequently.
+    If there is that aversion, it doesn't mean that you need to start socializing, but that you should overcome the pressure in the right way instead of finding ways to avoid it. Forceful memories and thoughts about conversations that you did not even initiate or particularly enjoy will be coming up, and you train your citta to be unmoved by them by not allowing those thoughts to suck your attention *as they present themselves*. Through such training (which requires physical seclusion and prior abandonment of the deliberate pursuit of company for entertainment) you would extirpate the very root of every issue related to human contact, including the delight, even if you speak to people quite frequently.
+
+    (Added part in italics for clarity).
 
 ---
 
