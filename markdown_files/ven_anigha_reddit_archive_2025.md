@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-10-18 04:13:45 UTC
+**Generated:** 2026-10-25 04:23:09 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -3316,6 +3316,8 @@ How does craving, lead to "holding"/assuming, and assuming, to "existence"?
 
 12. Does jatimarana affect avijja, or not? Is it a linear set of dependences, or is it also linear
 
+EDIT: "...Is it a linear set of dependences, or is it cyclical?\*"
+
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lwh5ma/simple_paticcasamuppada_questions_principle_of/n2pbcff/)** _2025-07-12 09:47:47_:
 
     1 & 2. Ignorance doesn’t *lead* to saṅkhāras, nor does any factor in paṭiccasamuppāda *lead* to the next. It’s not about causality.  
@@ -4037,7 +4039,7 @@ I’m wondering how others here relate to situations like this. Is the unintenti
 ---
 
 **r/HillsideHermitage** | Posted by Seekfinderin _2025-06-14 22:44:18_
-### [Early Buddhist Teachings, other traditions and Sensuality.](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/)
+### [Early Buddhist Teachings, other traditions and Sensuality.]()
 
 Hello. I am new here and just registered because of this place since I want to understand the early buddhist teachings better and there are several questions arising for me. English is not my first language, you may forgive me any suboptimal formulations or mistakes. 
 
@@ -4091,7 +4093,7 @@ Thank you and forgive me for the many words. I have great appreciation for your 
 
 
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/mxy3q6f/)** _2025-06-15 18:12:06_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/deleted_by_user/mxy3q6f/)** _2025-06-15 18:12:06_:
 
     > Firstly, I wonder in which sense really the buddhist teaching and way of life is different from e.g. the way of life of another sannyasin or brahmachari in other traditions. In order to show why that confuses me I will below describe how I live based off on other teachings.
 
@@ -4114,7 +4116,7 @@ Thank you and forgive me for the many words. I have great appreciation for your 
     The difference is that giving in to the sexual urge cannot but be based on and further maintain an intense degree of craving and thus suffering (and there is no logical reason behind this; it's just the way the human experience happens to function). It will course of not feel intense to the person who regularly engages in sexual activity. Only one whose mind now on its own delights in and prefers celibacy and non-sensuality is in the position to see for themselves the extent of the torment of sexual desire, [just as described in this simile](https://suttacentral.net/mn75/en/bodhi?lang=en&reference=main&highlight=true#sc31). Exactly like how 30°C feels unpleasant when you've gotten used to much lower temperatures, even though in the past, you may have tolerated it well.
 
     Because of the craving that is always involved—craving automatically implies ownership—it is impossible to have sexual intercourse without taking ownership of one’s body, which is not the case with eating and drinking. Thus, it necessarily and very directly maintains the core problem that the Buddha's teaching is meant to uproot (ownership of the aggregates).
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/mybccna/)** _2025-06-17 19:04:52_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/deleted_by_user/mybccna/)** _2025-06-17 19:04:52_ *(in reply to a comment not included)*:
 
     > Can we say, in simplified terms as I said, that the doctrine implies, that you will not be free from suffering, if you will not overcome sensuality fully
 
@@ -4169,7 +4171,7 @@ Thank you and forgive me for the many words. I have great appreciation for your 
     > But sometimes I cannot think of anything why a specific act of intimacy is wrong.
 
     Intimacy and bonds are “wrong” (i.e., against your own welfare) because whatever and whoever you might bond with will be taken away completely without your consent sooner or later, and that’s going to hurt precisely to the degree that there was a bond.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/mz3pw7l/)** _2025-06-22 04:38:20_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/deleted_by_user/mz3pw7l/)** _2025-06-22 04:38:20_ *(in reply to a comment not included)*:
 
     > If someone is externally engaged because someone else is forcing himself on him and he does not actually want that but may not be able to stop the other, you would not say that there is internal desire involved, or would you? 
 
@@ -4192,7 +4194,7 @@ Thank you and forgive me for the many words. I have great appreciation for your 
     Well, the Buddha’s teaching does posit a very explicit purpose—to free oneself from all liability to suffering by purifying one’s own conduct and mind from craving. So it’s not saying that one should drop all action immediately; there are right actions that need to be cultivated and wrong actions that need to be abandoned until that purpose is achieved. 
 
     The reason why one would take on any other purpose than that is also that one wants to avoid suffering, so any purpose anyone might have is squarely within the purpose of the Buddha’s teaching. But his is the only path that rightly achieves that purpose, by digging up the very root of all suffering.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/mz3rg00/)** _2025-06-22 04:50:39_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/deleted_by_user/mz3rg00/)** _2025-06-22 04:50:39_ *(in reply to a comment not included)*:
 
     > But if you do not need a person, if you are fully fine on your own and your own alone, if you can let any person go whenever they wish or "God wishes", and this not inspite of your love for them but exactly because of your love for them, because true love wants their well-being and not yours, then I see no problem in company or a relationship. 
 
@@ -4205,7 +4207,7 @@ Thank you and forgive me for the many words. I have great appreciation for your 
     > But may it not for the majority of people within the world be a more realistic goal than to leave everyone behind?
 
     Certainly, which is why the Buddha’s teaching is far from intended for the majority, as I already made clear.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/early_buddhist_teachings_other_traditions_and/mzfwk84/)** _2025-06-24 02:07:44_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1lbl8ij/deleted_by_user/mzfwk84/)** _2025-06-24 02:07:44_ *(in reply to a comment not included)*:
 
     > Could you say that the correct practice of metta would result in an attitude towards others that more closely resembles the monastic rather than the layperson? In the sense that monastics can be friendly, still give advice, and help others with physical tasks when practical (including family and people that may externally be considered "friends"). For example, if someone in your family or former friends from your lay life were to visit you at the monastery, you could help them with advice or even help them physically if their car is stuck in the mud.
 
@@ -4424,11 +4426,11 @@ I was reading "Only Way to Jhana" after someone recommended to me. Again I haven
 ---
 
 **r/HillsideHermitage** | Posted by No-Spirit5082 _2025-05-18 11:52:09_
-### [pornography](https://www.reddit.com/r/HillsideHermitage/comments/1kpi6g9/pornography/)
+### [pornography]()
 
 for years i keep trying and trying to practice celibacy yet i keep failing and going back to pornography and masturbation. usually i make it to few days or sometimes few weeks before going back. the craving that arises in me is insane, i begin to want it so badly and my mind gets drowned in that, or it starts lying to me and tricking me to just peek or whatever, its like i become intoxicated and i have no control over my mind and behaviour. then afterwards i feel horrible and either baselesly promise to myself somehow the next time will be different and i wont do it again or spiral into self hate and despair. im sick of it, i do not know what to do. i also used to be celibate from ages 13-15 but then i messed up and haven't been celibate since (im 19 now) and its so annoying because i remember howuch better i used to feel back then and it wasn't nearly as hard as it is now, it makes me so frustrated what do i do
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kpi6g9/pornography/mt90ccu/)** _2025-05-20 05:33:05_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kpi6g9/deleted_by_user/mt90ccu/)** _2025-05-20 05:33:05_:
 
     > what do i do
 
