@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-10-25 04:23:09 UTC
+**Generated:** 2026-11-01 05:45:04 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -4678,7 +4678,7 @@ Would love to hear from anyone else who’s experienced something similar or has
 ---
 
 **r/HillsideHermitage** | Posted by Friendly_Distance119 _2025-05-09 09:28:02_
-### [Wandering mind and non-activity](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/wandering_mind_and_nonactivity/)
+### [Wandering mind and non-activity]()
 
 My computer-based job has me in a room alone all day.  Some of the time I work, but most of the time I have nothing to do.  I have always used this time to read and study the suttas.  However, at some point reading and studying the suttas becomes just another distraction.  So I am left with several hours a day with nothing to do but abide in non-activity.  The process itself is not difficult for me as I don’t mind being alone in silence, and time moves along quickly while I pace back and forth in my room.  However, after weeks of this I start to doubt its efficacy.
 
@@ -4688,10 +4688,10 @@ Is this really what I’m supposed to be doing?  Spending hours a day helplessl
 
 Thank you for your help.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/wandering_mind_and_nonactivity/mrfylda/)** _2025-05-09 16:28:40_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/deleted_by_user/mrfylda/)** _2025-05-09 16:28:40_ *(in reply to a comment not included)*:
 
     Neither of these is correct. We dismiss meditation techniques in every possible context, and we've also made it clear that a layperson can get quite far if they're celibate and well restrained in regard to sensuality in general.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/wandering_mind_and_nonactivity/mrg1t7q/)** _2025-05-09 16:45:02_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/deleted_by_user/mrg1t7q/)** _2025-05-09 16:45:02_ *(in reply to a comment not included)*:
 
     > I never got the impression it was designed for those who have already overcome the five hindrances and become fully established in the Eight Precepts. 
 
@@ -4702,14 +4702,14 @@ Thank you for your help.
     Abiding in non-activity—the way he was describing it there and not what people would generally imagine it—means practicing jhāna, and thus the exact same requirement of impeccable precepts and sense restraint developed beforehand applies. Nothing one can do before that counts as practice.
 
     The point of that talk was that a person who's established in the precepts might still be running away from the neutral feeling that initially manifests as boredom, using distractions that are technically within the precepts.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/wandering_mind_and_nonactivity/mrg8sif/)** _2025-05-09 17:20:10_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/deleted_by_user/mrg8sif/)** _2025-05-09 17:20:10_ *(in reply to a comment not included)*:
 
     Just what the commenter above mentioned:
 
     > direct your attention to more useful contemplations—such as the dangers of sensuality, the burdens of ownership, the reasons for upholding the precepts, and the unwholesomeness of neglecting them.
 
     If those contemplations feel abstract or mechanical, it's probably because there isn't a sufficient basis of precepts and restraint for those subjects to come to light experientially.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/wandering_mind_and_nonactivity/mrjbitw/)** _2025-05-10 04:04:13_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kieav0/deleted_by_user/mrjbitw/)** _2025-05-10 04:04:13_ *(in reply to a comment not included)*:
 
     In terms of Dhamma, contemplate the precepts and why they should be kept. Apart from that, it doesn't really matter as long as it's not against the precepts. Really homing in on the precepts while still engaging in various activities (excluding coarse entertainment like movies and games, of course) will be more accurate for such a person than trying to practice "non-activity," which requires significant familiarity with one's own mind and would inevitably be done wrong.
 
@@ -5104,7 +5104,7 @@ The Buddha finished speaking, and the bhikṣus, having heard his words, rejoice
 ---
 
 **r/HillsideHermitage** | Posted by No-Spirit5082 _2025-05-07 13:56:58_
-### [Hillside Hermitage Schism?](https://www.reddit.com/r/HillsideHermitage/comments/1kgy02u/hillside_hermitage_schism/)
+### [Hillside Hermitage Schism?]()
 
 I was reading an essay by Sridhar Rana Rinpoche a while back and he said :
 >"As I have already mentioned, Chittanusmriti, i.e., mindfulness of the mind, is the form of Vipassyana most common in Vajrayana. Visualizing of various Mandala, like forms and spontaneous appearance of Devas in meditation, is found not only in Vajrayana but also in the Theravad Buddhist traditions existing in the mountains of Laos. So these Theravadin “Vajracharyas” who have tried to make fun of the Mandalas of Vajrayana are also criticising their own Theravad traditions as practiced in the mountains of Laos. I believe this is breaking the Theravada tradition (creating disturbance in the Sangha)."
@@ -5115,7 +5115,7 @@ Schism is one of the anantarya kammas, and it makes me wonder, given how unnacep
 
 p.s im writing this not as an attack, but out of concern for my own welfare, as i have had great results with practicing Ajahn Nyanamoli's teachings, and i want to practice further and ordain, but I don't want to join a schismatic group for obvious karmic reasons.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kgy02u/hillside_hermitage_schism/mr34j2r/)** _2025-05-07 16:05:29_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kgy02u/deleted_by_user/mr34j2r/)** _2025-05-07 16:05:29_:
 
     Firstly, it would be a mistake to think that there is any fundamental cohesion even within so-called "Theravāda." Take any pair of senior Theravāda monks who are renowned teachers, sometimes even within the same overarching tradition, and they probably won't be able to live together for very long without falling out on account of their differing views. All that binds them together, if anything, is their interpretation of (most) Vinaya rules, and a superficial respect for the Suttas that is undermined by having very different interpretations of them. 
 
@@ -5128,7 +5128,7 @@ p.s im writing this not as an attack, but out of concern for my own welfare, as 
     [If two groups regard themselves as separate, they cannot both consist of noble ones.](https://suttas.hillsidehermitage.org/?q=mn48#mn48:6.14_mn48:6.15)That's a corollary of the inherent immutability and uniformity of the Right View.
 
     Also, what one might loosely refer to as "Theravāda meditation" and practice (the interpretations of samatha and vipassanā) is an invention under 200 years old that now everybody takes for granted and colors their reading of the Suttas with without even realizing it.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kgy02u/hillside_hermitage_schism/mr3lfwl/)** _2025-05-07 17:26:38_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kgy02u/deleted_by_user/mr3lfwl/)** _2025-05-07 17:26:38_ *(in reply to a comment not included)*:
 
     This is a common (and convenient) interpretation, but the Buddha said the exact opposite: [the fundamental disagreements leading to the harm of many are those about Dhamma](https://suttacentral.net/mn104/en/bodhi?lang=en&reference=main&highlight=false#sc8)—which certainly abound today, no less within Theravāda than other traditions.
 
@@ -5200,7 +5200,7 @@ Therefore the only way out of these wrong views is to abandon craving through th
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2025-05-04 09:33:27_
-### [Advice On My Practice Attitude](https://www.reddit.com/r/HillsideHermitage/comments/1kefwpx/advice_on_my_practice_attitude/)
+### [Advice On My Practice Attitude]()
 
 I hope it is not inappropriate to share the evolution and problems of my practice over the last \~8 months in order to seek some advice.
 
@@ -5226,7 +5226,7 @@ I want to be open about my weakness and ask for advice. Based on what I have sha
 
 EDIT: I removed a little bit of the dramatic tone as it isn't useful for anyone.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kefwpx/advice_on_my_practice_attitude/mqu4soi/)** _2025-05-06 05:06:17_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1kefwpx/deleted_by_user/mqu4soi/)** _2025-05-06 05:06:17_:
 
     Ultimately, you must not forget that the real problem lies in the fact that your mind is susceptible to spinning out of control in the first place. The resolution of that fundamental issue is not on the level of a simple shift of attitude. The animal has to actually stop being feral, not just that you learn some way of skillfully navigating around and not triggering its ferality.
 
@@ -5632,6 +5632,8 @@ The central rule that cannot be externally enforced and must rely on each user's
 **r/HillsideHermitage** | Posted by hopefullys00n _2025-04-28 04:14:59_
 ### [Questions about Lying, Confessing, and Fixing Mistakes](https://www.reddit.com/r/HillsideHermitage/comments/1k9mx60/questions_about_lying_confessing_and_fixing/)
 
+Edit: this is a long and crazy post but I'm gonna leave it up in case someone has similar questions in the future. Bhante Anīgha gave a great response, and  [this talk](https://youtu.be/TZ9y6-bgK8M?feature=shared) goes into detail about how one actually abandons both past and future actions of the unwholesome kind.
+
 Several years ago I told an awful lie about someone to some other people. Some of the people I lied to know the person I lied about, others that I lied to have never met the person and are no longer in my life. Years ago, I told some people that what I said wasn't true, but I lied again by suggesting that my lie was a result of me misinterpreting events rather than that I just told this awful lie in full awareness. I now plan to tell the full truth to the group of people that I still talk to and that know the person I lied about. The questions in this post are mainly about what to do about the other group of people- random people from my past that I don't talk to anymore and that either never met the person I lied about or met them only a few times many years ago. 
 
 I want to emphasize that the main thing I'm trying to leave behind here is not the behavior of saying awful, false things about people (this has been abandoned for years) but the internal (and external) coverup of my full responsibility for these actions (which could eventually lead to me lying again in future lifetimes). 
@@ -5693,9 +5695,9 @@ Is the distinction between subject and object or subjective and objective someth
 **r/HillsideHermitage** | Posted by None _2025-04-24 13:16:47_
 ### [How does meditation fit into the path?]()
 
-[deleted]
+[removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/how_does_meditation_fit_into_the_path/motar7z/)** _2025-04-24 16:26:38_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/deleted_by_user/motar7z/)** _2025-04-24 16:26:38_:
 
     >So, how is it defined by HH and how is it used with the other parts of the path to attain awakening?
 
@@ -5706,12 +5708,12 @@ Is the distinction between subject and object or subjective and objective someth
     The crucial difference with other approaches is in how the five hindrances are interpreted. For most, it means momentary thoughts that one can brush away simply by shifting attention onto a meditation object. And that is why the mainstream approaches can be divorced from their Buddhist context. For us, they are something much deeper that cannot possibly be separated from one's behavior and lifestyle choices and is fundamentally *impossible*, not just difficult, to overcome without firm virtue. It would be like trying to lift 100 pounds before you can even lift 50.
 
     And that is why in the Suttas, meditation was only taught to people who were already virtuous—usually monastics—and not to complete beginners like the modern techniques are.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/how_does_meditation_fit_into_the_path/moxco9g/)** _2025-04-25 06:02:48_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/deleted_by_user/moxco9g/)** _2025-04-25 06:02:48_ *(in reply to a comment not included)*:
 
     Because the purpose of the post was to present the bare minimum basis of virtue that a person would need to make significant progress. The adverse effects of sleeping on a comfortable mattress are small compared to those of not being celibate, for example. Some people may not necessarily see that and think that it has to be either all eight or only the five, and others might give up their mattress and sleep on the floor, yet still not be celibate.
 
     It was never discouraged, so whoever is willing will take on that precept as well provided they have adopted the other seven.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/how_does_meditation_fit_into_the_path/moz4jqd/)** _2025-04-25 14:27:02_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/deleted_by_user/moz4jqd/)** _2025-04-25 14:27:02_ *(in reply to a comment not included)*:
 
     There are many intermediate steps between the precepts and satipaṭṭhāna practice in the gradual training.
 
@@ -5720,7 +5722,7 @@ Is the distinction between subject and object or subjective and objective someth
     My advice for a beginner would be to simply recognize that the Anapanasati Sutta is very vague and that the contemporary interpretation(s) of it have nothing to do with the essence of the Dhamma and simply don't add up to scrutiny—and to put Anapanasati aside for the time being. There are only a handful of Suttas that talk about it, so it's not like it was or should be an essential practice by any stretch.
 
     Later on, after seeing for oneself how and why everything else the Buddha taught leads to freedom from suffering, one will be able to take on Anapanasati through that same context. Its actual purpose will be much clearer, and there will be no room left for seeing any value in observing sensations in general—of breathing or otherwise—nor in yogic breathing exercises with a Buddhist facade.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/how_does_meditation_fit_into_the_path/mp453z8/)** _2025-04-26 08:20:07_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k6ryil/deleted_by_user/mp453z8/)** _2025-04-26 08:20:07_ *(in reply to a comment not included)*:
 
     > Are you basically saying that modern meditation is not what the Buddha meant or taught as meditation in the Noble Eight Fold Path?
 
@@ -5848,7 +5850,7 @@ Please have these spanish translations as an offering out of my deepest gratitud
 ---
 
 **r/HillsideHermitage** | Posted by baubleballs _2025-04-17 16:36:16_
-### [Asking advice for going forth](https://www.reddit.com/r/HillsideHermitage/comments/1k1h9db/asking_advice_for_going_forth/)
+### [Asking advice for going forth]()
 
 Hi all, I realize these are personal details. If this sort of question is better asked privately, please let me know. I'll take down my post.
 
@@ -5872,7 +5874,7 @@ Given I take the 8 precepts in either circumstance, I assume that the common adv
 
 Thank you
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k1h9db/asking_advice_for_going_forth/mnpxqoz/)** _2025-04-18 06:49:20_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k1h9db/deleted_by_user/mnpxqoz/)** _2025-04-18 06:49:20_:
 
     > Would I just stay there my whole life I ordained there? 
 
@@ -5889,7 +5891,7 @@ Thank you
     There's also the fact that you don't know for sure if you will ordain as soon as you think you will, or at all. You may aspire to do so, but it's very common for people to postpone it longer than they anticipated or give up on the prospect altogether, for various reasons. So you should choose the option that has the most long-term potential of being a suitable environment or that at least opens up the most suitable possibilities.
 
     If you can't find anything suitable in North America or Europe (which might be unlikely), I would strongly recommend reconsidering Asia. From what I know, it's uncommon for Western places to provide the space one needs for actual practice.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k1h9db/asking_advice_for_going_forth/mnvvpkq/)** _2025-04-19 05:49:41_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k1h9db/deleted_by_user/mnvvpkq/)** _2025-04-19 05:49:41_ *(in reply to a comment not included)*:
 
     >which I've heard you previously refer to as just seclusion and not too many chores
 
@@ -5900,20 +5902,20 @@ Thank you
 **r/HillsideHermitage** | Posted by None _2025-04-16 23:59:04_
 ### [Question about Right Livelihood]()
 
-[deleted]
+[removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k0zabw/question_about_right_livelihood/mnlmv00/)** _2025-04-17 15:32:57_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1k0zabw/deleted_by_user/mnlmv00/)** _2025-04-17 15:32:57_:
 
     u/Realistic_Caramel768's answer is correct. Serving alcohol is what would be an issue.
 
 ---
 
 **r/HillsideHermitage** | Posted by adivader _2025-04-12 15:51:14_
-### [Anigha why deleting my posts ... bro!!?? :)](https://www.reddit.com/r/HillsideHermitage/comments/1jxkczn/anigha_why_deleting_my_posts_bro/)
+### [Anigha why deleting my posts ... bro!!?? :)]()
 
 [removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jxkczn/anigha_why_deleting_my_posts_bro/mmr29f0/)** _2025-04-12 16:02:57_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jxkczn/deleted_by_user/mmr29f0/)** _2025-04-12 16:02:57_ *(in reply to a comment not included)*:
 
     Save yourself the time. Both of us know that this won't get us anywhere.
 
@@ -6131,13 +6133,13 @@ https://suttacentral.net/sn42.2/en/sujato?lang=en&layout=plain&reference=none&no
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2025-04-06 10:44:00_
-### [Uneasiness as Indicator for Right Ideas](https://www.reddit.com/r/HillsideHermitage/comments/1jsrc3i/uneasiness_as_indicator_for_right_ideas/)
+### [Uneasiness as Indicator for Right Ideas]()
 
 I was wondering if arisen uneasiness is actually a valid indicator for a contemplation hitting the right spot. For example, if I contemplate the inaccessibility and impermanence of the senses (or the impermanence of my dear ones, possessions, etc.), would a level of anxiety be a sign that the contemplation is earnest, or can Mara trick one by "inducing" that unpleasantness, while one's assumption of ownership hides untouched in an obscured spot? If so, how would one be able to discern if one is tricked? Can this even be done while contemplating, or only inferred by honestly questioning oneself in day-to-day life if the overall level of pressure due to attachments is decreasing?
 
 I would also like to expand that question to the broader scope of the practice as a whole. I am currently under the assumption that a subtle level of uneasiness is the natural emotional state for a puthujjana finding out about his situation and even useful for being more alert and authentic. So the same question applies here: are such emotions a valid measure for being on the right path? Or would it be better to refrain from any idea of "measuring" one's practice and instead acknowledge the uncertainty regarding ones notions about practice—which in turn would give rise to new uneasiness and, of course, could thus again be taken for granted as being a correct idea.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jsrc3i/uneasiness_as_indicator_for_right_ideas/mlv7c28/)** _2025-04-07 14:16:50_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jsrc3i/deleted_by_user/mlv7c28/)** _2025-04-07 14:16:50_:
 
     >Or would it be better to refrain from any idea of "measuring" one's practice and instead acknowledge the uncertainty regarding ones notions about practice—which in turn would give rise to new uneasiness and, of course, could thus again be taken for granted as being a correct idea.
 
@@ -6488,7 +6490,7 @@ https://www.reddit.com/r/HillsideHermitage/wiki/index/
 ---
 
 **r/HillsideHermitage** | Posted by No-Spirit5082 _2025-03-28 14:04:23_
-### [Is this a correct way of practicing?](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/)
+### [Is this a correct way of practicing?]()
 
 Ever since i started living by the 8 precepts (not to the letter but mostly) and practicing abandoning the attitude of sensuality, i find that i very naturally, or with little effort can be mindful in this sort of way - when im walking in the forest, im aware of my body moving, aware of sounds around me, wind blowing on my face, i feel present and my mind is naturaly quiet with little thought. 
 
@@ -6500,7 +6502,7 @@ Should i intentionally cultivate this way of practice?
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/mkgqvdt/)** _2025-03-30 03:27:07_ *(in reply to a comment not included)*:
 
     Because it's not like you have a choice. The hindrances never go into limbo. If you just practice something because you find it calming or enjoyable, not examining what the attitude behind it is, you will be under the thumb of one hindrance or the other. That means nothing of fundamental value will be developed and right understanding will not arise (since the hindrances are what block it).
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/mmbwcyo/)** _2025-04-10 03:22:03_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/deleted_by_user/mmbwcyo/)** _2025-04-10 03:22:03_ *(in reply to a comment not included)*:
 
     > whenever anyone experiences any kind of relief or otherwise productive feeling as a result of keeping the precepts and renouncing bad habits, they're told that's proof they're doing everything all wrong. 
 
@@ -6511,7 +6513,7 @@ Should i intentionally cultivate this way of practice?
     When joy arises *purely* because they have abandoned unwholesome states, whether they attend to their sensations or do anything else. Even when they try to become lustful or angry, those states simply cannot ignite as strongly as before, and *that's* pleasant. 
 
     That's very different from such states (seemingly) not arising because the pleasant sensations are keeping one occupied for the time being.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/mmdcclg/)** _2025-04-10 11:25:31_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/deleted_by_user/mmdcclg/)** _2025-04-10 11:25:31_ *(in reply to a comment not included)*:
 
     When pleasure truly arises from renunciation and freedom from unwholesome states, you cannot fail to recognize its source because you've been consciously doing the right work. Once you succeed, it simply wouldn't occur to you to attribute it to anything else—unlike any other type of pleasure of an unbeneficial kind, which can arise spontaneously.
 
