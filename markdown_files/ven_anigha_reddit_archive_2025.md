@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-11-01 05:45:04 UTC
+**Generated:** 2026-11-08 05:46:22 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -6496,10 +6496,10 @@ Ever since i started living by the 8 precepts (not to the letter but mostly) and
 
 Should i intentionally cultivate this way of practice?
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/mkaw8y0/)** _2025-03-29 03:25:19_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/deleted_by_user/mkaw8y0/)** _2025-03-29 03:25:19_:
 
     Sounds like precisely the wrong direction to go in. That quietude is probably based on the novelty of living a simpler life externally and will not last long. The pressure of the hindrances will become apparent again at some point (more likely than not, it's already there; it's just overlooked), and that's where the work lies.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/is_this_a_correct_way_of_practicing/mkgqvdt/)** _2025-03-30 03:27:07_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/deleted_by_user/mkgqvdt/)** _2025-03-30 03:27:07_ *(in reply to a comment not included)*:
 
     Because it's not like you have a choice. The hindrances never go into limbo. If you just practice something because you find it calming or enjoyable, not examining what the attitude behind it is, you will be under the thumb of one hindrance or the other. That means nothing of fundamental value will be developed and right understanding will not arise (since the hindrances are what block it).
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jlvu6d/deleted_by_user/mmbwcyo/)** _2025-04-10 03:22:03_ *(in reply to a comment not included)*:
@@ -7031,11 +7031,11 @@ Chownah"
 ---
 
 **r/HillsideHermitage** | Posted by No-Spirit5082 _2025-03-22 21:51:37_
-### [Can someone please explain the purpose of sleeping on the floor and the purpose of eating one meal a day?](https://www.reddit.com/r/HillsideHermitage/comments/1jhjnyg/can_someone_please_explain_the_purpose_of/)
+### [Can someone please explain the purpose of sleeping on the floor and the purpose of eating one meal a day?]()
 
 I have taken up eating once a day (in the afternoon/evening) and sleeping on a yoga mat on the floor, but i dont yet understand the purpose of this. Can someone please explain? Or refer to a video where this is explained?
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jhjnyg/can_someone_please_explain_the_purpose_of/mj9zvr5/)** _2025-03-23 07:40:10_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1jhjnyg/deleted_by_user/mj9zvr5/)** _2025-03-23 07:40:10_:
 
     The purpose of eating one meal a day is that it will concretely highlight the difference between eating for pleasure, which goes almost unnoticed when you allow yourself to eat whenever you want, and [eating for the sake of staying alive and able to practice.](https://suttacentral.net/sn12.63/en/sujato?lang=en&layout=plain&reference=main&notes=asterisk&highlight=true&script=latin#2.1). 
 
@@ -7444,7 +7444,7 @@ I realise there is some level of justifying staying in the world here, but the t
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2025-03-01 17:49:24_
-### [Knowing Background Phenomena](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/)
+### [Knowing Background Phenomena]()
 
 I was wondering why we *feel* feelings but know/discern/see other peripheral phenomena and what these verbs even refer to. When I actively try to feel a feeling, all I find is that I want to make the feeling palpable by searching for sensations in my chest or head. However, even before such a search, I already know that I am feeling well or bad, and this knowledge clearly refers to something in my experience. Now, isn't the same true for the overall mood? I can't find the mood when I search for it, and I don't even have to do it because it is simply something I know. This knowing is not based on some fantasy, but a bad mood is easily recognizable in one's experience, even for the most unrestrained person in the world. The same goes for intentions. It isn't too hard to be aware of the most obvious pressures/pulls to do, say, or think about various things throughout the day, while withstanding a pull is, of course, a different matter. I also tend to associate these pulls with sensations in my chest, but these association attempts can only occur because the pull has already appeared as a background phenomenon.
 
@@ -7452,7 +7452,7 @@ So, is this the basic principle for every kind of peripheral phenomenon? That th
 
 Hence, the reason we say that we are *feeling* feelings or even emotions is just because these are very obvious background phenomena, and we have a word for it in society, while phenomena like the internal body are on a more subtle layer in experience. However, as the same principles apply to all background phenomena, feeling a feeling and knowing/discerning/seeing the internal body is basically the same kind of "act," just pointing toward different things in experience.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/mfm15cc/)** _2025-03-02 14:50:09_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/deleted_by_user/mfm15cc/)** _2025-03-02 14:50:09_:
 
     >So, is this the basic principle for every kind of peripheral phenomenon?
 
@@ -7465,7 +7465,7 @@ Hence, the reason we say that we are *feeling* feelings or even emotions is just
     You also start to see the very concrete and inseparable relationship between restraint and understanding. Lack of restraint, sensuality, etc., *is* that "coarsing up" of things that would've otherwise remained as non-specific phenomena (that are nevertheless *real as such*). That then makes it even harder to recognize and stay with the actual manifestation of things (which is always peripheral to any particular details). Then even when you try to practice and see the Dhamma, you end up watching sensations and things of that nature, to the point of imagining that you can "observe" your five aggregates coming and going like things popping in and out of a screen.
 
     It's not at all an exaggeration to say that modern Buddhist tradition and practices move in the complete opposite of the right direction—towards *concealing* phenomena rather than revealing them—often invoking the buzzword "phenomenology" without understanding what it means. It's also not an accident that virtue has become an afterthought at best.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/mir1jfl/)** _2025-03-20 05:30:56_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/deleted_by_user/mir1jfl/)** _2025-03-20 05:30:56_ *(in reply to a comment not included)*:
 
     > It seems there are always countless perceptions in the background—for instance, the sound of chirping birds as I write this or the sensations of my body touching various surfaces.
 
@@ -7492,7 +7492,7 @@ Hence, the reason we say that we are *feeling* feelings or even emotions is just
     Self-view is gone when you've become unable to doubt whether there can be things apart from the perception of those things. Any notion of a "more real" rūpa (or any other phenomenon, including a soul or self) supposedly beyond your perception of it is itself just another perception. The alleged "more real" phenomenon is knowable to the very extent that its characteristics (such as its ambiguity and inaccesibility) are perceived, just as, on a coarse level, a blue towel is perceived as a blue towel. But one starts with a way too narrow preconceived notion of what "perceiving" is.
 
     And this doesn't mean everything we experience is some sort of secondary fabricated reality, and the ultimate reality beyond perception is hidden from us. "The reality beyond perception (or other aggregates)," which many might think is Nibbāna, is perceived. *Structurally*, it cannot be otherwise, and not seeing that means not knowing Nibbāna, because there is ignorance and misconceiving of the aggregates.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/miyan8x/)** _2025-03-21 10:45:33_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/deleted_by_user/miyan8x/)** _2025-03-21 10:45:33_ *(in reply to a comment not included)*:
 
     Certainly not.  Rather, whatever is *described* and *recognized* as the aggregate of rūpa is a perception of the aggregate of rūpa.
 
@@ -7512,14 +7512,14 @@ Hence, the reason we say that we are *feeling* feelings or even emotions is just
     for he has nothing by which one could define him."  
     >
     >—[SN 1.20](https://suttas.hillsidehermitage.org/?q=sn1.20)
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/mj9xjbh/)** _2025-03-23 07:15:18_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/deleted_by_user/mj9xjbh/)** _2025-03-23 07:15:18_ *(in reply to a comment not included)*:
 
     The thing is that the aggregates that you have now are *in themselves* the opposite of Nibbāna (the five aggregates of assumption or *pañcupādānakkhanda*), so any effort to figure out how Nibbāna might "fit" within the aggregates you have now would be based on a wrong premise. 
 
     As you said, the whole world is within the aggregates (of upādāna for puthujjana), so even the most careful and precise thoughts about anything, including Nibbāna and Arahantship, are also within them. So it is by purifying thoughts and mental images regardless of their content (past, present, or future, coarse or subtle, mundane or about Dhamma, etc.), from craving and assumption that you would achieve Nibbāna. Hence it all boils down to freeing this very mind from the five hindrances through the gradual training, not to figuring things out in abstraction. That's genuinely the only way that these things can be grasped *even intellectually*. 
 
     Only if you abandoned the five hindrances to a good extent would you have a basis to see for yourself what the difference is between the presence and absence of upādāna, and thus what the way to fully abandoning it is. That's why it's a prerequisite for any noble attainment.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/knowing_background_phenomena/mjrwwor/)** _2025-03-26 03:11:41_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1j158q4/deleted_by_user/mjrwwor/)** _2025-03-26 03:11:41_ *(in reply to a comment not included)*:
 
     >What if hindrances are abandoned only for short periods? Return back because the mind have strong habit to seek the satisfaction or safety outwardly. Distraction is more interesting than calmness for an animal - how to train it, what to show it?
 
@@ -7691,7 +7691,7 @@ So this gives me a picture that "yes I can still be a sotapanna and it doesn't m
 ---
 
 **r/HillsideHermitage** | Posted by AlexCoventry _2025-02-26 02:57:51_
-### [How should we interpret AN 5:161, "The Subduing of Hatred", which recommends developing goodwill for someone if you've given birth to hatred for them?](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/how_should_we_interpret_an_5161_the_subduing_of/)
+### [How should we interpret AN 5:161, "The Subduing of Hatred", which recommends developing goodwill for someone if you've given birth to hatred for them?]()
 
 # [The Subduing of Hatred (1): Āghatāvinaya Sutta (AN 5:161)](https://www.dhammatalks.org/suttas/AN/AN5_161.html)
 
@@ -7709,7 +7709,7 @@ So this gives me a picture that "yes I can still be a sotapanna and it doesn't m
 
 “These are five ways of subduing hatred by which, when hatred arises in a monk, he should wipe it out completely.”
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/how_should_we_interpret_an_5161_the_subduing_of/mf1l32f/)** _2025-02-27 09:25:39_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/deleted_by_user/mf1l32f/)** _2025-02-27 09:25:39_:
 
     There's no problem with the idea of "dispelling" or "wiping out" hatred or any other unwholesome state thorough these cultivations.
 
@@ -7718,12 +7718,12 @@ So this gives me a picture that "yes I can still be a sotapanna and it doesn't m
     But one has to recognize that the state of anger is something much more fundamental than those thoughts. It's more along the lines of the "mood" you're in, and you can't get rid of your mood instantaneously.  Thus, you need to *first* come to terms with that fact (AKA "endure" the arisen mood, which means not giving in to the thoughts it proposes, nor distracting yourself from it).
 
     On the basis of that, without at any point getting impatient and trying to fight with the mind directly (thereby acting out of the same aversion), you can develop these five themes. As a result, you eventually  "wipe out" the actual liability to angry thoughts altogether (the angry mood) rather than merely managing it and sweeping it under the rug with contrived positive thoughts. And then the mind would incline towards good will and so on by itself, without you "doing" it.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/how_should_we_interpret_an_5161_the_subduing_of/mf7gcdt/)** _2025-02-28 05:37:29_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/deleted_by_user/mf7gcdt/)** _2025-02-28 05:37:29_ *(in reply to a comment not included)*:
 
     >cultivating metta in order to provoke the processes of clinging to that hostile mood, for the sake of better understanding those processes?
 
     I'm not sure what you mean by "provoking the processes of clinging."
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/how_should_we_interpret_an_5161_the_subduing_of/mf9lqrl/)** _2025-02-28 15:40:29_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/deleted_by_user/mf9lqrl/)** _2025-02-28 15:40:29_ *(in reply to a comment not included)*:
 
     Cultivating mettā cannot trigger resistance. This sounds like what I referred to above: an attempt to replace the bad thoughts arising from an angry mind with good thoughts, overlooking the angry mind or leaving it to somehow sort itself out. That attempt might trigger a secondary resistance whose disappearance can be confused with successful cultivation of mettā (especially when the root resistance already feels normal due to an insufficiently restrained lifestyle; *brahmavihāra* and *brahmacariya* go together).
 
@@ -7732,7 +7732,7 @@ So this gives me a picture that "yes I can still be a sotapanna and it doesn't m
     To be able to cultivate mettā, you first need to familiarize yourself with what a hateful or resistant mind actually is: an ambiguous "cloud" that looms overhead despite whatever you might do. That's the third satipaṭṭhāna, and it's not the same as allowing hateful *thoughts* to persist (which should not be done, as the Buddha said). You'll only be able to see that hateful mind for what it is if you don’t jump into action in response to it, which includes what you seem to be describing as "cultivating mettā."
 
     Mettā is about completely dispelling that cloud on the basis of seeing it clearly, not just maneuvering around it or compensating for it on a superficial level.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/how_should_we_interpret_an_5161_the_subduing_of/mflqnpz/)** _2025-03-02 13:47:53_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iydjbb/deleted_by_user/mflqnpz/)** _2025-03-02 13:47:53_ *(in reply to a comment not included)*:
 
     >And then you try to get rid of the mood, by replacing it with another mood, which requires thinking thoughts of goodwill?
 
@@ -7793,7 +7793,7 @@ So far, this subreddit has operated smoothly with no active moderation or rules.
 
 In response, I drafted a list of guidelines and reviewed them with the other mods to ensure this continues to be a reliable, high-quality resource for learning about and discussing HH teachings, which was and should remain its intended purpose.
 
-The guidelines should now be visible in the sidebar. I will leave this thread open for a week to make room for clarification and discussion of the new rules.
+The guidelines should now be visible in the sidebar.
 
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1iwwi9l/introducing_new_rules_to_rhillsidehermitage/meht6o0/)** _2025-02-24 09:57:13_ *(in reply to a comment not included)*:
 
@@ -8189,7 +8189,7 @@ For example, I used to be addicted to facebook but deleted it three years ago. W
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2025-02-14 14:34:30_
-### [Understanding Craving: Personal Reflections](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/understanding_craving_personal_reflections/)
+### [Understanding Craving: Personal Reflections]()
 
 I would like to share my current understanding of craving in the hope that someone may relate or identify any issues and be generous enough to point them out. This will be a lengthy post with mainly personal reflections.
 
@@ -8201,10 +8201,10 @@ I am not saying that these examples represent what actual craving is for someone
 
 Any feedback is very appreciated.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/understanding_craving_personal_reflections/mcvnb5j/)** _2025-02-15 09:41:40_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/deleted_by_user/mcvnb5j/)** _2025-02-15 09:41:40_:
 
     Are you already established in unbroken precepts and withdrawal from sensual engagements? If not, you are probably overthinking things. Up until that point, craving is nothing more complicated than the fact that you break the precepts or give in to sensuality even occasionally, and trying to see anything more subtle than that will distract you from the actual and rather obvious problem—the actions you still engage in. Even if you were to then develop perfectly accurate ideas about the practice, all you will be doing with them is managing the byproducts of that root problem that is still welcomed and tolerated.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/understanding_craving_personal_reflections/md1cenr/)** _2025-02-16 06:56:53_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/deleted_by_user/md1cenr/)** _2025-02-16 06:56:53_ *(in reply to a comment not included)*:
 
     >Until recently, my "meditation" practice mainly consisted of "sitting in a room doing nothing", often for hours, resisting the pull to distract myself from boredom. Outside of these "meditation sessions", it can still happen that I give in to distraction and subtle entertainment (like reading an interesting article on Wikipedia, scrolling through Buddhist subreddits), though it never escalates to completely losing perspective and starting to watch a movie or something like that. As it now feels normal to spend my weekends and after-work hours this way, I felt it woul
 
@@ -8213,7 +8213,7 @@ Any feedback is very appreciated.
     Reading Wikipedia articles or Buddhist subreddits is not a distraction in itself; it doesn't *need* to destroy your self-awareness like watching a movie would. It will do so when the motivation *at that time* is some sort of craving or pressure already, and your reading is *at that time* your way of acting in accordance with that craving. Then you're making it worse, and trying yourself to dukkha tigher and tighter by virtue of doing that action. It's like how you don't let a brat have do he wants *because* he's throwing a tantrum about it. If there's no tantrum and he doesn't care if you say no, it's fine. But you still keep an eye on him because he could start getting overly engaged and emotionally invested, and then he'd angrily refuse to stop when you tell him to.
 
     So learn to discern your motivations more clearly, and then you'll be able to know beyond doubt when something is fine and when it isn't. If you just stick to a blanket avoidance like you're describing, you might well be depriving yourself of the opportunity to develop understanding of your own mind, which is what defines wholesome and unwholesome.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/understanding_craving_personal_reflections/md2corr/)** _2025-02-16 12:52:11_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/deleted_by_user/md2corr/)** _2025-02-16 12:52:11_ *(in reply to a comment not included)*:
 
     >Would it be more conducive to wisdom to read the article, observe if I could stop in the middle of it and continue if no pressure (on the level of throwing a tantrum) is felt?
 
@@ -8238,7 +8238,7 @@ Any feedback is very appreciated.
     And the principle never really changes. What constitutes a big push just becomes subtler as you progress, and as the old big pushes fall away and become impossible. Thus, at no point will it feel like you have to avoid everything if you're practicing rightly.
 
     This is how you achieve automatic and natural moderation in all matters. Not by preemptively defining how long you should do each individual thing.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/understanding_craving_personal_reflections/mda3owr/)** _2025-02-17 17:36:03_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ipbw3u/deleted_by_user/mda3owr/)** _2025-02-17 17:36:03_ *(in reply to a comment not included)*:
 
     >I guess the same is true for mental actions at my current practice stage? Instead of worrying about being unmindful, wondering "where the craving exactly is" and trying to jump to conclusions, it would be better to observe which mental engagement ends in my mind being wild (like dwelling on the annoying behavior of a person) and which engagement doesn't effect me very much (like daydreaming about the household work i have planned for the day). So reestablishing the context is important when one has been lost in his thoughts and daydreams
 

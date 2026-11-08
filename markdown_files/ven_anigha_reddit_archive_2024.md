@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2024
 
-**Generated:** 2026-11-01 05:45:04 UTC
+**Generated:** 2026-11-08 05:46:22 UTC
 
 **Saved records in this volume:** 234 discussions and 545 comments.
 
@@ -3486,7 +3486,7 @@ Back to the example. A hinderance has arisen, I know if I cover it up il I won't
 ---
 
 **r/HillsideHermitage** | Posted by Altruistic_Guard_251 _2024-08-23 15:04:27_
-### [A Sotāpanna's Suffering](https://www.reddit.com/r/HillsideHermitage/comments/1ezf1p7/a_sotāpannas_suffering/)
+### [A Sotāpanna's Suffering]()
 
 Hello everyone!
 
@@ -3707,7 +3707,7 @@ Again, it is not my intention to be dismissive of anyone, or wanting to criticiz
     A sotāpanna's practice is precisely about repeatedly bringing about the cessation and non-arising of the *āsavas*. That's in fact what *yoniso manasikāra* is about, as stated in MN 2. All the components listed in that Sutta after the first section are to be practiced with the understanding of the cessation of the *āsavas* that the *sotāpanna* has acquired. That the *sotāpanna*, by virtue of being one, understands the cessation of the *āsavas*—as well as the cessation of ignorance—is also stated in MN 9. SN 12.3 explains the right *practice* as the cessation of DO.
 
     So, one way of explaining the distinction is that, for the Arahant, the *āsavas* are no longer liable to future arising.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ezf1p7/a_sotāpannas_suffering/mgh0u0f/)** _2025-03-07 06:55:43_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ezf1p7/deleted_by_user/mgh0u0f/)** _2025-03-07 06:55:43_ *(in reply to a comment not included)*:
 
     The fact that Ven. Vaṅgīsa was a sotāpanna is quite evident from the other Suttas in that chapter, and the verse in SN 8.3 itself suggests that he already understood the Dhamma at that time. 
 
