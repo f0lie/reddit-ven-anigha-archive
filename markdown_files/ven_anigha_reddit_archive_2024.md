@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2024
 
-**Generated:** 2026-11-08 05:46:22 UTC
+**Generated:** 2026-11-15 06:03:56 UTC
 
 **Saved records in this volume:** 234 discussions and 545 comments.
 
@@ -146,7 +146,7 @@ Thanks in advance for your help.
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2024-12-21 09:46:42_
-### [Discerning the General Feeling](https://www.reddit.com/r/HillsideHermitage/comments/1hj6npf/discerning_the_general_feeling/)
+### [Discerning the General Feeling]()
 
 I would like to share my current understanding of the "general feeling" and kindly ask for corrections. I will use Bhante Anīgha's approach from [The Meaning of Yoniso Manasikāra](https://www.hillsidehermitage.org/wp-content/uploads/2023/06/The-Meaning-of-Yoniso-Manasikara-Bhikkhu-Anigha.pdf) and distinguish between the **external**/*internal* domain of experience via formatting the text. In this way, I hope to expose any wrong understanding more clearly.
 
@@ -156,7 +156,7 @@ Do these reflections point in the right direction? Should the aggregates be "*kn
 
 Edit 1: small grammar corrections
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hj6npf/discerning_the_general_feeling/m3a3n6q/)** _2024-12-22 13:34:14_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hj6npf/deleted_by_user/m3a3n6q/)** _2024-12-22 13:34:14_:
 
     >Do these reflections point in the right direction? 
 
@@ -379,7 +379,7 @@ Thanks for reading.
 ---
 
 **r/HillsideHermitage** | Posted by Sukhena _2024-12-18 15:36:10_
-### [Making the most of a coming "meditation retreat"](https://www.reddit.com/r/HillsideHermitage/comments/1hh45z3/making_the_most_of_a_coming_meditation_retreat/)
+### [Making the most of a coming "meditation retreat"]()
 
 A few months ago, I signed up for a 10-day retreat that will start very soon. Reading the HH teachings, I'm questioning my practice accordingly. Because of that, I'm now wondering if this retreat could be a good opportunity to reflect on my practice and try to start practicing as the HH teachings advise. I'm still in the process of integrating the perspective shift these teachings bring, and I hope I won't just spend 10 days immersed in confusion.
 
@@ -390,14 +390,14 @@ i'd be glad to hear some thoughts on this situation, if possible.
 
 Thank you very much for your time !
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hh45z3/making_the_most_of_a_coming_meditation_retreat/m2tyctx/)** _2024-12-19 15:07:52_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hh45z3/deleted_by_user/m2tyctx/)** _2024-12-19 15:07:52_:
 
     If you'll get to spend some time keeping the 8 precepts and in seclusion on top of that, without any expectation to take part in "group meditation" (which is pretty much an oxymoron), then it would be beneficial, and at the very least, you'll get a palpable sense of how dependent your mind is on the pleasures and activities that you're used to. Just like with any addiction, you simply do not see that clearly until those things are factually taken away, without being replaced with some other distracting activity (such as what people usually occupy themselves with during such "retreats"). Just don't expect anything resembling genuine insight to arise out of a mere 10 days of practice, no matter how "intensive" it is.
 
 ---
 
 **r/HillsideHermitage** | Posted by noobknoob _2024-12-17 17:19:52_
-### [Sense restraint](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/sense_restraint/)
+### [Sense restraint]()
 
 I've not been able to understand how to practice sense restraint for a while. Let's say someone is restrained bodily and verbally, and dwelling in seclusion. Then, all sorts of intense and pressuring thoughts start arising.
 
@@ -409,7 +409,7 @@ Also, can one take up virtue and sense restraint together? Or one should wait fo
 
 Thanks for reading. 
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/sense_restraint/m2j7h7e/)** _2024-12-17 18:38:20_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/deleted_by_user/m2j7h7e/)** _2024-12-17 18:38:20_:
 
     >But how does this work along with "enduring the thoughts"? What exactly am I not supposed to let the mind get into and what exactly am I supposed to endure?
 
@@ -420,7 +420,7 @@ Thanks for reading.
     That same principle taken to an even broader and comprehensive extent is how you fully "remove the fuel" from the five hindrances, as opposed to just suppressing the specific thoughts about them with something else. Having done so sufficiently, you cease to be even *liable* to them for that period of time, and that's what *samādhi* is, and why sense restraint is a non-negotiable prerequisite for it.
 
     It will take time and repeated attempts—provided all the prerequisites are in place—to become fully familiar with where the "line" between you thinking "out of" an arisen pressure and the pressure being there on its own is, but that's how you start to see the Middle Way very concretely.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/sense_restraint/m2m0xoi/)** _2024-12-18 04:31:42_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/deleted_by_user/m2m0xoi/)** _2024-12-18 04:31:42_ *(in reply to a comment not included)*:
 
     >i don’t think endurance of painful or unpleasant stimuli leads to any special knowledge or insight.
 
@@ -429,7 +429,7 @@ Thanks for reading.
     The "pressure" we refer to is primarily mental, such as what you experience when your mind craves to do or think something unwholesome, but you choose to restrain yourself regardless. The Suttas sometimes compare this to pinning down a wild animal until it calms down.
 
     It's [also said](https://suttas.hillsidehermitage.org/?q=an5.113) that someone who is unable to endure (*khamati*, as in *khanti* or patience) the pressure of their five senses—which is what leads one to indulge in sensual desires—cannot attain right samādhi.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/sense_restraint/m2z2h4k/)** _2024-12-20 12:39:23_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hgfmnl/deleted_by_user/m2z2h4k/)** _2024-12-20 12:39:23_ *(in reply to a comment not included)*:
 
     My advice would be to first establish the 5 precepts unconditionally. Determine to keep them no matter the discomfort you have to endure as a result of it.
 
@@ -567,7 +567,7 @@ Do you think this sutta contradicts the structural (akaliko) DO? Is this an inst
     ([This Sutta](https://suttacentral.net/sn12.39/en/bodhi?lang=en&reference=none&highlight=false) uses the same terms people often assume refer to "literal" birth only (e.g., the "descent" of name and form), and says that they cease as soon as gives up all "tendencies," anusaya).
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h9pfad/how_to_reconcile_sn1219_with_structural_dependent/m843l0d/)** _2025-01-20 04:57:51_ *(in reply to a comment not included)*:
 
-    Yes. There is only bhava if there is upādāna, as the Suttas say. From that you can tell that bhava is not simply the presence of things. When one "adopts" (upādāna) even the subtlest of things, to that extent there is [a mode of] being.
+    Yes. Only with *upādāna* can there be *bhava*, as the Suttas say. From that you can tell that *bhava* is not simply the presence of things. When one "adopts" (*upādāna*) even the subtlest of things, to that extent there is [a mode of] being.
 
 ---
 

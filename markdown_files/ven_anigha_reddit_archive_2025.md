@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2025
 
-**Generated:** 2026-11-08 05:46:22 UTC
+**Generated:** 2026-11-15 06:03:56 UTC
 
 **Saved records in this volume:** 220 discussions and 507 comments.
 
@@ -8301,7 +8301,7 @@ I am friends with a monk who tends to include mindfulness as being related with 
 ---
 
 **r/HillsideHermitage** | Posted by still_tracks _2025-02-07 14:33:38_
-### [Dhamma as Inspiration (or Management?)](https://www.reddit.com/r/HillsideHermitage/comments/1ijwbpm/dhamma_as_inspiration_or_management/)
+### [Dhamma as Inspiration (or Management?)]()
 
 I would like to ask when one should stop seeking inspiration from reading Suttas and listening to Dhamma talks. I've noticed that reading inspiring Dhamma material can quickly set up the proper context, such as the certainty of death and the danger of sensuality. For instance, yesterday I read a transcript of Ajahn Nanamoli's talk titled [Appointment with Death](https://bbballs.github.io/hillside_hermitage_archive/transcriptions/2019-04-28-transcript-Appointment_with_Death.html) and the slight unease of being liable to death stayed with me for the entire day. This led to me being mentally very restrained at work. Often, I find myself in situations with already proliferated stress, but on that day, I was able to see my mind moving in that direction before becoming totally absorbed in it. When meditating on Dhamma topics "on my own" for relatively short periods (like in the morning before a working day), the context usually isn't established as firmly.
 
@@ -8309,7 +8309,7 @@ On the one hand, it seems to me that seeking inspiration from Dhamma material ca
 
 Am I correct in thinking it might be better to read Dhamma material only when not "preparing" for a day of work and potential challenging situations, and instead face such a day with a "shakier" context? I am relatively restrained in my bodily and verbal behavior with the "shaky" context (keeping 7 precepts, though with occasional laps on the verbal level), but mentally it is much more challenging to keep the Dhamma as the most important thing without this kind of inspiration.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ijwbpm/dhamma_as_inspiration_or_management/mbmw212/)** _2025-02-08 09:48:08_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ijwbpm/deleted_by_user/mbmw212/)** _2025-02-08 09:48:08_:
 
     What you're describing is something that is [mentioned in the Suttas several times](https://suttas.hillsidehermitage.org/?q=mn33#mn33:22.1_mn33:23.3), and it's not bad in and of itself. The problem arises when you expect inspiration to carry your practice, especially because the mind will only get inspired from hearing the Dhamma if it is already not too [immersed in hindrances due to careless conduct](https://suttas.hillsidehermitage.org/?q=an10.62#an10.62:2.6_an10.62:2.9).  
 
@@ -8320,7 +8320,7 @@ Am I correct in thinking it might be better to read Dhamma material only when no
     Furthermore, it won't turn into a "ritual" or "management" if you ensure that you actually *use* that inspiration to give up and restrain things that you now see as unwholesome through newfound clarity—no matter how justified you feel they are or how integral to your life they have become. Even if it's not a fully fledged focusing technique or similar, virtually anything you practice will be a form of management and distraction when your fundamental intention is to try to have your cake and eat it too: when you want to sidestep the suffering bit, while at the same time being unwilling to evict all the habits and behaviors based on craving that you still have, and which create the fertile ground for suffering to arise in the first place.
 
     On the other hand, if you do have that kind of resolve, then even if something uplifts your mind, it's not necessarily a problem because you made sure to remove everything unwholesome beforehand, and you have nothing to deceive yourself about.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ijwbpm/dhamma_as_inspiration_or_management/mbtn8j4/)** _2025-02-09 11:50:59_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ijwbpm/deleted_by_user/mbtn8j4/)** _2025-02-09 11:50:59_ *(in reply to a comment not included)*:
 
     >Do you mean adopting an attitude where you only stick to the practice when feeling inspired and neglect it when inspiration runs out?
 
@@ -8838,7 +8838,7 @@ Thank you for your responses as always !
 
     >Would not the significance, most accurately be falling under the aggregate of Sañña ?
 
-    It would be all of them. Particularly feeling and intention.
+    It would be all of them. Certainly feeling and intention too, not just perception.
 
     >Also, per my understanding, it is the 'overrriding' of this very strong significance, that renders the act of killing one's mother or father, such a heinous act of Ānantarika Kamma. Therefore it stands to reason that the mother and father need not be biological. As long as an individual bears that significance towards any person(s) (e.g. one is adopted and isn't aware of that fact), the act of intentionally violating that significance, through killing, would bear the same consequences.
 
@@ -9073,16 +9073,16 @@ How does one view parents and relationships with them? How does one properly say
 **r/HillsideHermitage** | Posted by None _2025-01-10 17:02:28_
 ### [Signs of the Mind/Practice Check]()
 
-[deleted]
+[removed]
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6lii5b/)** _2025-01-11 16:40:12_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6lii5b/)** _2025-01-11 16:40:12_:
 
     This sounds like an attempt to find an escape from suffering through psychologizations, and is certainly not what we mean with "seeing the sign of the mind."  
 
     Seeing the sign of the mind would be taking a step back from this whole complex net of ideas and asking yourself why you feel compelled to engage with them in the first place.  Most likely, through radical honesty, you would see that it helps you cope with challenging emotional states and situations better one way or another. But that's not how you arrive at freedom from suffering. It's the mind still trying to exert control over experience and have things go according to its preferences at the level of feeling at least, just in a way that's less obvious.
 
     You can only arrive at true freedom from suffering by abandoning craving in regard to whatever feeling is present, not by trying to manipulate it by rehearsing various ideas, whether accurate or not.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6lvxbz/)** _2025-01-11 17:49:59_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6lvxbz/)** _2025-01-11 17:49:59_ *(in reply to a comment not included)*:
 
     Effort isn't necessarily always conscious, especially when something has become habitual. *Saṅkhāras* exist due to ignorance as the Buddha said, not because one explicitly wants to have them.
 
@@ -9091,7 +9091,7 @@ How does one view parents and relationships with them? How does one properly say
     Even if it feels like it's not "you" making that happen, the fact remains that the freedom came from a change that occurred, and not from you being completely unmoved by both very meaningful and very meaningless sentences equally, or by whatever else happens to manifest regardless of its pressuring or non-pressuring qualities. 
 
     Such freedom cannot be unconditioned because the occurrence of a change is its condition.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6p2th8/)** _2025-01-12 04:31:24_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6p2th8/)** _2025-01-12 04:31:24_ *(in reply to a comment not included)*:
 
     >Change occurs on its own.
 
@@ -9100,7 +9100,7 @@ How does one view parents and relationships with them? How does one properly say
     >What I’m trying to share is the seeing that resulted from the cessation of craving. 
 
     And my point is that what you described seems like a change in feeling (regardless of whether you deliberately caused it or not), not the cessation of craving. Seeing the sign of the mind and Right View boil down to seeing that these two could not be further apart.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6p7u2h/)** _2025-01-12 05:09:04_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6p7u2h/)** _2025-01-12 05:09:04_ *(in reply to a comment not included)*:
 
     >Simply put: when I see a mirage, no thirst for water arises. Why? Because the knowledge that a mirage is empty of water is already present. 
 
@@ -9113,7 +9113,7 @@ How does one view parents and relationships with them? How does one properly say
     >“Seeing the sign of the mind and Right View boil down to seeing that these two could not be further apart.”
 
     Seeing the sign of the mind means becoming aware of its attitude of craving when things *aren't* easy to endure, i.e., when they're not a "mirage". That's how you develop Right View. And that could not be further apart from a practice based on things being a mirage always, which will only obscure the fact that if things were not so, your mind *would* crave. The latter practice involves a subtle assumption that feelings, not craving, are the root of suffering, and thus it's the polar opposite of Right View.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6pb8tb/)** _2025-01-12 05:36:34_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6pb8tb/)** _2025-01-12 05:36:34_ *(in reply to a comment not included)*:
 
     >and now I understand where you’re coming from
 
@@ -9122,7 +9122,7 @@ How does one view parents and relationships with them? How does one properly say
     >Thus, everything remains real as it is, but no longer as it once appeared to be.
 
     This is the mistake I'm referring to. Everything *should* be exactly as it once appeared to be. *Avijjā* has nothing to do with things *appearing* otherwise than they truly are. The Buddha was no mystic. It has to do with not understanding that 100% real water is not worth craving for, for reasons completely unrelated to the ultimate truth/validity of its appearance.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6phnuy/)** _2025-01-12 06:32:45_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6phnuy/)** _2025-01-12 06:32:45_ *(in reply to a comment not included)*:
 
     Simply put, you are on the surface using the same words and expressions of "giving up craving" and "seeing impermanence" to describe a very different practice from what I'm describing. For you, those expressions mean the phenomenon's appearance changes. On the other hand, what I'm saying is that knowing the nature of a phenomenon and abandoning craving in regard to it does not change the way it appeared when there was ignorance, and that is perfectly fine because appearances are not the root of suffering. If one needs to change appearances to not suffer, one is not addressing the core issue but simply sidestepping it.
 
@@ -9131,12 +9131,12 @@ How does one view parents and relationships with them? How does one properly say
     >I can’t see how things would appear in any way similar to how they did when craving deluded perception, making everything appear as permanent, satisfying, and ownable.
 
     It's the other way around entirely. Things appear the way they've always done (feelings of "good" and "bad") > craving is present due to ignorance of *anicca, dukkha, anattā* in regard to feelings and the aggregates in general > one suffers. This is quite clear from the Suttas.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m6rn3oe/)** _2025-01-12 16:48:25_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m6rn3oe/)** _2025-01-12 16:48:25_ *(in reply to a comment not included)*:
 
     Yes, that analogy might work on a crude level. But in the end it's subtler than that, since only the most misled people would genuinely think that insight leads to a transformation of sensory perceptions themselves. Ultimately, you need to stop expecting any change to occur even at the level of feeling, since that's also part of "appearance."
 
     Over time, of course, the mind becomes more equanimous, and things that used to pressure it won't do so as much. But that is a secondary side effect of the right practice, and it is absolutely paramount not to be hoping for that effect and trying to bring it about when it's not there, for otherwise you won't actually be abandoning craving here and now, and any calm that comes out of craving will be feeble, limited, and require constant management.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m71qiq1/)** _2025-01-14 04:26:54_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m71qiq1/)** _2025-01-14 04:26:54_ *(in reply to a comment not included)*:
 
     >t is NOT sensory perceptions that change. It is ignorance (perceptual and conceptual fallacies) in regard to sensory perceptions that disappear completely.
 
@@ -9147,7 +9147,7 @@ How does one view parents and relationships with them? How does one properly say
     [This Sutta](https://suttas.hillsidehermitage.org/?q=sn35.228) may help get my point across. The Arahant is completely free from suffering *in spite* of the potentially infinite magnitude of the tides (arising from the senses), whereas what you're describing sounds to me like "there is freedom *because* there is no tide" (the "tide" having been removed by the contemplation of impermanence, letting go, etc., which would not be the correct use for those contemplations). 
 
     Even if the content of the sense perceptions remains the same, their "weight" is gone. But that "weight" is in itself not craving and thus not suffering, yet your descriptions sound to me very much like you think it is.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/m733vwa/)** _2025-01-14 12:14:28_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/m733vwa/)** _2025-01-14 12:14:28_ *(in reply to a comment not included)*:
 
     >No need to stand apart from the tides of change, of conditions, of pain, because without craving it is impossible to suffer 
 
@@ -9156,7 +9156,7 @@ How does one view parents and relationships with them? How does one properly say
     >having had experience altered in such a way that seeing phenomena as anicca, dukkha, anatta, has created a refuge within where nothing seems to reach.
 
     And this sounds to me like diminishing the tides. It might still be "the same mass of water" as before and not have entirely turned into something else, but that freedom is still dependent on *an alteration of some kind*, in this case the magnitude of the tides.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/signs_of_the_mindpractice_check/maiwja2/)** _2025-02-02 08:33:36_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hy9468/deleted_by_user/maiwja2/)** _2025-02-02 08:33:36_ *(in reply to a comment not included)*:
 
     I don't see why you would interpret this Sutta as support for the view that the cessation of craving involves alteration of perception. It is talking about what MN 1 describes, which is much subtler and very different from simply altering perceptions (which again, is inevitably "management", a much easier temporary fix that should not be assumed to be a true escape from dukkha even if it works in the present).
 
@@ -9165,16 +9165,16 @@ How does one view parents and relationships with them? How does one properly say
 ---
 
 **r/HillsideHermitage** | Posted by senserestraint _2025-01-10 05:18:46_
-### [Isn’t everyone in this community just blindly assuming that free will exists?](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/isnt_everyone_in_this_community_just_blindly/)
+### [Isn’t everyone in this community just blindly assuming that free will exists?]()
 
 Ajahn Nyanamoli talks a lot about taking personal responsibility for giving into the pressure of desire. I don't understand - doesn't this imply that free will isn't an illusion? 
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/isnt_everyone_in_this_community_just_blindly/m6ef4q8/)** _2025-01-10 13:40:56_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/deleted_by_user/m6ef4q8/)** _2025-01-10 13:40:56_:
 
     >I don't understand - doesn't this imply that free will isn't an illusion?
 
     Why would it be? The Buddha certainly never said that. At least not if we define free will simply as the ability to exert intentions or refrain from doing so, and differentiate that from the ability to achieve desired results.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/isnt_everyone_in_this_community_just_blindly/m6fjdg1/)** _2025-01-10 17:12:14_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/deleted_by_user/m6fjdg1/)** _2025-01-10 17:12:14_ *(in reply to a comment not included)*:
 
     >A determinist would say that all your intentions and refraining are caused by prior conditions which you didn't have control over i.e., any of your actions can be traced back to the state of the world prior to your birth.
 
@@ -9183,7 +9183,7 @@ Ajahn Nyanamoli talks a lot about taking personal responsibility for giving into
     >Asserting that there are actions which are ultimately caused by you would imply that you are some kind of primordial unconditioned entity
 
     That's quite a leap. You wouldn't feel like you're a "primordial unconditioned entity" if someone locked you into a cell even if they let you move freely within it, would you? That's what the power of choice is: the ability to put one of the options given to you above the others, never to actually create new things from nothing. Even on the mental plane, you can't think a thought that wasn't already available before you thought it. Otherwise you would never forget things.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/isnt_everyone_in_this_community_just_blindly/m6jgitz/)** _2025-01-11 06:32:59_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1hxx76h/deleted_by_user/m6jgitz/)** _2025-01-11 06:32:59_ *(in reply to a comment not included)*:
 
     >Your choices making a difference isn’t evidence for them not being pre-determined. 
 
@@ -9237,7 +9237,7 @@ Hi, I wanted to share a little bit about my own "path" here to illustrate a poin
 ---
 
 **r/HillsideHermitage** | Posted by Wild-Brush1554 _2025-01-04 06:06:09_
-### [Practice for right view](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/practice_for_right_view/)
+### [Practice for right view]()
 
 I have been practicing sense restraint( for a few weeks) and non activity for a few days. I am restrained when it comes to my bodily and verbal actions because I’m only fulfilling my basic needs (eating, bathroom, sleeping, chores and other necessities) since any other activity would be done out of unwholesome intentions because its unnecessary.
 
@@ -9263,14 +9263,14 @@ Any help would be appreciated!
 
 
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/practice_for_right_view/m5hf088/)** _2025-01-05 06:17:55_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/deleted_by_user/m5hf088/)** _2025-01-05 06:17:55_:
 
     More important than trying to "get it right" in this particular period would be to make sure that you establish yourself in sense restraint permanently (which you say you've done only for a few weeks). Otherwise, you will be trying extra hard now but sooner or later your motivation will run out, and since you tried to take on the whole thing all at once, you might just as quickly drop it all and default back to non-restraint.
 
     And *that*, not the lack of intellectual clarity you're trying to resolve, would compromise your training and undo any beneficial work you may have done.
 
     So sure, do your best to contemplate and discern and so on, but don't aim for perfection on that level. Aim for perfection only in regard to sense restraint for now (or even just the eight precepts, in case you aren't 100% confident with them either).
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/practice_for_right_view/m5nvnex/)** _2025-01-06 07:04:00_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/deleted_by_user/m5nvnex/)** _2025-01-06 07:04:00_ *(in reply to a comment not included)*:
 
     >How do we know if we are 100% confident in the precepts?
 
@@ -9279,7 +9279,7 @@ Any help would be appreciated!
     You should also, of course, ask yourself honestly whether your resolve is to keep them forever and you feel perfectly comfortable with that prospect, or whether the resolve is only temporary or only applies to when it's relatively easy to say "no."
 
     Ultimately, if you doubt it, it's because you're not confident.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/practice_for_right_view/m5omc3c/)** _2025-01-06 11:43:55_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1ht812q/deleted_by_user/m5omc3c/)** _2025-01-06 11:43:55_ *(in reply to a comment not included)*:
 
     >In order to permanently establish myself in sense restraint, I would have to find a substitute for sense pleasures right?
 
