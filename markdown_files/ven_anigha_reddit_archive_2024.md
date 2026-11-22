@@ -1,6 +1,6 @@
 # Ven Anīgha Reddit Archive 2024
 
-**Generated:** 2026-11-15 06:03:56 UTC
+**Generated:** 2026-11-22 06:23:38 UTC
 
 **Saved records in this volume:** 234 discussions and 545 comments.
 
@@ -881,7 +881,7 @@ Leigh teaches the classical gradual training: sila, samadhi, panna. The anapanas
 
     >What do you make of other prominent Theravada monks like Ajahn Chah, Ajahn Sona, Thānissaro Bhikkhu, Bhante Gunaratana, etc who promote "focusing" on the breath (in my use "focusing" and "mindfulness of" may be the same)? In other words, why is there a divide on this issue among monks?
 
-    They are simply engaging in yogic practices unrelated to the Anapanasati taught in the Suttas, which was not taught as a focusing object that could be replaced with any other arbitrary object or sensation, but as a way to develop full understanding of the nature of intentionality/action and abandon it, which is how it directly leads to eliminating even the subtlest of fetters. It was also only taught to monks who were not content with anything less than full liberation and had aligned their entire lives with that goal, and not to lay people looking for just about anything that helps them cope with the stress caused by their own lack of restraint without having to actually address it. The general interpretation of mindfulness as focusing is also [at variance with the Suttas.](https://suttas.hillsidehermitage.org/?q=an11.9#an11.9:2.3_an11.9:2.8)
+    Anapanasati as taught in the Suttas is not a focusing object that could be replaced with any other arbitrary object or sensation, but a very acute way to develop full understanding of the nature of intentionality/action and abandon it, which is how it directly leads to eliminating even the subtlest of fetters. Unlike the "focusing" techniques of today, it was not taught to laypeople because someone who hasn't renounced seeking bodily pleasures will not be able to undermine their sense of control over their own body.
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h67ymi/why_are_leigh_brasingtons_jhana_teachings_frowned/m0t0pkd/)** _2024-12-07 02:00:40_ *(in reply to a comment not included)*:
 
     Depends on what they do the other 22 hours.
@@ -902,7 +902,7 @@ I lack conviction to the point that when I hear one teacher, I am totally on boa
 ---
 
 **r/HillsideHermitage** | Posted by Queasy-Astronaut9546 _2024-11-30 01:53:39_
-### [Peripheral Awareness Clarification - Extent of Immediate Knowing](https://www.reddit.com/r/HillsideHermitage/comments/1h31rph/peripheral_awareness_clarification_extent_of/)
+### [Peripheral Awareness Clarification - Extent of Immediate Knowing]()
 
 I understand the common description of peripheral awareness being like an anchor that you throw out and let it drift away.  You don't directly attend to say, the body itself or even the thought of the body being there.  You recognize it being there as the container for your experience, there regardless of what you attend to particularly, and let it endure on its own. That makes sense.
 
@@ -916,7 +916,7 @@ So it's not that peripheral awareness is tossing the anchor and forgetting about
 
 Am I correct with my attempted answer? I have realized that I wont ever be sure if I'm correct until I hear from one who understands this for sure, because both sides of the interpretation (completely letting it go from even your sphere of attention, keeping it there just a little bit IN FRONT OF YOU, in the domain that you do attend to) have a good amount of evidence to support them from the perspective of being unsure.  I do lean towards number 2 being correct if I had to guess, but would not be surprised at all if the answer ends up being "you're overthinking this, number 1 was more correct."
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h31rph/peripheral_awareness_clarification_extent_of/lzo7l0z/)** _2024-11-30 05:11:49_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h31rph/deleted_by_user/lzo7l0z/)** _2024-11-30 05:11:49_:
 
     >I do lean towards number 2 being correct if I had to guess, but would not be surprised at all if the answer ends up being "you're overthinking this, number 1 was more correct."
 
@@ -942,11 +942,11 @@ This way we can have some guidelines in discourse, a central area for resources,
 ---
 
 **r/HillsideHermitage** | Posted by No_Let_3303 _2024-11-28 04:03:37_
-### [How to endure the pressure of unwholesome mental states properly](https://www.reddit.com/r/HillsideHermitage/comments/1h1ne7o/how_to_endure_the_pressure_of_unwholesome_mental/)
+### [How to endure the pressure of unwholesome mental states properly]()
 
 I’m trying to get some more clarity on what it practically looks like to properly endure unwholesome states such as craving for sensuality, ill will etc. For me it seems that the confusion comes from the mano getting overly involved in the immediate pressure. For example a craving for food will pop up i immediately recognize it as an issue and then it goes away but then I think to myself, that seemed to easy, did I just unknowingly distract myself from it by acknowledging it as unwholesome? maybe I should try to discern where it’s coming from right after the moment of its arrival because it’s still fresh in my mind. Then another part of me is like no you can only discern that if your mind is unhindered which would be impossible if an unwholesome state just arose lol. I think I might just be overthinking it so I’d appreciate another perspective on this please.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h1ne7o/how_to_endure_the_pressure_of_unwholesome_mental/lznuius/)** _2024-11-30 03:37:43_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1h1ne7o/deleted_by_user/lznuius/)** _2024-11-30 03:37:43_:
 
     This all sounds like a broader hindrance of restlessness and doubt that's making you look for the problem on an overly particular level of individual thoughts, where it actually isn't. And it's not about "catching things in their arrival" in a momentary, focused attention sense, as if unwholesome states could suddenly pop into your mind without you having any say in it. Indulgence is always intentional, so all you have to do is ask yourself whether you're willingly delighting or harboring hateful intentions against something, and if the answer is no, then whatever remains is not your responsibility.
 
@@ -1128,7 +1128,7 @@ The issue now is, seeing the connection between this (A) intention to resist and
 ---
 
 **r/HillsideHermitage** | Posted by Wild-Brush1554 _2024-11-25 15:24:57_
-### [Practical Practice](https://www.reddit.com/r/HillsideHermitage/comments/1gzlc47/practical_practice/)
+### [Practical Practice]()
 
 Hi everyone! Im still figuring out how to practice properly, Ive been watching dhamma talks and reading some material for about 10 months and now I want to develop a very serious practice.
 
@@ -1149,7 +1149,7 @@ Any help will be appreciated
 
 Thank you
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1gzlc47/practical_practice/lz0uq9u/)** _2024-11-26 04:01:35_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1gzlc47/deleted_by_user/lz0uq9u/)** _2024-11-26 04:01:35_:
 
     >If I am then does my meditation practice which is aimed at increasing awareness, concentration in order to cultivate jhanas useless( since i do not have right view)
 
@@ -1606,7 +1606,7 @@ Edit: down vote if you feel it's appropriate, but consider leaving a comment wit
 
 Given the honest history I laid out above, I think I'll continue to proceed with caution. I was considering buying some ashwagandha again to see if that would help with this horrible neck tension, but I'll put that on hold.  I still don't know where the milder things I listed above like magnesium and catnip fit. 
 
-It might be that part or all of the problem lies in looking for, valuing, and assuming a solution that isn't instead about letting go of the problem.  There is a place where I stop "making ***the*** problem" but it's hard to find.
+It might be that part or all of the problem lies in looking for, valuing, and assuming a solution that isn't instead about letting go of the problem.  There is a place where I stop "making the problem" but it's hard to find.
 
 
 - **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1gmfo84/taking_things_for_anxiety/lw7js7p/)** _2024-11-09 05:44:29_:
@@ -1700,7 +1700,7 @@ Also, last night I dreamt I attended a debate. There were elderly people who tol
 ---
 
 **r/HillsideHermitage** | Posted by wisecameron _2024-10-25 00:49:22_
-### [7th precept question](https://www.reddit.com/r/HillsideHermitage/comments/1gbi3m8/7th_precept_question/)
+### [7th precept question]()
 
 I work as a software developer.  I often read textbooks to learn new skills related to my job, and dedicate a large amount of time to go above in beyond in terms of my professional contributions and expanding my skillset.  I take it to be okay due to the phrase "accomplished in his sphere of activity" but would appreciate further insights into this matter.  Frankly, it has been difficult for me to determine whether this all falls under entertainment to some extent.  I legitimately do enjoy it. 
 
@@ -1715,7 +1715,7 @@ I work as a software developer.  I often read textbooks to learn new skills rela
 ---
 
 **r/HillsideHermitage** | Posted by wisecameron _2024-10-25 00:43:52_
-### [6th precept](https://www.reddit.com/r/HillsideHermitage/comments/1gbhzou/6th_precept/)
+### [6th precept]()
 
 Hello, just wondering if  permanently sticking to a 8-eat  / 16-fast schedule and not snacking (ie; two meals within the window) would be within the spirit of the precept.  I have an odd sleep schedule largely related to work habits and am very physically active.  Im trying to be pragmatic here because I believe the solar noon interpretation would be very unhealthy for my body and thus unsustainable.  But I also don't want to be making a compromise, I want to actually be following the precept where it counts.
 
@@ -1947,7 +1947,7 @@ Lately I’ve been trying to limit internet usage as a form of entertainment. Ob
 ---
 
 **r/HillsideHermitage** | Posted by Wild-Brush1554 _2024-10-09 14:59:02_
-### [Sense pleasures](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/)
+### [Sense pleasures]()
 
 There is a lot of emphasis on abandonment of sense pleasures in the dhamma talks.
 
@@ -1957,7 +1957,7 @@ When i dont use my phone or do any other things i just sit in one place and star
 
 Please offer me your advice and do correct me in case I got something wrong.
 
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/lr7dkur/)** _2024-10-10 04:16:54_:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/deleted_by_user/lr7dkur/)** _2024-10-10 04:16:54_:
 
     It's more about abandoning sensual craving than avoiding every pleasant sense experience as such. However, certain things are *always* done out of sensual craving, and listening to music would be one of them. If you give up all sexual activity, beautification of the body, entertainment, and eating for the sake of pleasure, you will have eliminated the specific actions that are always driven by sensual craving.   
       
@@ -1968,7 +1968,7 @@ Please offer me your advice and do correct me in case I got something wrong.
     Occasionally it could be (in dedicated periods of contemplation once you're well restrained), but it's not mandatory by any means. It could easily be an unwholesome intention of self-mortification if you think you *have* to do it.
 
     It hardly matters what you *do*; that will change from day to day depending on circumstances and events in your life. What matters most is what you *don't* do, no matter what: breaking the precepts and engaging in any of the inherently sensual acts I listed above.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/lr84td3/)** _2024-10-10 09:07:02_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/deleted_by_user/lr84td3/)** _2024-10-10 09:07:02_ *(in reply to a comment not included)*:
 
     >I understand that its about abandoning but would me not indulging in the sense pleasure result in that?
 
@@ -1983,7 +1983,7 @@ Please offer me your advice and do correct me in case I got something wrong.
     I would focus on perfecting the other things first, since eating with the right motivation is  a subtler practice that comes a bit later in the training.
 
     Your mind will likely be delighting in food more than before when you've taken away everything else, but that alone is not an issue. You still have the option to [eat with the context of survival and not the context of pleasure](https://www.youtube.com/watch?v=cmYzJSvZ5jE&pp=ygUhc2ltaWxlIG9mIHRoZSBzb25zIGZsZXNoIGhpbGxzaWRl) despite the mind craving for the food. And then you begin to realize that sensuality really isn't in the sensual objects themselves but in the attitude of indulgence: even though you may well be eating the same things, the mind will be unhappy simply because you're not allowing it to wallow in the food internally.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/lrd2vd3/)** _2024-10-11 03:56:51_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/deleted_by_user/lrd2vd3/)** _2024-10-11 03:56:51_ *(in reply to a comment not included)*:
 
     Kamma is not some sort of moral energy that you accumulate. There can of course be external consequences for your actions as well, but the core of "bad kamma" lies in what you're doing to your own mind. You're fueling its craving and thus making it more liable to suffering when you allow it to act out of greed, aversion, or delusion. So yes, any action whatsoever that is rooted in those things is "bad kamma", even if the whole world thinks it's fine or even praiseworthy:
 
@@ -1992,7 +1992,7 @@ Please offer me your advice and do correct me in case I got something wrong.
     >There are these three sources that give rise to actions. What three? Non-greed, non-aversion, and non-delusion are sources that give rise to actions. Any action that emerges from non-greed, non-aversion, and non-delusion—born, sourced, and originated from non-greed, non-aversion, or non-delusion—is beneficial, blameless, results in happiness, and leads to the cessation of actions, not their production. These are three sources that give rise to actions.”
 
     —AN 3.111
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/lre2zoq/)** _2024-10-11 10:20:03_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/deleted_by_user/lre2zoq/)** _2024-10-11 10:20:03_ *(in reply to a comment not included)*:
 
     >What is kamma then, what does the word refer to?  And what determines where someone is reborn?  
 
@@ -2001,7 +2001,7 @@ Please offer me your advice and do correct me in case I got something wrong.
     >Is the only benefit of giving dana or generating merit the fairly temporary wholesome state of mind that it produces?
 
     There can be a temporary pleasant state that only lasts shortly, but the inclination towards non-greed (in relative terms) shapes your character and mental tendencies, thus influencing your future actions and decisions and where you end up in subsequent existences.
-- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/sense_pleasures/lrixpy3/)** _2024-10-12 05:22:41_ *(in reply to a comment not included)*:
+- **[Bhikkhu_Anigha](https://www.reddit.com/r/HillsideHermitage/comments/1fztfbr/deleted_by_user/lrixpy3/)** _2024-10-12 05:22:41_ *(in reply to a comment not included)*:
 
     >Do we then get a clean slate with each rebirth?
 
